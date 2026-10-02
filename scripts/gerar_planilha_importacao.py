@@ -61,7 +61,7 @@ SHEETS = ['MATRÍCULA', 'T. URBANO', 'T. RURAL', 'MATRICULA_ATO', 'ATO_PARTES', 
 DATE_COLS = {('MATRÍCULA', 'DATA ABERTURA'), ('MATRICULA_ATO', 'DATA'), ('P. FÍSICA', 'DATA DE NASCIMENTO')}
 AREA_COLS = {('T. URBANO', 'AREA TOTAL'), ('T. RURAL', 'AREA TOTAL')}
 PAD = {  # (aba, coluna): tipo de documento -> só para células NUMÉRICAS na origem
-    ('P. JURÍDICA', 'CNPJ/CGC'): 'doc', ('P. JURÍDICA', 'CPF REPRESENTANTE 1'): 'cpf',
+    ('P. JURÍDICA', 'CNPJ/CGC'): 'cnpj', ('P. JURÍDICA', 'CPF REPRESENTANTE 1'): 'cpf',
     ('P. JURÍDICA', 'CPF REPRESENTANTE 2'): 'cpf', ('P. FÍSICA', 'CPF'): 'cpf',
     ('P. FÍSICA', 'CPF DO CONJUGE'): 'cpf', ('ATO_PARTES', 'DOCUMENTO DA PARTE'): 'doc',
     ('P. FÍSICA', 'CEP'): 'cep', ('P. JURÍDICA', 'CEP'): 'cep',
@@ -80,6 +80,7 @@ REVISAR_MANUAL = {
     '3118': 'AREA TOTAL igual ao número da matrícula (3118) e TIPO AREA "m"',
     '6343': 'AREA TOTAL 48800 m² não bate com as medidas da descrição (cerca de 488 m²)',
     '6077': 'MATRICULA ANTERIOR contém a qualificação de uma pessoa (texto na coluna errada)',
+    '3860': 'AREA TOTAL 70,00 ha, mas a descrição diz 33,9 ha',
 }
 ILLEGAL = re.compile(r'[\x00-\x08\x0b\x0c\x0e-\x1f]')
 EXCEL_EPOCH = datetime.date(1899, 12, 30)
@@ -178,6 +179,8 @@ def completar_zeros(out, tipo):
         return out.zfill(8) if len(out) == 7 else out
     if tipo == 'cpf' and len(out) in (9, 10) and cpf_ok(out.zfill(11)):
         return out.zfill(11)
+    if tipo == 'cnpj' and len(out) in (12, 13) and cnpj_ok(out.zfill(14)):
+        return out.zfill(14)
     if tipo == 'doc':
         if len(out) in (9, 10) and cpf_ok(out.zfill(11)):
             return out.zfill(11)
@@ -193,7 +196,7 @@ class Log:
         self.contagem = collections.Counter()
 
     def add(self, mat, aba, origem, col, antes, depois, regra, detalhar=True):
-        self.contagem[regra] += 1
+        self.contagem[(mat, regra)] += 1
         if detalhar:
             self.ajustes.append((mat, aba, origem[0], origem[1], col, antes, depois, regra))
 
@@ -241,7 +244,10 @@ def converter(aba, col, cell, mat, origem, log, ctx):
                 ctx.setdefault('area_reconstruida', []).append(out)
                 log.add(mat, aba, origem, col, str(v), out, 'área que o Google converteu em data -> reconstruída')
                 return out
-            out = str(x.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)).replace('.', ',')
+            if x == x.quantize(Decimal('0.01')):
+                out = str(x.quantize(Decimal('0.01'))).replace('.', ',')
+            else:
+                out = format(x.normalize(), 'f').replace('.', ',')
             if formato_data:
                 log.add(mat, aba, origem, col, str(v), out, 'área com formato de data -> texto com vírgula')
             else:
@@ -299,6 +305,8 @@ def converter(aba, col, cell, mat, origem, log, ctx):
 def limpar_protocolo(p):
     if p == NC:
         return NC
+    if re.fullmatch(r'0+\d{1,7}', p) and len(p.lstrip('0')) <= 7:
+        return p.lstrip('0')
     if re.fullmatch(r'\d{1,7}', p) or re.fullmatch(r'\d{1,3}(\.\d{3})+', p):
         return p
     return NC
@@ -356,10 +364,35 @@ def main():
         cols = sorted((c for c in h if h[c][1]), key=lambda c: (len(c), c))
         headers[aba] = [h[c][1] for c in cols]
 
+    # ---- datas de abertura de todas as matrículas (para checar a sequência)
+    datas_abertura = {}
+    def guardar_datas(dados):
+        rows = dados['MATRÍCULA']
+        h = {cell[1].strip(): c for c, cell in rows[0][1].items() if cell[1]}
+        for _, r in rows[1:]:
+            k = chave_matricula(r.get('A'))
+            cell = r.get(h.get('DATA ABERTURA'))
+            if not k or not k.isdigit() or not cell or cell[1] is None:
+                continue
+            t, v, _f = cell
+            try:
+                if t not in ('s', 'inlineStr', 'str'):
+                    d = EXCEL_EPOCH + datetime.timedelta(days=int(Decimal(v)))
+                else:
+                    tv = texto_data(str(v))
+                    d = datetime.datetime.strptime(tv, '%d/%m/%Y').date() if tv else None
+            except Exception:
+                d = None
+            if d and d.year >= 1976:
+                datas_abertura[int(k)] = d
+    for f in a.ja_importadas:
+        guardar_datas(ler_xlsx(f))
+
     # ---- lê fontes e agrupa linhas por matrícula
     linhas = collections.defaultdict(lambda: collections.defaultdict(list))  # mat -> aba -> [(origem, {col: cell})]
     for f in a.fontes:
         dados = ler_xlsx(f)
+        guardar_datas(dados)
         nome = os.path.basename(f)
         for aba in SHEETS:
             rows = dados[aba]
@@ -472,6 +505,11 @@ def main():
         if nums and min(nums) > 1:
             pendente('atos não começam no número 1 (provável página de continuação)', rotulos)
             continue
+        faltando = sorted(set(range(1, max(nums) + 1)) - set(nums)) if nums else []
+        seguidos = any(b == a + 1 for a, b in zip(faltando, faltando[1:]))
+        if seguidos:
+            pendente('faltam dois ou mais atos seguidos no meio da matrícula', rotulos)
+            continue
         if nums and max(nums) >= 10 and len(nums) * 2 <= max(nums):
             pendente('numeração de ato muito acima da quantidade de atos', rotulos)
             continue
@@ -533,6 +571,28 @@ def main():
             antes = [d for d in datas if (d0 - d).days > 30]
             if antes:
                 atencao.append((mat, 'ato com data anterior à abertura da matrícula', f'abertura {dab}; {len(antes)} ato(s) antes'))
+        ordenados = sorted(zip(nums, [texto_data(v[iD]) and datetime.datetime.strptime(v[iD], '%d/%m/%Y').date() for _, v in atos]))
+        regride = [(a, b) for (na, a), (nb, b) in zip(ordenados, ordenados[1:]) if a and b and (a - b).days > 365]
+        if regride:
+            atencao.append((mat, 'ato de número maior com data mais de 1 ano anterior', '; '.join(f'{x} > {y}' for x, y in regride)))
+        for _, v in atos:
+            tx = norm_txt(v[iX])
+            if 'sem efeito' in tx or tx in ('cancelado', 'cancelada'):
+                atencao.append((mat, 'ato declarado sem efeito/cancelado no próprio texto', '%s-%s' % (v[iT], v[iO])))
+            if re.fullmatch(r'(r|av)\s*[-.]?\s*\d+\s*[-.]?\s*(mat\.?\s*)?[\d.]*', tx):
+                atencao.append((mat, 'ato sem texto (só o número)', '%s-%s' % (v[iT], v[iO])))
+        if atos and mrow[HM.index('ATIVA')] == 'ATIVA':
+            ult = norm_txt(atos[max(range(len(atos)), key=lambda i: nums[i])][1][iX])
+            if re.search(r'foi remembrad|ficou remembrad|tornando-se um (so|unico)|originou a (nova )?matricula', ult):
+                atencao.append((mat, 'último ato indica remembramento/nova matrícula, mas ATIVA', 'confira o status'))
+        if texto_data(dab) == dab:
+            viz = [d for n_, d in datas_abertura.items() if n_ != int(mat) and abs(n_ - int(mat)) <= 150]
+            if len(viz) >= 10:
+                viz.sort(); med = viz[len(viz) // 2]
+                d0 = datetime.datetime.strptime(dab, '%d/%m/%Y').date()
+                if abs((d0 - med).days) > 730:
+                    atencao.append((mat, 'DATA ABERTURA fora da sequência das matrículas vizinhas',
+                                    f'{dab}; vizinhas por volta de {med.strftime("%m/%Y")}'))
         cpfs = collections.Counter(v[kC] for _, v in conv['P. FÍSICA'] if v[kC] != NC)
         rep_cpf = [c for c, n in cpfs.items() if n > 1]
         if rep_cpf:
@@ -581,8 +641,20 @@ def main():
         for m_, motivo, _ in atencao:
             if motivo not in vistos_motivo and m_ in incluir and m_ not in piloto:
                 vistos_motivo.add(motivo); piloto.append(m_)
-        if imp['T. RURAL'] and imp['T. RURAL'][0][0] not in piloto:
-            piloto.append(imp['T. RURAL'][0][0])
+        extras = []
+        if imp['T. RURAL']:
+            extras.append(imp['T. RURAL'][0][0])
+        hf = headers['P. FÍSICA']; ht = headers['T. URBANO']; hm = headers['MATRÍCULA']
+        extras += [r[0] for r in imp['P. FÍSICA'] if r[hf.index('CPF')] == NC][:1]
+        conhecidos = {'Terreno/Lote', 'Casa', 'Loja', NC}
+        extras += [r[0] for r in imp['T. URBANO'] if r[ht.index('TIPO IMOVEL ONR')] not in conhecidos][:2]
+        extras += [r[0] for r in imp['MATRÍCULA'] if r[hm.index('ATIVA')] != 'ATIVA'][:1]
+        for aba in ('MATRICULA_ATO', 'ATO_PARTES', 'P. JURÍDICA'):
+            if imp[aba]:
+                extras.append(max(imp[aba], key=lambda r: max(len(x) for x in r[1:] if x != NC) if len(r) > 1 else 0)[0])
+        for m_ in extras:
+            if m_ not in piloto:
+                piloto.append(m_)
         sel = set(piloto)
         dados_piloto = {aba: [r for r in imp[aba] if r[0] in sel] for aba in SHEETS}
         p = os.path.join(a.saida, 'PILOTO_teste_%d_matriculas_PADRAO_CONSOLIDADA.xlsx' % len(sel))
@@ -593,12 +665,18 @@ def main():
     ws.append(['MATRICULA', 'LIVRO', 'CATEGORIA NO RELATÓRIO', 'MOTIVO', 'DETALHE'])
     for r in pendentes: ws.append(list(r))
     for aba in SHEETS:
-        w = wb.create_sheet(aba)
+        w = wb.create_sheet(('PEND ' + aba)[:31])
         w.append(['ARQUIVO DE ORIGEM', 'LINHA NA ORIGEM'] + headers[aba])
         for r in pend_linhas[aba]: w.append(r)
     p = os.path.join(a.saida, 'PENDENTES_conferencia_manual_NAO_IMPORTAR.xlsx'); wb.save(p); arquivos.append(p)
 
-    # ---- relatório
+    # ---- relatório (contagens só das matrículas gravadas nas planilhas de importação)
+    gravadas = {r[0] for d in ('importar', 'digitadas') for r in saida[d]['MATRÍCULA']}
+    contagem = collections.Counter()
+    for (m_, regra), n in log.contagem.items():
+        if m_ in gravadas:
+            contagem[regra] += n
+    atencao = [x for x in atencao if x[0] in gravadas]
     wb = openpyxl.Workbook(); ws = wb.active; ws.title = 'Resumo'
     tot = lambda dest, aba: len(saida[dest][aba])
     ws.append(['Item', 'Quantidade'])
@@ -612,9 +690,10 @@ def main():
         ws.append([f'Linhas em {aba} (importação)', tot('importar', aba)])
     ws.append([])
     ws.append(['Ajuste aplicado', 'Vezes'])
-    for k, v in sorted(log.contagem.items(), key=lambda x: -x[1]): ws.append([k, v])
+    for k, v in sorted(contagem.items(), key=lambda x: -x[1]): ws.append([k, v])
     w = wb.create_sheet('Ajustes'); w.append(['MATRICULA', 'ABA', 'ARQUIVO', 'LINHA', 'COLUNA', 'ANTES', 'DEPOIS', 'REGRA'])
-    for r in log.ajustes: w.append([str(x) for x in r])
+    for r in log.ajustes:
+        if r[0] in gravadas: w.append([str(x) for x in r])
     w = wb.create_sheet('Atencao'); w.append(['MATRICULA', 'MOTIVO', 'DETALHE'])
     for r in atencao: w.append(list(r))
     w = wb.create_sheet('Sem_fonte'); w.append(['MATRICULA', 'LIVRO', 'CATEGORIA NO RELATÓRIO'])
@@ -623,7 +702,7 @@ def main():
 
     print('faltam no sistema:', len(faltam), '| com fonte:', len(com_fonte), '| importar:', tot('importar', 'MATRÍCULA'),
           '| digitadas:', tot('digitadas', 'MATRÍCULA'), '| pendentes:', len(pendentes), '| sem fonte:', len(set(faltam) - com_fonte))
-    for k, v in sorted(log.contagem.items(), key=lambda x: -x[1]): print(f'   {v:7}  {k}')
+    for k, v in sorted(contagem.items(), key=lambda x: -x[1]): print(f'   {v:7}  {k}')
     for p in arquivos: print('gerado:', p)
 
 
