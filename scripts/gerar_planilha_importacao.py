@@ -6,29 +6,45 @@ Gera planilhas de importação de matrículas no mesmo padrão da
 Regras aplicadas (copiadas do que a planilha consolidada faz):
   * todas as células gravadas como TEXTO (inline string), sem células numéricas;
   * datas como texto dd/mm/aaaa (DATA ABERTURA, DATA do ato, DATA DE NASCIMENTO);
-  * AREA TOTAL numérica como texto com vírgula e 2 casas (ex.: 75,90);
+  * AREA TOTAL como texto com vírgula decimal (ex.: 75,90); área digitada como
+    "26.04" que o Google transformou em data é reconstruída (26,04) só quando o
+    mesmo número aparece na DESCRICAO;
   * célula vazia vira "NÃO CONSTA" (ex.: coluna NOTAS);
   * PROTOCOLO só com número (até 7 dígitos) ou número com ponto de milhar;
     qualquer outro conteúdo vira "NÃO CONSTA" (o original fica no relatório);
     o PROTOCOLO da parte (ATO_PARTES) acompanha o do ato a que ela pertence;
-  * numeração dos atos (ORDEM) repetida dentro da matrícula é refeita em
-    sequência única 1..n na ordem das linhas, e o ID das partes acompanha;
-  * CNPJ/CPF/CEP que perderam zero à esquerda são completados;
+  * CPF/CNPJ/CEP gravados como número pelo Google perdem zero à esquerda:
+    o zero é recolocado só quando o resultado é um CPF/CNPJ válido (CEP: 8 dígitos);
+  * CNPJ/CGC com menos de 11 dígitos (impossível) vira "NÃO CONSTA";
+    CPF DO CONJUGE igual ao CPF da própria pessoa vira "NÃO CONSTA";
+  * ESTADO por extenso vira a sigla (Pernambuco -> PE), como na consolidada;
   * linhas exatamente repetidas são removidas;
-  * sem as ~344 mil células vazias "invisíveis" que existiam na planilha que falhou;
+  * sem as ~344 mil células vazias "invisíveis" e sem linhas vazias no fim das abas;
   * layout, estilos, larguras, filtro e painel congelado copiados da consolidada.
 
-Matrículas que não podem ser corrigidas sem decisão humana (transcrições
-divergentes da mesma matrícula, imóvel sem descrição urbana/rural ou com as
-duas, parte que não se liga a nenhum ato) vão para uma planilha separada de
-conferência e NÃO entram na planilha de importação.
+Matrículas que precisam de decisão humana NÃO entram na planilha de importação
+e vão para PENDENTES_conferencia_manual_NAO_IMPORTAR.xlsx:
+  * a mesma matrícula transcrita mais de uma vez com dados diferentes;
+  * imóvel sem descrição (urbano/rural) ou com as duas;
+  * numeração de atos repetida (ex.: dois R-3), pois renumerar mudaria o
+    número oficial do livro;
+  * atos que não começam no número 1 (provável página de continuação);
+  * descrição do imóvel que é trecho de outro texto;
+  * parte que não se liga a um ato;
+  * DATA ABERTURA anterior a 1976 (antes da Lei 6.015/73);
+  * ato dizendo "fica cancelada a presente matrícula" com ATIVA = ATIVA;
+  * numeração de ato muito acima da quantidade de atos (ex.: R-10 com 3 atos);
+  * casos achados na conferência manual (lista REVISAR_MANUAL abaixo).
+
+Também gera uma planilha PILOTO pequena (subconjunto da principal) para testar
+a importação antes de mandar tudo, já que o sistema não mostra log de erro.
 
 Uso:
-  python3 scripts/gerar_planilha_importacao.py \
-      --modelo "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS.xlsx" \
-      --situacao "Situacao_Matriculas_por_Livro (2).xlsx" \
-      --ja-importadas "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS.xlsx" "LIVRO 2-AE (2).xlsx" \
-      --fontes "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx" ... \
+  python3 scripts/gerar_planilha_importacao.py \\
+      --modelo "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS.xlsx" \\
+      --situacao "Situacao_Matriculas_por_Livro (2).xlsx" \\
+      --ja-importadas "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS.xlsx" "LIVRO 2-AE (2).xlsx" \\
+      --fontes "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx" ... \\
       --saida importacao_corrigida
 """
 import argparse, collections, copy, datetime, os, re, sys, unicodedata, zipfile
@@ -44,15 +60,26 @@ RID = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id'
 SHEETS = ['MATRÍCULA', 'T. URBANO', 'T. RURAL', 'MATRICULA_ATO', 'ATO_PARTES', 'P. FÍSICA', 'P. JURÍDICA']
 DATE_COLS = {('MATRÍCULA', 'DATA ABERTURA'), ('MATRICULA_ATO', 'DATA'), ('P. FÍSICA', 'DATA DE NASCIMENTO')}
 AREA_COLS = {('T. URBANO', 'AREA TOTAL'), ('T. RURAL', 'AREA TOTAL')}
-PAD = {  # (aba, coluna): {tamanho_encontrado: tamanho_final}
-    ('P. JURÍDICA', 'CNPJ/CGC'): {12: 14, 13: 14, 9: 11, 10: 11},
-    ('P. JURÍDICA', 'CPF REPRESENTANTE 1'): {9: 11, 10: 11},
-    ('P. JURÍDICA', 'CPF REPRESENTANTE 2'): {9: 11, 10: 11},
-    ('P. FÍSICA', 'CPF'): {9: 11, 10: 11},
-    ('P. FÍSICA', 'CPF DO CONJUGE'): {9: 11, 10: 11},
-    ('ATO_PARTES', 'DOCUMENTO DA PARTE'): {9: 11, 10: 11, 12: 14, 13: 14},
-    ('P. FÍSICA', 'CEP'): {7: 8}, ('P. JURÍDICA', 'CEP'): {7: 8},
-    ('T. URBANO', 'CEP'): {7: 8}, ('T. RURAL', 'CEP'): {7: 8},
+PAD = {  # (aba, coluna): tipo de documento -> só para células NUMÉRICAS na origem
+    ('P. JURÍDICA', 'CNPJ/CGC'): 'doc', ('P. JURÍDICA', 'CPF REPRESENTANTE 1'): 'cpf',
+    ('P. JURÍDICA', 'CPF REPRESENTANTE 2'): 'cpf', ('P. FÍSICA', 'CPF'): 'cpf',
+    ('P. FÍSICA', 'CPF DO CONJUGE'): 'cpf', ('ATO_PARTES', 'DOCUMENTO DA PARTE'): 'doc',
+    ('P. FÍSICA', 'CEP'): 'cep', ('P. JURÍDICA', 'CEP'): 'cep',
+    ('T. URBANO', 'CEP'): 'cep', ('T. RURAL', 'CEP'): 'cep',
+}
+UF = {'acre': 'AC', 'alagoas': 'AL', 'amapa': 'AP', 'amazonas': 'AM', 'bahia': 'BA', 'ceara': 'CE',
+      'distrito federal': 'DF', 'espirito santo': 'ES', 'goias': 'GO', 'maranhao': 'MA', 'mato grosso': 'MT',
+      'mato grosso do sul': 'MS', 'minas gerais': 'MG', 'para': 'PA', 'paraiba': 'PB', 'parana': 'PR',
+      'pernambuco': 'PE', 'piaui': 'PI', 'rio de janeiro': 'RJ', 'rio grande do norte': 'RN',
+      'rio grande do sul': 'RS', 'rondonia': 'RO', 'roraima': 'RR', 'santa catarina': 'SC',
+      'sao paulo': 'SP', 'sergipe': 'SE', 'tocantins': 'TO'}
+ESTADO_COLS = {('P. FÍSICA', 'ESTADO'), ('P. JURÍDICA', 'ESTADO')}
+# Achados da conferência manual (verificação independente das planilhas geradas).
+REVISAR_MANUAL = {
+    '2745': 'descrição do imóvel é trecho de outro texto ("Transportado do Livro nº 2 AE, fls. 04 verso. suctivas...")',
+    '3118': 'AREA TOTAL igual ao número da matrícula (3118) e TIPO AREA "m"',
+    '6343': 'AREA TOTAL 48800 m² não bate com as medidas da descrição (cerca de 488 m²)',
+    '6077': 'MATRICULA ANTERIOR contém a qualificação de uma pessoa (texto na coluna errada)',
 }
 ILLEGAL = re.compile(r'[\x00-\x08\x0b\x0c\x0e-\x1f]')
 EXCEL_EPOCH = datetime.date(1899, 12, 30)
@@ -123,6 +150,42 @@ def norm_txt(s):
     return re.sub(r'\s+', ' ', s).strip().lower()
 
 
+def cpf_ok(d):
+    if len(d) != 11 or len(set(d)) == 1:
+        return False
+    for n in (9, 10):
+        soma = sum(int(d[i]) * (n + 1 - i) for i in range(n))
+        if (soma * 10 % 11) % 10 != int(d[n]):
+            return False
+    return True
+
+
+def cnpj_ok(d):
+    if len(d) != 14 or len(set(d)) == 1:
+        return False
+    for n in (12, 13):
+        pesos = list(range(n - 7, 1, -1)) + list(range(9, 1, -1))
+        soma = sum(int(d[i]) * pesos[i] for i in range(n))
+        dv = 11 - soma % 11
+        if (0 if dv >= 10 else dv) != int(d[n]):
+            return False
+    return True
+
+
+def completar_zeros(out, tipo):
+    """Recoloca zeros perdidos só quando o resultado é documento válido."""
+    if tipo == 'cep':
+        return out.zfill(8) if len(out) == 7 else out
+    if tipo == 'cpf' and len(out) in (9, 10) and cpf_ok(out.zfill(11)):
+        return out.zfill(11)
+    if tipo == 'doc':
+        if len(out) in (9, 10) and cpf_ok(out.zfill(11)):
+            return out.zfill(11)
+        if len(out) in (12, 13) and cnpj_ok(out.zfill(14)):
+            return out.zfill(14)
+    return out
+
+
 # --------------------------------------------------------------------------- conversão
 class Log:
     def __init__(self):
@@ -152,7 +215,7 @@ def texto_data(s):
     return '%02d/%02d/%04d' % (d, mo, y)
 
 
-def converter(aba, col, cell, mat, origem, log):
+def converter(aba, col, cell, mat, origem, log, ctx):
     """Converte uma célula de origem para o texto final."""
     t, v, fmt = cell if cell is not None else (None, None, None)
     if v is None or (isinstance(v, str) and v.strip() == ''):
@@ -170,23 +233,33 @@ def converter(aba, col, cell, mat, origem, log):
             log.add(mat, aba, origem, col, str(v), out, 'data numérica -> texto dd/mm/aaaa', detalhar=False)
             return out
         if (aba, col) in AREA_COLS:
+            formato_data = 'd' in (fmt or '').lower() and 'm' in (fmt or '').lower()
+            if formato_data and x > 20000:
+                # o Google leu "26.04" como a data 26/04: reconstrói 26,04 e confere na DESCRICAO
+                d = EXCEL_EPOCH + datetime.timedelta(days=int(x))
+                out = '%02d,%02d' % (d.day, d.month)
+                ctx.setdefault('area_reconstruida', []).append(out)
+                log.add(mat, aba, origem, col, str(v), out, 'área que o Google converteu em data -> reconstruída')
+                return out
             out = str(x.quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)).replace('.', ',')
-            regra = 'área numérica -> texto com vírgula'
-            if 'd' in (fmt or '').lower() and 'mm' in (fmt or '').lower():
-                regra = 'área com formato de data -> texto com vírgula'
-                log.add(mat, aba, origem, col, str(v), out, regra)
+            if formato_data:
+                log.add(mat, aba, origem, col, str(v), out, 'área com formato de data -> texto com vírgula')
             else:
-                log.add(mat, aba, origem, col, str(v), out, regra, detalhar=False)
+                log.add(mat, aba, origem, col, str(v), out, 'área numérica -> texto com vírgula', detalhar=False)
             return out
         if x == x.to_integral_value():
             out = str(int(x))
         else:
             out = format(x.normalize(), 'f').replace('.', ',')
             log.add(mat, aba, origem, col, str(v), out, 'número decimal -> texto com vírgula')
-        if (aba, col) in PAD and out.isdigit() and len(out) in PAD[(aba, col)]:
-            novo = out.zfill(PAD[(aba, col)][len(out)])
-            log.add(mat, aba, origem, col, out, novo, 'zero à esquerda restaurado')
-            out = novo
+        if (aba, col) in PAD and out.isdigit():
+            novo = completar_zeros(out, PAD[(aba, col)])
+            if novo != out:
+                log.add(mat, aba, origem, col, out, novo, 'zero à esquerda restaurado (documento válido)')
+                out = novo
+        if (aba, col) == ('P. JURÍDICA', 'CNPJ/CGC') and out.isdigit() and len(out) < 11:
+            log.add(mat, aba, origem, col, out, NC, 'CNPJ/CGC impossível (menos de 11 dígitos) -> NÃO CONSTA')
+            return NC
         return out
     s = str(v)
     s2 = ILLEGAL.sub('', s)
@@ -206,10 +279,18 @@ def converter(aba, col, cell, mat, origem, log):
             return d
         if not d:
             log.add(mat, aba, origem, col, s, s, 'ATENÇÃO: data em texto fora do padrão (mantida)')
-    if (aba, col) in PAD and s.isdigit() and len(s) in PAD[(aba, col)]:
-        novo = s.zfill(PAD[(aba, col)][len(s)])
-        log.add(mat, aba, origem, col, s, novo, 'zero à esquerda restaurado')
+    if (aba, col) in AREA_COLS and re.fullmatch(r'\d+\.\d{1,2}', s):
+        novo = s.replace('.', ',')
+        log.add(mat, aba, origem, col, s, novo, 'área com ponto decimal -> vírgula')
         return novo
+    if (aba, col) in ESTADO_COLS and norm_txt(s) in UF:
+        novo = UF[norm_txt(s)]
+        if novo != s:
+            log.add(mat, aba, origem, col, s, novo, 'estado por extenso -> sigla', detalhar=False)
+        return novo
+    if (aba, col) == ('P. JURÍDICA', 'CNPJ/CGC') and s.isdigit() and len(s) < 11:
+        log.add(mat, aba, origem, col, s, NC, 'CNPJ/CGC impossível (menos de 11 dígitos) -> NÃO CONSTA')
+        return NC
     if s.startswith('='):
         log.add(mat, aba, origem, col, s, s, 'texto começando com = gravado como texto')
     return s
@@ -298,13 +379,13 @@ def main():
     pendentes = []         # (mat, livro, categoria, motivo, detalhe)
     pend_linhas = {aba: [] for aba in SHEETS}
     atencao = []           # (mat, motivo, detalhe)
-    renum = []             # (mat, linha origem, id antigo, id novo, data, ato)
 
     for mat in sorted(linhas, key=lambda x: int(x) if x.isdigit() else 10**9):
         L = linhas[mat]
         conv = {}
+        ctx = {}
         for aba in SHEETS:
-            conv[aba] = [(o, [converter(aba, n, cells[n], mat, o, log) for n in headers[aba]]) for o, cells in L[aba]]
+            conv[aba] = [(o, [converter(aba, n, cells[n], mat, o, log, ctx) for n in headers[aba]]) for o, cells in L[aba]]
 
         def pendente(motivo, detalhe=''):
             pendentes.append((mat, livro_de.get(mat, ''), faltam[mat], motivo, detalhe))
@@ -351,65 +432,79 @@ def main():
             pendente('imóvel sem descrição única', f'{nu} linha(s) em T. URBANO e {nr} em T. RURAL')
             continue
 
-        # -- atos: protocolo, numeração e ligação das partes
+        # -- conferência manual explícita
+        if mat in REVISAR_MANUAL:
+            pendente('achado na conferência manual', REVISAR_MANUAL[mat])
+            continue
+        HM = headers['MATRÍCULA']
+        mrow = conv['MATRÍCULA'][0][1]
+        prop = (conv['T. URBANO'] or conv['T. RURAL'])[0][1]
+        prop_h = headers['T. URBANO'] if conv['T. URBANO'] else headers['T. RURAL']
+        descricao = prop[prop_h.index('DESCRICAO')]
+        sem_confirmacao = [a for a in ctx.get('area_reconstruida', [])
+                           if a not in descricao and a.replace(',', '.') not in descricao]
+        if sem_confirmacao:
+            pendente('área convertida em data pelo Google sem confirmação na descrição', ', '.join(sem_confirmacao))
+            continue
+        palavra = norm_txt(descricao).split(' ')[0] if descricao != NC else ''
+        inicios_ok = ('um', 'uma', 'uns', 'umas', 'o', 'a', 'os', 'as', 'dois', 'duas', 'tres', 'parte',
+                      'terreno', 'lote', 'casa', 'imovel', 'gleba', 'area', 'sitio', 'fazenda',
+                      'predio', 'apartamento', 'loja', 'sala', 'galpao', 'unidade')
+        if descricao.startswith('[') or (descricao[:1].islower() and not palavra.startswith(inicios_ok)):
+            pendente('descrição do imóvel parece trecho de outro texto', descricao[:120])
+            continue
+        dab = mrow[HM.index('DATA ABERTURA')]
+        if texto_data(dab) == dab and int(dab[-4:]) < 1976:
+            pendente('DATA ABERTURA anterior a 1976 (antes das matrículas da Lei 6.015/73)', dab)
+            continue
+
         H = headers['MATRICULA_ATO']; iP, iT, iO, iX, iD, iA = (H.index(x) for x in ('PROTOCOLO', 'TIPO ATO', 'ORDEM', 'TEXTO', 'DATA', 'ATO'))
         atos = conv['MATRICULA_ATO']
         ordens = [v[iO] for _, v in atos]
         if any(not o.isdigit() for o in ordens):
             pendente('ORDEM de ato não numérica', ', '.join(o for o in ordens if not o.isdigit()))
             continue
+        nums = [int(o) for o in ordens]
+        rotulos = ' '.join('%s-%s(%s)' % (v[iT], v[iO], v[iD]) for _, v in atos)
+        if len(set(nums)) != len(nums):
+            pendente('numeração de atos repetida (renumerar mudaria o número oficial do livro)', rotulos)
+            continue
+        if nums and min(nums) > 1:
+            pendente('atos não começam no número 1 (provável página de continuação)', rotulos)
+            continue
+        if nums and max(nums) >= 10 and len(nums) * 2 <= max(nums):
+            pendente('numeração de ato muito acima da quantidade de atos', rotulos)
+            continue
+        if mrow[HM.index('ATIVA')] == 'ATIVA' and any('cancelada a presente matricula' in norm_txt(v[iX]) for _, v in atos):
+            pendente('ato cancela a matrícula, mas ATIVA = ATIVA', rotulos)
+            continue
         for o, v in atos:
             p = limpar_protocolo(v[iP])
             if p != v[iP]:
                 log.add(mat, 'MATRICULA_ATO', o, 'PROTOCOLO', v[iP], p, 'protocolo não numérico -> NÃO CONSTA')
                 v[iP] = p
-        antigos = ['%s-%d' % (v[iT].strip().upper(), int(v[iO])) for _, v in atos]
-        precisa_renumerar = len(set(int(x) for x in ordens)) != len(ordens)
-        if precisa_renumerar:
-            datas = [datetime.datetime.strptime(v[iD], '%d/%m/%Y').date() for _, v in atos if texto_data(v[iD]) == v[iD]]
-            if any(b < a for a, b in zip(datas, datas[1:])):
-                pendente('numeração de atos repetida e atos fora de ordem cronológica',
-                         ' '.join('%s-%s(%s)' % (v[iT], v[iO], v[iD]) for _, v in atos))
-                continue
-        novos = ['%s-%d' % (v[iT].strip().upper(), i + 1) for i, (_, v) in enumerate(atos)] if precisa_renumerar else antigos
+        ids = ['%s-%d' % (v[iT].strip().upper(), int(v[iO])) for _, v in atos]
 
-        HP = headers['ATO_PARTES']; jI, jN, jP, jA = (HP.index(x) for x in ('ID', 'NOME DA PARTE', 'PROTOCOLO', 'ATO'))
-        textos = [norm_txt(v[iX]) for _, v in atos]
+        HP = headers['ATO_PARTES']; jI, jN, jP = (HP.index(x) for x in ('ID', 'NOME DA PARTE', 'PROTOCOLO'))
         problema = None
         mapa_partes = []
         for o, v in conv['ATO_PARTES']:
             pid = norm_id(v[jI])
-            cand = [i for i, x in enumerate(antigos) if x == pid]
-            if len(cand) > 1:
-                por_ato = [i for i in cand if norm_txt(atos[i][1][iA]) == norm_txt(v[jA])]
-                cand = por_ato if len(por_ato) >= 1 else cand
-            if len(cand) > 1:
-                nome = norm_txt(v[jN])
-                por_nome = [i for i in cand if nome and nome in textos[i]]
-                cand = por_nome if len(por_nome) == 1 else cand
-            if len(cand) != 1:
-                problema = f'parte "{v[jN]}" com ID {v[jI]}: ' + ('nenhum ato com esse número' if not cand else 'mais de um ato possível')
+            if pid not in ids:
+                problema = f'parte "{v[jN]}" com ID {v[jI]}: nenhum ato com esse número'
                 break
-            mapa_partes.append(cand[0])
+            mapa_partes.append(ids.index(pid))
         if problema:
-            pendente('parte não se liga a um único ato', problema)
+            pendente('parte não se liga a um ato', problema)
             continue
-
-        if precisa_renumerar:
-            for i, (o, v) in enumerate(atos):
-                if antigos[i] != novos[i]:
-                    renum.append((mat, f'{o[0]} linha {o[1]}', antigos[i], novos[i], v[iD], v[iA]))
-                    log.add(mat, 'MATRICULA_ATO', o, 'ORDEM', v[iO], str(i + 1), 'numeração de ato repetida -> sequência única', detalhar=False)
-                v[iO] = str(i + 1)
         for (o, v), i in zip(conv['ATO_PARTES'], mapa_partes):
-            if v[jI] != novos[i]:
-                log.add(mat, 'ATO_PARTES', o, 'ID', v[jI], novos[i], 'ID da parte ajustado ao ato')
-                v[jI] = novos[i]
+            if v[jI] != ids[i]:
+                log.add(mat, 'ATO_PARTES', o, 'ID', v[jI], ids[i], 'ID da parte padronizado')
+                v[jI] = ids[i]
             ap_ = atos[i][1][iP]
             if v[jP] != ap_:
                 log.add(mat, 'ATO_PARTES', o, 'PROTOCOLO', v[jP], ap_, 'protocolo da parte = protocolo do ato')
                 v[jP] = ap_
-        # dedup de partes depois do ajuste
         vistos = set(); novo = []
         for o, v in conv['ATO_PARTES']:
             if tuple(v) in vistos:
@@ -417,17 +512,31 @@ def main():
                 continue
             vistos.add(tuple(v)); novo.append((o, v))
         conv['ATO_PARTES'] = novo
+        HF = headers['P. FÍSICA']; kC, kJ = HF.index('CPF'), HF.index('CPF DO CONJUGE')
+        for o, v in conv['P. FÍSICA']:
+            if v[kJ] != NC and v[kJ] == v[kC]:
+                log.add(mat, 'P. FÍSICA', o, 'CPF DO CONJUGE', v[kJ], NC, 'CPF do cônjuge igual ao da pessoa -> NÃO CONSTA')
+                v[kJ] = NC
 
         # -- avisos (entram na planilha, mas merecem conferência)
-        dab = conv['MATRÍCULA'][0][1][headers['MATRÍCULA'].index('DATA ABERTURA')]
         if dab == NC:
-            atencao.append((mat, 'DATA ABERTURA = NÃO CONSTA', 'a consolidada aceita, mas confira se a matrícula entrou'))
+            atencao.append((mat, 'DATA ABERTURA = NÃO CONSTA', 'a consolidada aceita; confira se a matrícula entrou'))
         if not atos:
             atencao.append((mat, 'matrícula sem atos', 'a consolidada tem casos assim'))
-        elif not precisa_renumerar and sorted(int(x) for x in ordens) != list(range(1, len(ordens) + 1)):
-            atencao.append((mat, 'numeração de atos com lacunas', ', '.join(antigos)))
-        if precisa_renumerar:
-            atencao.append((mat, 'atos renumerados', ' '.join(f'{x}->{y}' for x, y in zip(antigos, novos) if x != y)))
+        elif sorted(nums) != list(range(1, len(nums) + 1)):
+            atencao.append((mat, 'numeração de atos com lacunas', ', '.join(ids)))
+        if nums and max(nums) >= 10:
+            atencao.append((mat, 'ato numerado 10 ou mais', 'a consolidada não tinha nenhum; confira após importar'))
+        datas = [datetime.datetime.strptime(v[iD], '%d/%m/%Y').date() for _, v in atos if texto_data(v[iD]) == v[iD]]
+        if texto_data(dab) == dab:
+            d0 = datetime.datetime.strptime(dab, '%d/%m/%Y').date()
+            antes = [d for d in datas if (d0 - d).days > 30]
+            if antes:
+                atencao.append((mat, 'ato com data anterior à abertura da matrícula', f'abertura {dab}; {len(antes)} ato(s) antes'))
+        cpfs = collections.Counter(v[kC] for _, v in conv['P. FÍSICA'] if v[kC] != NC)
+        rep_cpf = [c for c, n in cpfs.items() if n > 1]
+        if rep_cpf:
+            atencao.append((mat, 'mesmo CPF em mais de uma linha de pessoa física', ', '.join(rep_cpf)))
 
         destino = 'digitadas' if faltam[mat] == 'DIGITADA' else 'importar'
         for aba in SHEETS:
@@ -442,6 +551,8 @@ def main():
             estilos = [copy.copy(ws.cell(row=2, column=j + 1)._style) for j in range(ncols)]
             altura = ws.row_dimensions[2].height
             ws.delete_rows(2, ws.max_row)
+            for k in [k for k in ws.row_dimensions if k > 1]:
+                del ws.row_dimensions[k]
             for i, vals in enumerate(dados[aba]):
                 r = i + 2
                 for j, val in enumerate(vals):
@@ -459,6 +570,23 @@ def main():
         p = os.path.join(a.saida, 'Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx'); gravar(saida['importar'], p); arquivos.append(p)
     if any(saida['digitadas'][x] for x in SHEETS):
         p = os.path.join(a.saida, 'Matriculas_DIGITADAS_encontradas_nas_copias_PADRAO_CONSOLIDADA.xlsx'); gravar(saida['digitadas'], p); arquivos.append(p)
+
+    # ---- piloto: 15 matrículas comuns + 1 de cada tipo de aviso + 1 rural
+    imp = saida['importar']
+    if imp['MATRÍCULA']:
+        mats = [r[0] for r in imp['MATRÍCULA']]
+        piloto = list(mats[:15])
+        incluir = set(mats)
+        vistos_motivo = set()
+        for m_, motivo, _ in atencao:
+            if motivo not in vistos_motivo and m_ in incluir and m_ not in piloto:
+                vistos_motivo.add(motivo); piloto.append(m_)
+        if imp['T. RURAL'] and imp['T. RURAL'][0][0] not in piloto:
+            piloto.append(imp['T. RURAL'][0][0])
+        sel = set(piloto)
+        dados_piloto = {aba: [r for r in imp[aba] if r[0] in sel] for aba in SHEETS}
+        p = os.path.join(a.saida, 'PILOTO_teste_%d_matriculas_PADRAO_CONSOLIDADA.xlsx' % len(sel))
+        gravar(dados_piloto, p); arquivos.insert(0, p)
 
     # ---- pendentes de conferência
     wb = openpyxl.Workbook(); ws = wb.active; ws.title = 'LEIA'
@@ -489,8 +617,6 @@ def main():
     for r in log.ajustes: w.append([str(x) for x in r])
     w = wb.create_sheet('Atencao'); w.append(['MATRICULA', 'MOTIVO', 'DETALHE'])
     for r in atencao: w.append(list(r))
-    w = wb.create_sheet('Atos_renumerados'); w.append(['MATRICULA', 'ORIGEM', 'ATO ANTES', 'ATO DEPOIS', 'DATA', 'ATO'])
-    for r in renum: w.append(list(r))
     w = wb.create_sheet('Sem_fonte'); w.append(['MATRICULA', 'LIVRO', 'CATEGORIA NO RELATÓRIO'])
     for k in sorted(set(faltam) - com_fonte, key=int): w.append([k, livro_de.get(k, ''), faltam[k]])
     p = os.path.join(a.saida, 'Relatorio_ajustes.xlsx'); wb.save(p); arquivos.append(p)
