@@ -1,0 +1,176 @@
+{
+ "matricula": "16925",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "Havia duas AV-3, ambas certidões de abertura de matrícula para os lotes que saíram do desmembramento da AV-2 (lote 18 em 18 e 18-A): a de 25/04/2012 (lote 18-A, matrícula 17.026) e a de 23/11/2012 (lote 18, matrícula 17.899). São dois atos diferentes, com datas e textos próprios, e os dois textos trazem \"AV.3\" no cabeçalho; a outra versão (consolidada sem \"(1)\") é igual. A matrícula 17026 confirma que a AV-2 é o desmembramento (\"averbado sob o nº AV 2- Mat. 16.925 ... em 21 de março de 2012\") e a 17899 (Cópia 2-EA a 2-EZ) existe com abertura em 23/11/2012, mas nenhuma cita o número da averbação. Por isso a averbação de 23/11/2012 passou a AV-4 pela ordem cronológica da numeração única R/AV (confiança média). Nenhuma das averbações tem partes; o TEXTO foi mantido como na base. Observação: com os dois lotes já em matrículas próprias, a 16925 pode estar encerrada no livro; ATIVA foi mantido como na base.",
+ "alteracoes": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 2544,
+   "coluna": "ORDEM",
+   "antes": "3",
+   "depois": "4",
+   "motivo": "Averbação de 23/11/2012: certidão de que o lote nº 18 ganhou a matrícula nº 17.899 (livro 2-EA, fls. 83). O número 3 já é da averbação de 25/04/2012 (lote 18-A aberto sob a matrícula nº 17.026). Na numeração única R/AV, depois de R-1 e AV-2 (21/03/2012) e da AV-3 (25/04/2012), ela é o 4º ato. O cabeçalho transcrito \"AV.3 MAT 16925\" repete o número anterior; nenhuma fonte traz outra numeração, por isso a correção segue a ordem cronológica."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "16925",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "21/03/2012",
+    "PROPRIETARIOS": "[Imobiliária A.C.T. Incorporações Ltda], inscrita no CNPJ/MF sob o n.º 11.499.431/0001-60, com sede nesta Cidade, à Rua José Francelino Aragão, n.º 89, neste ato, representada por seu Sócio-Administrador [Aurélio Cézar Tavares], brasileiro, casado, comerciante, residente na Cidade do Recife-PE, portador do CPF/MF sob o n.º 001.027.044-68",
+    "MATRICULA ANTERIOR": "Em virtude de Carta de Adjudicação, extraída dos autos do Inventário dos bens deixados pelo falecimento de [José Francelino Aragão], expedida pelo Dr. Clóvis Guimarães Ribeiro, Juiz de Direito desta Comarca e registrada sob o n.º R.1-Mat. 2.776, no Livro n.º 2-L, às fls. 06, em 24 de março de 1988, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE, 21 de março de 2012. Ey. [Rubrica] O Oficial do Registro.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "16925",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "144,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua Projetada 01",
+    "QUADRA": "20",
+    "LOTE": "18",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Loteamento São Miguel",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL: 01 (um) lote de terras de n.º 18 (dezoito), situado na quadra n.º 20 (vinte), no Loteamento São Miguel, nesta Cidade, medindo 08,00 metros na parte da frente, 08,00 metros na parte de trás e 18,00 metros de ambos os lados limitando-se na parte da frente com o leito da Rua Projetada \"01\"; na parte de trás com o lote n.º 09; do lado direito com o lote n.º 19 e do lado esquerdo com o lote n.º 17."
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "16925",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "21/03/2012",
+    "TEXTO": "R-1-16925 R.1 16.925. TRANSMITENTE: [Imobiliária A.C.T. Incorporações Ltda], acima já identificada. ADQUIRENTE: [Eduarda Maria da Silva], brasileira, casada com [Jailton César de Paula Barbosa] sob o regime de Comunhão Parcial de Bens, no dia 03 de fevereiro de 2002, portanto posteriormente a vigência da Lei Federal n.º 6.515, de 26 de dezembro de 1977, cujo assento de casamento sob o n.º 3.420, lavrado às fls. 317, do Livro B-07/Aux, no dia 19 de fevereiro de 2004, pela Oficiala Alice Felix de Souza, no Cartório de Registro Civil desta Comarca, conforme Cópia da Certidão de Casamento arquivada neste Cartório, comerciante, residente à Rua Maria do Socorro Aragão, n.º 115, São Miguel, nesta Cidade, portadora do CPF/MF sob o n.º 053.434.274-48 e da Cédula de Identidade n.º 6.255.970-SDS/PE. TÍTULO DE TRANSMISSÃO: Escritura Pública de Compra e Venda, datada em 16 de março de 2012, lavrada nestas notas, pelo Tabelião Substituto Renato Cordeiro de Arruda, no Livro n.º 189, às fls. 101 à 101v. VALOR: R$ 30.000,00 (trinta mil reais). Santa Cruz do Capibaribe-PE, 21 de março de 2012. Ey. [Rubrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "16925",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "DESMEMBRAMENTO",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "21/03/2012",
+    "TEXTO": "AV-2-16925 AV.2 Mat. 16.925. RECTIFICO e dou fé, que o lote de terras da presente matrícula foi desmembrado, tornando-se 02 (dois) lotes de terras de n.ºs 18 e 18-A (dezoito e dezoito A), situados na quadra n.º 20 (vinte), no Loteamento São Miguel, nesta Cidade, com as seguintes características: Lote N.º 18: medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 18,00 metros de ambos os lados, perfazendo um total de 72,00 m.² limitando-se na parte da frente com o leito da Rua Maria do Socorro Aragão Florêncio; na parte de trás com parte do lote n.º 09; do lado direito com o lote n.º 18-A e do lado esquerdo com o lote n.º 17. Lote N.º 18-A: medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 18,00 metros de ambos os lados, perfazendo um total de 72,00 m.² limitando-se na parte da frente com o leito da Rua Maria do Socorro Aragão Florêncio; na parte de trás com parte do lote n.º 09; do lado direito com o lote n.º 19 e do lado esquerdo com o lote n.º 18, conforme planta de desmembramento, assinada pelo Engenheiro Civil Raimon Alius Lagos - CREA/PE 15.291 D e aprovada pela Prefeitura Municipal Local, em 14/02/2012, arquivada neste Cartório. Santa Cruz do Capibaribe-PE, 21 de março de 2012. Ey. [Rubrica] O Oficial do Registro.",
+    "REGISTRADO": "N"
+   },
+   {
+    "MATRICULA": "16925",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ABERTURA DE MATRÍCULA",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "25/04/2012",
+    "TEXTO": "AV-3-16925 AV.3 MAT 16925 - CERTIFICO e dou fé, que o lote n.º 18-A, foi aberto matrícula sob o n.º 17.026, às fls. 96, do livro n.º 2-DY, em 25/04/2012. Santa Cruz do Capibaribe-PE, 25 de abril de 2012. Ey. [Rubrica] O Oficial do Registro.",
+    "REGISTRADO": "N"
+   },
+   {
+    "MATRICULA": "16925",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ABERTURA DE MATRÍCULA",
+    "TIPO ATO": "AV",
+    "ORDEM": "4",
+    "DATA": "23/11/2012",
+    "TEXTO": "AV-3-16925 AV.3 MAT 16925 - CERTIFICO, e dou fé, que o lote n.º 18, foi aberto matrícula sob o n.º 17.899, às fls. 83, no livro n.º 2-EA, em 23/11/2012. Santa Cruz do Capibaribe-PE, 23 de novembro de 2012. Ey. [Rubrica] O Oficial do Registro.",
+    "REGISTRADO": "N"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "16925",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Imobiliária A.C.T. Incorporações Ltda",
+    "DOCUMENTO DA PARTE": "11499431000160",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "16925",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Eduarda Maria da Silva",
+    "DOCUMENTO DA PARTE": "05343427448",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "6255970",
+    "ID": "R-1"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "16925",
+    "NOME": "Aurélio Cézar Tavares",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "00102704468",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, comerciante",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Recife"
+   },
+   {
+    "MATRICULA": "16925",
+    "NOME": "Eduarda Maria da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "05343427448",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "6255970",
+    "ORGAO EMISSOR": "SDS",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, casada com Jailton César de Paula Barbosa sob o regime de Comunhão Parcial de Bens, comerciante",
+    "LOGRADOURO": "Rua Maria do Socorro Aragão",
+    "NUMERO": "115",
+    "BAIRRO": "São Miguel",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "16925",
+    "NOME DA EMPRESA": "Imobiliária A.C.T. Incorporações Ltda",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "11499431000160",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Aurélio Cézar Tavares",
+    "CPF REPRESENTANTE 1": "00102704468",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "Rua José Francelino Aragão",
+    "NUMERO": "89",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ]
+ }
+}

@@ -1,0 +1,206 @@
+{
+ "matricula": "15449",
+ "status": "resolvido",
+ "confianca": "alta",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "A matrícula tinha R-1 e AV-1 com o mesmo número 1 (regra R1). As averbações tinham sido numeradas como série separada (AV-1, AV-2), mas os próprios textos do livro trazem \"AV2\" (desmembramento do lote 14 em 14 e 14-A, 12/01/2011) e \"AV3\" (abertura de matrícula para o lote 14-A, 27/01/2011). A matrícula 15511, aberta para o lote 14-A, confirma ao citar \"AV-2-Mat. 15.449 ... em 12 de Janeiro de 2011\". Por isso as duas averbações passaram para AV-2 e AV-3, e a sequência ficou R-1, AV-2, AV-3. Nenhuma parte estava ligada a essas averbações; o TEXTO foi mantido como está na base. Observação: a AV-3 diz que o lote 14-A foi para a matrícula \"15.544\", mas nas planilhas a 15544 é um solo do Moda Center e o lote 14-A está na 15511; vale conferir no livro.",
+ "alteracoes": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 973,
+   "coluna": "ORDEM",
+   "antes": "1",
+   "depois": "2",
+   "motivo": "Desmembramento do lote 14 em lotes 14 e 14-A (12/01/2011). O próprio texto do livro começa com \"AV2\", e a matrícula 15511 (lote 14-A, aberta em 27/01/2011) diz no título anterior que o imóvel está \"averbado sob o nº AV-2-Mat. 15.449, no Livro nº 2-DP, ás fls. 291 em 12 de Janeiro de 2011\". Com o número 1 do R-1, a planilha estava com AV-1 por engano."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 974,
+   "coluna": "ORDEM",
+   "antes": "2",
+   "depois": "3",
+   "motivo": "Certidão de abertura de matrícula para o lote 14-A (27/01/2011). O próprio texto do livro começa com \"AV3\", e ela vem depois do desmembramento (AV-2). A planilha estava com AV-2 por engano."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "15449",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "12/01/2011",
+    "PROPRIETARIOS": "[Imobiliária & P. Incorporações Ltda], inscrita no CNPJ/MF sob o n° 11.499.435/0001-60, com sede nesta cidade, à Rua Pe. Francelino Aragão, n° 89, neste ato, representada por seu sócio-administrador executivo [Cézar Tavares], brasileiro, casado, comerciante, residente na cidade de Recife-PE, portador do CPF/MF sob o n° 001.077.004-68",
+    "MATRICULA ANTERIOR": "Em virtude de Carta de Adjudicação, extraída dos Autos de Arrolamento dos bens deixados pelo falecimento de Pe. Francelino Batele, expedida pelo Dr. Clóvis Guimarães Ribeiro, Juiz de Direito desta Comarca e registrada sob o n° R.1-mat. 7.696, no livro n° 2-BZ, às fls. 60, em 30 de novembro de 2009, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE, 12 de janeiro de 2011.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "15449",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "144,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua Projetada 02",
+    "QUADRA": "02",
+    "LOTE": "14",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Sao Miguel II",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL: 01(um) lote de terras de n° 14 (quatorze), situado na quadra n° 02(dois), no loteamento Sao Miguel II, nesta cidade, medindo 08,00 metros na parte da frente 08,00 metros na parte de trás e 18,00 metros de ambos os lados, perfazendo uma área total de 144,00 m² limitando-se na parte da frente com o leito da Rua Projetada 02; na parte de trás com parte do lote n: 12; do lado direito com o lote n: 15 e do lado esquerdo com o lote n: 13."
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "15449",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "12/01/2011",
+    "TEXTO": "R-1-15449 R.1 Mat 15.449 TRANSMITENTE: [Imobiliária & P. Incorporações Ltda], acima já identificada. ADQUIRENTES: [Ernande Manoel da Silva], brasileira, casada, agricultora, residente à Rua Pedro e Paulo, de Souza, n° 90, Dona Dom, nesta cidade, portadora do CPF/MF sob o n° 415.981.994-04 e da Cédula de Identidade n° 3.763.121-SSP/PE e [Herculano Bernardino Araújo], brasileiro, solteiro, maior, autônomo, residente à Rua Pedro e Paulo Jesus de Souza, n° 90, Dona Dom, nesta cidade, portador do CPF/MF sob o n° 039.947.274-12 e da Cédula de Identidade n°, digo, TÍTULO DE TRANSMISSÃO: Escritura Pública de Compra e Venda, datada em 25 de novembro de 2010, lavrada nestas notas, pelo Tabelião Belisio Erasto Cordeiro de Arruda, no livro n° 179, às fls. 16 e 16 v. Valor: R$ 28.000,00 (vinte e oito mil reais). Santa Cruz do Capibaribe-PE, 12 de janeiro de 2011. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "15449",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "DESMEMBRAMENTO",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "12/01/2011",
+    "TEXTO": "AV-1-15449 AV2 CERTIFICO, e dou fé, que o lote de terras da presente matrícula foi desmembrado, tornando-se 02(dois) lotes de terras de n°s 14 e 14-A (quatorze e quatorze A), situados na quadra n° 02(dois), no loteamento Sao Miguel II, nesta cidade, com as seguintes características: LOTE N° 14: medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 18,00 metros de ambos os lados, perfazendo uma área total de 72,00 m² limitando-se na parte da frente com o leito da Av. Pedro e Paulo Jesus da Rocha; na parte de trás com parte do lote n° 12, do lado direito com o leito, digo, lote n° 14-A e do lado esquerdo com o lote n° 13. LOTE N° 14-A: medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 18,00 metros de ambos os lados, perfazendo uma área total de 72,00 m² limitando-se na parte da frente com o leito da Av. Pedro e Paulo Jesus da Rocha; na parte de trás com parte do lote n: 12; do lado direito com o lote n° 15 e do lado esquerdo com o lote n° 14. Conforme planta de desmembramento, assinada pelo Engenheiro Civil Mairon Elias Lopes-CREA 14675 D/PE e aprovada pela Prefeitura Municipal local, em 26/11/2010, arquivada neste Cartório. Santa Cruz do Capibaribe-PE, 12 de janeiro de 2011. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "N"
+   },
+   {
+    "MATRICULA": "15449",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ABERTURA DE MATRÍCULA",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "27/01/2011",
+    "TEXTO": "AV-2-15449 AV3 CERTIFICO e dou fé, que o lote nº 14-A, foi aberto a matrícula sob o nº 15.544, às fls. 53, no livro nº 2-DQ, em 27/01/2011. Santa Cruz do Capibaribe-PE, 27 de janeiro de 2011. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "N"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "15449",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Imobiliária & P. Incorporações Ltda",
+    "DOCUMENTO DA PARTE": "11499435000160",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "15449",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Ernande Manoel da Silva",
+    "DOCUMENTO DA PARTE": "41598199404",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "3763121",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "15449",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Herculano Bernardino Araújo",
+    "DOCUMENTO DA PARTE": "03994727412",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "15449",
+    "NOME": "Cézar Tavares",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "00107700468",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, comerciante",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Recife"
+   },
+   {
+    "MATRICULA": "15449",
+    "NOME": "Ernande Manoel da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "agricultora",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "41598199404",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "3763121",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, casada, agricultora",
+    "LOGRADOURO": "Rua Pedro e Paulo, de Souza",
+    "NUMERO": "90",
+    "BAIRRO": "Dona Dom",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "15449",
+    "NOME": "Herculano Bernardino Araújo",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "autônomo",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "solteiro",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "03994727412",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, solteiro, maior, autônomo",
+    "LOGRADOURO": "Rua Pedro e Paulo Jesus de Souza",
+    "NUMERO": "90",
+    "BAIRRO": "Dona Dom",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "15449",
+    "NOME DA EMPRESA": "Imobiliária & P. Incorporações Ltda",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "11499435000160",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Cézar Tavares",
+    "CPF REPRESENTANTE 1": "00107700468",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "Rua Pe. Francelino Aragão",
+    "NUMERO": "89",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ]
+ }
+}

@@ -1,0 +1,268 @@
+{
+ "matricula": "14544",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "A matrícula tinha dois R-1 de 06/08/2010. O primeiro (Severino Domingos Julião a Elza Joaquina Julião, casa da Av. Jatobá nº 196) foi anulado no próprio livro: o texto termina com \"Fica cancelado o presente registro em virtude de ter pro[...] NOTA: SEM EFEITO\", e está com REGISTRADO \"N\". No mesmo dia o oficial reabriu a matrícula por NOTA para o lote 42 da quadra 39 do Loteamento Dona Lila (proprietária Imobiliária Félix Ltda, título R.1-Mat. 2.588) e lançou o R.1 válido, a venda a Robélio Marques de Melo. Foram retirados o R-1 anulado, suas 2 partes e os cadastros de Severino e Elza. O cabeçalho (MATRÍCULA e T. URBANO) foi trocado pelos dados da NOTA, e ATIVA passou de CANCELADA para ATIVA. A sequência fica só R-1. Confiança média porque nenhuma outra matrícula cita a 14544; ATIVA e o novo imóvel vêm só da NOTA, e vale conferir no livro. Na \"PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx\" a 14544 ainda NÃO está corrigida.",
+ "alteracoes": [
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 161,
+   "coluna": "ATIVA",
+   "antes": "CANCELADA",
+   "depois": "ATIVA",
+   "motivo": "O \"CANCELADA\" vinha do registro anulado da Av. Jatobá. Depois da NOTA, a matrícula tem o R.1 válido (REGISTRADO \"S\", Robélio Marques de Melo como proprietário atual na própria base) e nenhum ato que a encerre."
+  },
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 161,
+   "coluna": "PROPRIETARIOS",
+   "antes": "[Severino Domingos Julião], brasileiro, solteiro, maior, comerciante, residente a Av. Jatobá, n° 219, nesta Cidade, portador do CPF/MF sob o n. 031.921.134-72 e da Cédula de Identidade n. 3.414.298-SSP/PE",
+   "depois": "[Imobiliária Félix Ltda], inscrita no CNPJ/MF sob o n. 08.823.528/0001-72, com sede na Av. Tito Sinésio Aragao, n. 112, Centro, nesta Cidade, neste ato representada por seu sócio-administrador Adolfo Félix da Silva], brasileiro, casado, comerciante, residente a Av. Tito Sinésio Aragao, n. 112, Centro, nesta Cidade, portador do CPF/MF sob o n° 019.274.504-20",
+   "motivo": "O cabeçalho da base (Severino Domingos Julião, casa da Av. Jatobá nº 196) é o da abertura anulada junto com o primeiro R.1 (\"NOTA: SEM EFEITO\"). O TEXTO do R.1 válido começa com a NOTA de reabertura da matrícula: \"NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila ... PROPRIETÁRIO: [Imobiliária Félix Ltda] ... TÍTULO ANTERIOR: ...\", seguida do \"R.1 Mat. 14.544\" de Imobiliária Félix a Robélio Marques de Melo. Valor copiado literalmente da NOTA."
+  },
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 161,
+   "coluna": "MATRICULA ANTERIOR",
+   "antes": "Em virtude de compra feita a [Manoel Néri de França] e sua esposa [Maria de Lourdes Araújo França], por Escritura Pública de Compra e Venda, lavrada nestas notas, pelo Tabelião Público Renato Cordeiro de Arruda, em 08 de Abril de 1976 e registrada sob o n. R.1-Mat. 58, às fls. 94, do Livro n. 3-I",
+   "depois": "Em virtude de Escritura Pública de Incorporação, datada de 05 de Novembro de 1982, lavrada nestas notas, pelo Tabelião Público Renato Cordeiro de Arruda e registrada sob o n. R.1-Mat. 2.588, no Livro n. 2-TO, às fls. 23v. [rasurado: em 25 de Julho de 1992], do Registro Geral de Imóveis desta Comarca.",
+   "motivo": "O cabeçalho da base (Severino Domingos Julião, casa da Av. Jatobá nº 196) é o da abertura anulada junto com o primeiro R.1 (\"NOTA: SEM EFEITO\"). O TEXTO do R.1 válido começa com a NOTA de reabertura da matrícula: \"NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila ... PROPRIETÁRIO: [Imobiliária Félix Ltda] ... TÍTULO ANTERIOR: ...\", seguida do \"R.1 Mat. 14.544\" de Imobiliária Félix a Robélio Marques de Melo. Valor copiado literalmente da NOTA."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 160,
+   "coluna": "TIPO IMOVEL ONR",
+   "antes": "Casa",
+   "depois": "Terreno/Lote",
+   "motivo": "O cabeçalho da base (Severino Domingos Julião, casa da Av. Jatobá nº 196) é o da abertura anulada junto com o primeiro R.1 (\"NOTA: SEM EFEITO\"). O TEXTO do R.1 válido começa com a NOTA de reabertura da matrícula: \"NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila ... PROPRIETÁRIO: [Imobiliária Félix Ltda] ... TÍTULO ANTERIOR: ...\", seguida do \"R.1 Mat. 14.544\" de Imobiliária Félix a Robélio Marques de Melo. Valor copiado literalmente da NOTA."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 160,
+   "coluna": "AREA TOTAL",
+   "antes": "NÃO CONSTA",
+   "depois": "125,00",
+   "motivo": "O cabeçalho da base (Severino Domingos Julião, casa da Av. Jatobá nº 196) é o da abertura anulada junto com o primeiro R.1 (\"NOTA: SEM EFEITO\"). O TEXTO do R.1 válido começa com a NOTA de reabertura da matrícula: \"NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila ... PROPRIETÁRIO: [Imobiliária Félix Ltda] ... TÍTULO ANTERIOR: ...\", seguida do \"R.1 Mat. 14.544\" de Imobiliária Félix a Robélio Marques de Melo. Valor copiado literalmente da NOTA. Área = 05,00 m x 25,00 m, como nos lotes vizinhos da mesma quadra 39 (matrículas 14477 e 14478, AREA TOTAL 125,00)."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 160,
+   "coluna": "TIPO AREA",
+   "antes": "NÃO CONSTA",
+   "depois": "m²",
+   "motivo": "O cabeçalho da base (Severino Domingos Julião, casa da Av. Jatobá nº 196) é o da abertura anulada junto com o primeiro R.1 (\"NOTA: SEM EFEITO\"). O TEXTO do R.1 válido começa com a NOTA de reabertura da matrícula: \"NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila ... PROPRIETÁRIO: [Imobiliária Félix Ltda] ... TÍTULO ANTERIOR: ...\", seguida do \"R.1 Mat. 14.544\" de Imobiliária Félix a Robélio Marques de Melo. Valor copiado literalmente da NOTA."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 160,
+   "coluna": "LOGRADOURO",
+   "antes": "Av. Jatobá",
+   "depois": "Rua Projetada N. 11",
+   "motivo": "O cabeçalho da base (Severino Domingos Julião, casa da Av. Jatobá nº 196) é o da abertura anulada junto com o primeiro R.1 (\"NOTA: SEM EFEITO\"). O TEXTO do R.1 válido começa com a NOTA de reabertura da matrícula: \"NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila ... PROPRIETÁRIO: [Imobiliária Félix Ltda] ... TÍTULO ANTERIOR: ...\", seguida do \"R.1 Mat. 14.544\" de Imobiliária Félix a Robélio Marques de Melo. Valor copiado literalmente da NOTA. A NOTA diz \"Limitando-se na parte da frente com o leito da Rua Projetada N. 11\"."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 160,
+   "coluna": "QUADRA",
+   "antes": "NÃO CONSTA",
+   "depois": "39",
+   "motivo": "O cabeçalho da base (Severino Domingos Julião, casa da Av. Jatobá nº 196) é o da abertura anulada junto com o primeiro R.1 (\"NOTA: SEM EFEITO\"). O TEXTO do R.1 válido começa com a NOTA de reabertura da matrícula: \"NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila ... PROPRIETÁRIO: [Imobiliária Félix Ltda] ... TÍTULO ANTERIOR: ...\", seguida do \"R.1 Mat. 14.544\" de Imobiliária Félix a Robélio Marques de Melo. Valor copiado literalmente da NOTA."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 160,
+   "coluna": "LOTE",
+   "antes": "NÃO CONSTA",
+   "depois": "42",
+   "motivo": "O cabeçalho da base (Severino Domingos Julião, casa da Av. Jatobá nº 196) é o da abertura anulada junto com o primeiro R.1 (\"NOTA: SEM EFEITO\"). O TEXTO do R.1 válido começa com a NOTA de reabertura da matrícula: \"NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila ... PROPRIETÁRIO: [Imobiliária Félix Ltda] ... TÍTULO ANTERIOR: ...\", seguida do \"R.1 Mat. 14.544\" de Imobiliária Félix a Robélio Marques de Melo. Valor copiado literalmente da NOTA."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 160,
+   "coluna": "N",
+   "antes": "196",
+   "depois": "NÃO CONSTA",
+   "motivo": "O cabeçalho da base (Severino Domingos Julião, casa da Av. Jatobá nº 196) é o da abertura anulada junto com o primeiro R.1 (\"NOTA: SEM EFEITO\"). O TEXTO do R.1 válido começa com a NOTA de reabertura da matrícula: \"NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila ... PROPRIETÁRIO: [Imobiliária Félix Ltda] ... TÍTULO ANTERIOR: ...\", seguida do \"R.1 Mat. 14.544\" de Imobiliária Félix a Robélio Marques de Melo. Valor copiado literalmente da NOTA. A NOTA não dá número de casa."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 160,
+   "coluna": "TIPO LOGRADOURO ONR",
+   "antes": "Avenida",
+   "depois": "Rua",
+   "motivo": "O cabeçalho da base (Severino Domingos Julião, casa da Av. Jatobá nº 196) é o da abertura anulada junto com o primeiro R.1 (\"NOTA: SEM EFEITO\"). O TEXTO do R.1 válido começa com a NOTA de reabertura da matrícula: \"NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila ... PROPRIETÁRIO: [Imobiliária Félix Ltda] ... TÍTULO ANTERIOR: ...\", seguida do \"R.1 Mat. 14.544\" de Imobiliária Félix a Robélio Marques de Melo. Valor copiado literalmente da NOTA."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 160,
+   "coluna": "BAIRRO",
+   "antes": "Centro",
+   "depois": "Loteamento Dona Lila",
+   "motivo": "O cabeçalho da base (Severino Domingos Julião, casa da Av. Jatobá nº 196) é o da abertura anulada junto com o primeiro R.1 (\"NOTA: SEM EFEITO\"). O TEXTO do R.1 válido começa com a NOTA de reabertura da matrícula: \"NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila ... PROPRIETÁRIO: [Imobiliária Félix Ltda] ... TÍTULO ANTERIOR: ...\", seguida do \"R.1 Mat. 14.544\" de Imobiliária Félix a Robélio Marques de Melo. Valor copiado literalmente da NOTA."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 160,
+   "coluna": "DESCRICAO",
+   "antes": "IMÓVEL: 01(um) Imóvel, situado na Av. Jatobá, n° 196 (Cento e noventa e seis), Centro, nesta cidade, medindo, digo, edificado em terreno prédio do patrimônio prediogoso, nesta Cidade, medindo 04,50 metros na parte da frente, 05,50 metros na parte de trás, 28,50 metros do lado direito e 29,50 metros do lado esquerdo, com 02 portas na frente, 01 garagem, 02 salas, 03 quartos, 01 corredor, 01 cozinha, 02 banheiros, 01 porta e 01 janela na parte de trás, 01 área descoberta medindo 01, 00 m x 05,00 metros, sem terreno para muro. Limitando-se na parte da frente com o leito da Av. Jatobá; na parte de trás com o leito da Rua Manoel Moraes da Silva; do lado direito com o imóvel n. 200 e do lado esquerdo com o imóvel n. 190.",
+   "depois": "IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila, nesta Cidade, medindo 05,00 metros na parte da frente, 05,00 metros na parte de trás e 25,00 metros de ambos os lados. Limitando-se na parte da frente com o leito da Rua Projetada N. 11; na parte de trás com o Lote n. 11; do lado direito com o Lote n. 41 e do lado esquerdo com o Lote n. 43.",
+   "motivo": "O cabeçalho da base (Severino Domingos Julião, casa da Av. Jatobá nº 196) é o da abertura anulada junto com o primeiro R.1 (\"NOTA: SEM EFEITO\"). O TEXTO do R.1 válido começa com a NOTA de reabertura da matrícula: \"NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila ... PROPRIETÁRIO: [Imobiliária Félix Ltda] ... TÍTULO ANTERIOR: ...\", seguida do \"R.1 Mat. 14.544\" de Imobiliária Félix a Robélio Marques de Melo. Valor copiado literalmente da NOTA."
+  }
+ ],
+ "linhas_removidas": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 314,
+   "motivo": "Primeiro \"R.1 Mat. 14.544\" (Severino Domingos Julião a Elza Joaquina Julião, casa da Av. Jatobá nº 196, REGISTRADO \"N\"). O próprio texto o anula: \"Fica cancelado o presente registro em virtude de ter pro[...] NOTA: SEM EFEITO\". No mesmo dia (06/08/2010) o oficial reabriu a matrícula por NOTA para o lote 42 da quadra 39 do Loteamento Dona Lila e lançou o R.1 válido (Imobiliária Félix Ltda a Robélio Marques de Melo)."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 677,
+   "motivo": "Parte (transmitente Severino Domingos Julião) do R-1 anulado (\"SEM EFEITO\"), que foi removido."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 678,
+   "motivo": "Parte (adquirente Elza Joaquina Juliao) do R-1 anulado (\"SEM EFEITO\"), que foi removido."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 481,
+   "motivo": "Severino Domingos Julião só aparecia na abertura anulada e no R-1 \"SEM EFEITO\" (Av. Jatobá nº 196)."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 482,
+   "motivo": "Elza Joaquina Juliao só aparecia no R-1 \"SEM EFEITO\" (Av. Jatobá nº 196)."
+  }
+ ],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "14544",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "06/08/2010",
+    "PROPRIETARIOS": "[Imobiliária Félix Ltda], inscrita no CNPJ/MF sob o n. 08.823.528/0001-72, com sede na Av. Tito Sinésio Aragao, n. 112, Centro, nesta Cidade, neste ato representada por seu sócio-administrador Adolfo Félix da Silva], brasileiro, casado, comerciante, residente a Av. Tito Sinésio Aragao, n. 112, Centro, nesta Cidade, portador do CPF/MF sob o n° 019.274.504-20",
+    "MATRICULA ANTERIOR": "Em virtude de Escritura Pública de Incorporação, datada de 05 de Novembro de 1982, lavrada nestas notas, pelo Tabelião Público Renato Cordeiro de Arruda e registrada sob o n. R.1-Mat. 2.588, no Livro n. 2-TO, às fls. 23v. [rasurado: em 25 de Julho de 1992], do Registro Geral de Imóveis desta Comarca.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "14544",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "125,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua Projetada N. 11",
+    "QUADRA": "39",
+    "LOTE": "42",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Loteamento Dona Lila",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila, nesta Cidade, medindo 05,00 metros na parte da frente, 05,00 metros na parte de trás e 25,00 metros de ambos os lados. Limitando-se na parte da frente com o leito da Rua Projetada N. 11; na parte de trás com o Lote n. 11; do lado direito com o Lote n. 41 e do lado esquerdo com o Lote n. 43."
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "14544",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "06/08/2010",
+    "TEXTO": "R-1-14544 NOTA: IMÓVEL: 01 (um) Lote de Terras de n. 42 (quarenta e dois), situado na Quadra n° 39 (trinta e nove), no Loteamento Dona Lila, nesta Cidade, medindo 05,00 metros na parte da frente, 05,00 metros na parte de trás e 25,00 metros de ambos os lados. Limitando-se na parte da frente com o leito da Rua Projetada N. 11; na parte de trás com o Lote n. 11; do lado direito com o Lote n. 41 e do lado esquerdo com o Lote n. 43. PROPRIETÁRIO: [Imobiliária Félix Ltda], inscrita no CNPJ/MF sob o n. 08.823.528/0001-72, com sede na Av. Tito Sinésio Aragao, n. 112, Centro, nesta Cidade, neste ato representada por seu sócio-administrador Adolfo Félix da Silva], brasileiro, casado, comerciante, residente a Av. Tito Sinésio Aragao, n. 112, Centro, nesta Cidade, portador do CPF/MF sob o n° 019.274.504-20. TÍTULO ANTERIOR: Em virtude de Escritura Pública de Incorporação, datada de 05 de Novembro de 1982, lavrada nestas notas, pelo Tabelião Público Renato Cordeiro de Arruda e registrada sob o n. R.1-Mat. 2.588, no Livro n. 2-TO, às fls. 23v. [rasurado: em 25 de Julho de 1992], do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE, 06 de Agosto de 2010. [Rúbrica] [Rúbrica] O Oficial do Registro. R.1 Mat. 14.544 TRANSMITENTE: [Imobiliária Félix Ltda], acima já identificada. ADQUIRENTE: [Robélio Marques de Melo], brasileiro, casado, professor, residente a Rua Padre José Aragão Araújo, n. 154, Dona Dom, nesta Cidade, portador do CPF/MF sob o n. 184.127.004-06 e da Cédula de Identidade n. 1.300.514-SSP/PE. TÍTULO DE TRANSMISSÃO: Escritura Pública de Compra e Venda, datada em 02 de Junho de 2010, lavrada nestas notas, pelo Tabelião Público Renato Cordeiro de Arruda, no Livro n. 173, às fls. 200 a 200v. Valor: R$ 14.000,00 (quatorze mil reais). Santa Cruz do Capibaribe-PE; 06 de Agosto de 2010. [Rúbrica] [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "14544",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Imobiliária Félix Ltda",
+    "DOCUMENTO DA PARTE": "08823528000172",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "14544",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Robélio Marques de Melo",
+    "DOCUMENTO DA PARTE": "18412700406",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "1300514",
+    "ID": "R-1"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "14544",
+    "NOME": "Adilso Félix da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "01927450420",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, comerciante",
+    "LOGRADOURO": "Av. Tito Sinésio Aragao",
+    "NUMERO": "112",
+    "BAIRRO": "Centro",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "14544",
+    "NOME": "Robélio Marques de Melo",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "professor",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "18412700406",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "1300514",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado, professor",
+    "LOGRADOURO": "Rua Padre José Aragão Araújo",
+    "NUMERO": "154",
+    "BAIRRO": "Dona Dom",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "14544",
+    "NOME DA EMPRESA": "Imobiliária Félix Ltda",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "08823528000172",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Adilso Félix da Silva",
+    "CPF REPRESENTANTE 1": "01927450420",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "Av. Tito Sinésio Aragao",
+    "NUMERO": "112",
+    "BAIRRO": "Centro",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ]
+ }
+}

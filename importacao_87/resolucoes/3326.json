@@ -1,0 +1,179 @@
+{
+ "matricula": "3326",
+ "status": "nao_resolvido",
+ "confianca": "alta",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "A 3326 da consolidada (1) não é a matrícula 3326: os três atos têm os cabeçalhos \"R-1-3324\", \"AV-1-3324\" e \"R-2-3324\" e o texto diz \"terreno objeto da matrícula nº 3.324\". Imóvel (Rua Dr. Silva Jardim, 43,66 m²), proprietários, partes e datas são cópia exata da 3324 da mesma planilha (linha 2012), que já está no sistema. A DESCRICAO começa com \"Falta\". Nenhuma planilha tem o conteúdo verdadeiro da 3326, e nenhuma outra matrícula cita a 3326 (as 27 ocorrências de \"3.326\" são números de RG, de cadastro ou de carta de aforamento). Pista para a conferência: a Cópia 2-AE a 2-AZ tem dois registros diferentes com o número 3324. Um é o da Rua Dr. Silva Jardim (linhas 352/338/1205-1207), o que entrou no sistema. O outro é a casa da Rua Vergilina Pereira, nº 115 (linhas 638/609/2137-2140), aberta em 25/02/1986: Ednaldo Severino de Assis, depois Antônio Francisco Torres no R-3 de 04/03/1986, depois José Vidal Ferreira no R.4 de 03/12/2014. Esse segundo registro não aparece em nenhuma outra matrícula. Os textos dos dois dizem 3324, então só o livro pode dizer se um deles é a 3326. Falta transcrever do livro a 3326: abertura, proprietário, título anterior, descrição do imóvel e todos os atos. VERIFICADOR: a pista deve ser lida com cuidado. A Cópia 2-AE a 2-AZ transcreveu só as matrículas que faltavam no sistema (na faixa do livro 2-AM, 3321-3323, 3325 e 3327 já estavam no sistema e não aparecem na Cópia; 3324 e 3326 estavam na lista de faltantes). Ela traz dois registros com o número 3324 e nenhum com 3326, então é provável que um dos dois seja a 3326. Mas a cronologia aponta para o contrário do que parece: o da Rua Vergilina Pereira foi aberto em 25/02/1986 (R-1 em 25/02/1986, e o R.4 de 2014 tem o cabeçalho \"R.4-3324\") e o da Rua Dr. Silva Jardim em 26/02/1986. Como a 3328 foi aberta em 27/02/1986 e a numeração segue a data, a 3324 deveria ser a mais antiga (Vergilina Pereira) e a 3326 poderia ser a da Silva Jardim, que é justamente a que entrou no sistema como 3324. Os textos dos dois dizem 3324, então isso não pode ser decidido pelas planilhas: é preciso conferir no livro 2-AM qual imóvel está na 3324 e qual está na 3326 (e, se for o caso, corrigir também a 3324 já importada).",
+ "alteracoes": [],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "3326",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "26/02/1986",
+    "PROPRIETARIOS": "[Prefeitura Municipal de Santa Cruz do Capibaribe] - CGC nº 10091569/0007-63",
+    "MATRICULA ANTERIOR": "Escritura Pública registrada no livro nº 03, às fls 50, sob o nº 245, datado de 30.11.56.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "3326",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "43,66",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua Dr. Silva Jardim",
+    "QUADRA": "NÃO CONSTA",
+    "LOTE": "NÃO CONSTA",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "Falta Um terreno do Patrimônio do Município situado à Rua Dr. Silva Jardim nesta cidade, medindo 04,10 metros de frente, 04,10 metros de fundos, 10,65 metros lateral direita, 10,65 metros lateral esquerda, com área total de 43, 66 m², para fins residencial, limitando-se na parte da frente com o leito da Rua Dr. Silva Jardim, na parte de trás com Severino Luiz da Silva (imóvel nº 181, da Rua Mariza Neves), do lado direito com um terreno desocupado e do lado esquerdo com Josias Xavier da Silva (imóvel nº 178)."
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "3326",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AFORAMENTO",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "26/02/1986",
+    "TEXTO": "R-1-3324 TRANSMITENTE: [Prefeitura Municipal de Santa Cruz do Capibaribe]. CGC nº 10091569/0007-63. ADQUIRENTE: [Virginia Emilia Silva], brasileira, casada, doméstica, portadora do CIC nº 301.539.724-91, residente nesta cidade. TÍTULO DE TRANSMISSÃO: Carta de Aforamento nº 887, registro nº 02881, livro (ficha) de 1980. Valor: Cr$ 15.000. Santa Cruz do Capibaribe, 26 de fevereiro de 1986. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "NÃO CONSTA"
+   },
+   {
+    "MATRICULA": "3326",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONSTRUÇÃO",
+    "TIPO ATO": "AV",
+    "ORDEM": "1",
+    "DATA": "06/02/1986",
+    "TEXTO": "AV-1-3324 Certifico e dou fé, que conforme requerimento datado de 17 de fevereiro de 1986, assinado p. Maurizete Batista da Silva, acompanhado do Habite-se Municipal, consta que no terreno objeto da matrícula nº 3.324 acima, foi construído o prédio sito à Rua Dr. Silva Jardim, nº 182, nesta cidade, conforme certidão fornecida pela Prefeitura local, que é do teor seguinte: Prefeitura Municipal de Santa Cruz do Capibaribe. Secretaria de Viação, Obras, Urbanismos e Serviços Públicos. Certidão. Certifico, a pedido da Sra. [Virginia Emilia Silva], brasileira, casada, doméstica, portadora do CIC nº 301.539.724-91, residente nesta cidade, para fins de averbação junto ao Cartório Geral de Imóveis desta cidade, que o imóvel localizado na Rua Dr. Silva Jardim, 182, edificado em terreno foreiro do Patrimônio Municipal, acha-se coletado nesta Prefeitura sob o nº 02881, do exercício de 1980, em nome da mesma. Certifico, ainda, que o citado imóvel possui atualmente as seguintes características: 04,10 metros na parte da frente, 04,10 metros na parte de trás, 07,40 metros de ambos os lados, 01 porta e 01 janela na parte da frente, 01 sala, 01 quarto, 01 corredor, 01 cozinha, 01 sanitário, 01 porta e 01 terraço na parte de trás, terreno para muro medindo: 04,10 metros de frente, por 03,25 metros de ambos os lados. Limitando-se na parte da frente com o leito da Rua Dr. Silva Jardim, na parte de trás com Severino Luiz da Silva (imóvel nº 181, da Rua Mariza Neves), do lado direito com um terreno desocupado e do lado esquerdo com Josias Xavier da Silva (imóvel nº 178). Certifico, finalmente, que o referido imóvel está inscrito no Cadastro Imobiliário desta Prefeitura sob o nº 02881, no valor venal de Cr$ 1.802.640 (Um milhão, oitocentos e dois mil, seiscentos e quarenta cruzeiros). Do que, para constar, forneço a presente Certidão. Santa Cruz do Capibaribe, 17 de fevereiro de 1986. Deoclécio Carlos da Rocha. Assessor Técnico. Santa Cruz do Capibaribe, 06 de fevereiro de 1986. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "NÃO CONSTA"
+   },
+   {
+    "MATRICULA": "3326",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "2",
+    "DATA": "05/03/1986",
+    "TEXTO": "R-2-3324 TRANSMITENTES: [Virginia Emilia Silva] e seu esposo [Severino Luiz da Silva], brasileiros, casados, doméstica, agricultor, residentes nesta cidade. Portadores do CPF nº 301.539.724-91. ADQUIRENTE: [Severina Minervina da Conceição], brasileira, solteira, maior, doméstica, residente nesta cidade. Portadora do CPF nº 335.767.404-59. TÍTULO DE TRANSMISSÃO: Escritura Pública de compra e venda datada de 26 de fevereiro de 1986, lavrada pelo Tabelião Público Renato Lourenço de Arruda, do Cartório Único desta Comarca. Valor: Cr$ 4.500.000. Santa Cruz do Capibaribe, 05 de março de 1986. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "NÃO CONSTA"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "3326",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AFORAMENTO",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Prefeitura Municipal de Santa Cruz do Capibaribe",
+    "DOCUMENTO DA PARTE": "10091569000763",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "3326",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AFORAMENTO",
+    "TIPO DA PARTE": "Adquirente",
+    "NOME DA PARTE": "Virginia Emilia Silva",
+    "DOCUMENTO DA PARTE": "30153972491",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "3326",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Virginia Emilia Silva",
+    "DOCUMENTO DA PARTE": "30153972491",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "3326",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Adquirente",
+    "NOME DA PARTE": "Severina Minervina da Conceição",
+    "DOCUMENTO DA PARTE": "33576740459",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "3326",
+    "NOME": "Virginia Emilia Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "doméstica",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "30153972491",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileira, casada, doméstica",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "3326",
+    "NOME": "Severina Minervina da Conceição",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "doméstica",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "solteira",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "33576740459",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileira, solteira, maior, doméstica",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "3326",
+    "NOME DA EMPRESA": "Prefeitura Municipal de Santa Cruz do Capibaribe",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "10091569000763",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "NÃO CONSTA",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ]
+ }
+}

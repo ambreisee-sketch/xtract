@@ -1,0 +1,408 @@
+{
+ "matricula": "17506",
+ "status": "resolvido",
+ "confianca": "alta",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "A matrícula tinha R-1 (venda da Imobiliária Félix a Lucilene Maria da Silva, 20/08/2012) e AV-1 (Habite-se, 11/12/2012) com o mesmo número 1. As duas averbações de 11/12/2012 estavam transcritas como \"AV. 1\" e \"AV. 2\", contando só as averbações, mas o próprio livro segue a numeração única R/AV: os atos seguintes são \"AV.4-17.506\" (estado civil, 02/06/2016), \"R.5-17.506\" (venda a Emanuel Cristovão de Souza e Rosangela) e \"R.6-17.506\" (alienação fiduciária à Caixa), ambos de 10/01/2017. Assim, os números 2 e 3 só podem ser o Habite-se e a averbação da construção, nessa ordem. O Habite-se passou a AV-2 e a construção a AV-3, com as partes de cada uma; a sequência fica R-1, AV-2, AV-3, AV-4, R-5, R-6. A outra versão (consolidada sem \"(1)\") é igual e nenhuma outra matrícula cita a 17506; o TEXTO foi mantido como na base.",
+ "alteracoes": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 3110,
+   "coluna": "ORDEM",
+   "antes": "2",
+   "depois": "3",
+   "motivo": "Averbação da construção (certidão de averbação, 11/12/2012), lançada logo depois do Habite-se do mesmo dia. A matrícula segue a numeração única R/AV: depois dela vêm \"AV.4-17.506\" (02/06/2016), \"R.5-17.506\" e \"R.6-17.506\" (10/01/2017), o que mostra que os números 2 e 3 foram usados pelas duas averbações de 11/12/2012, já que o 1 é o R-1 (20/08/2012). O cabeçalho transcrito \"AV. 2\" seguia a contagem só das averbações; pela sequência do livro ela é a AV-3."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 3109,
+   "coluna": "ORDEM",
+   "antes": "1",
+   "depois": "2",
+   "motivo": "Averbação do Habite-se (11/12/2012), primeiro ato depois do R-1 (compra e venda de 20/08/2012), que já ocupa o número 1. Como os atos seguintes são AV.4, R.5 e R.6, os números 2 e 3 são das duas averbações de 11/12/2012, e o Habite-se é a primeira delas. O cabeçalho transcrito \"AV. 1\" seguia a contagem só das averbações; pela sequência do livro ela é a AV-2."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 6201,
+   "coluna": "ID",
+   "antes": "AV-2",
+   "depois": "AV-3",
+   "motivo": "Parte (PROPRIETÁRIO Lucilene Maria da Silva) da averbação da construção de 11/12/2012, renumerada de AV-2 para AV-3."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 6200,
+   "coluna": "ID",
+   "antes": "AV-1",
+   "depois": "AV-2",
+   "motivo": "Parte (PROPRIETÁRIO Lucilene Maria da Silva) da averbação do Habite-se de 11/12/2012, renumerada de AV-1 para AV-2."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "17506",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "20/08/2012",
+    "PROPRIETARIOS": "[Imobiliária Félix Ltda], inscrita no CNPJ/MF sob o n° 08.823.528/0001-72, com sede na Av. Tito Sinézio Aragão, n° 112, Centro, nesta Cidade, neste ato, representada por seu sócio-administrador [Adolfo Félix da Silva], brasileiro, casado, comerciante, residente nesta Cidade, portador do CPF/MF sob o n° 019.274.504-20",
+    "MATRICULA ANTERIOR": "Em virtude de Escritura Pública de Incorporação, datada em 03 de Novembro de 1989, lavrada nestas notas, pelo Tabelião Público Renato Cordeiro de Arruda e registrada sob o n° 2 e Mat. 2.588, no Livro n° 2-AD, às fls. 23v, em 26 de Julho de 1990, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE, 20 de Agosto de 2012.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "17506",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "125,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua Projetada R-11",
+    "QUADRA": "40",
+    "LOTE": "60",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Dona Lica",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL: 01(um) lote de terras de n° 60 (sessenta), situado na quadra n° 40 (quarenta), no loteamento Dona Lica, nesta Cidade, medindo 05,00 metros na parte da frente, 05,00 metros na parte de trás e 25,00 metros de ambos os lados. Limitando-se na parte da frente com o leito da Rua Projetada R-11; na parte de trás com o lote n° 11; do lado direito com o lote n° 59 e do lado esquerdo com o lote n° 61."
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "20/08/2012",
+    "TEXTO": "R-1-17506 R-1 TRANSMITENTE: [Imobiliária Félix Ltda], acima já identificada. ADQUIRENTE: [Lucilene Maria da Silva], brasileira, solteira, maior, costureira, residente na Rua José Roberto Ramos, n° 62, Dona Dom, nesta Cidade, portadora do CPF/MF sob o n° 075.941.584-66 n° 075.941.584-66 e da Cédula de Identidade n° 7.691.485-SDS/PE. TÍTULO DE TRANSMISSÃO: Escritura Pública de Compra e Venda, datada em 02 de Agosto de 2012, lavrada nestas notas, pelo Tabelião Público Renato Cordeiro de Arruda, no Livro n° 194-E, às fls 85 já 85v. Valor: R$ 22.003,94 (Vinte e dois mil, três reais e noventa e quatro centavos). Santa Cruz do Capibaribe-PE, 20 de Agosto de 2012. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HABITE-SE",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "11/12/2012",
+    "TEXTO": "AV-1-17506 AV. 1 Certifico, e dou fé, a requerimento verbal do proprietário [Lucilene Maria da Silva], brasileira, solteira, costureira, portadora do CPF nº mat. 075.941.584-66, conforme requerimento arquivado neste Cartório, que averbo o HABITE-SE emitido pelo Prefeito Municipal Local 17.506 em 10 de Setembro de 2012, que é do teor seguinte: Prefeitura Municipal de Santa Cruz do Capibaribe HABITE-SE, Processo 29. 286, data 10/9/2012. A secretaria de Infraestrutura, após a Vistoria Regulamentar, expede o presente termo de Habite-se para a obra abaixo caracterizada: proprietário [Lucilene Maria da Silva] - natureza da Obra Residencial, alvará 28.286/2011, observação: Área total construida 117, 50 m², Área do terreno 125,00 m². Local da obra: Rua José Roberto Ramos, 62, lote 60, quadra 40, Lot Dona Lica. Santa Cruz do Capibaribe, 10 de Setembro de 2012, [Antônio Carlos de Queiroz Maia], Secretário de Infraestrutura. Antônio Carlos de Queiroz Maia. Santa Cruz do Capibaribe-PE, 11 de Dezembro de 2012. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AVERBAÇÃO DE CONSTRUÇÃO",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "11/12/2012",
+    "TEXTO": "AV-2-17506 AV. 2 Certifico, e dou fé, a requerimento verbal do proprietário [Lucilene Maria da Silva], brasileira, solteira, costureira, portador do CPF nº mat 075.941.584-66, conforme requerimento arquivado neste Cartório, que averbo a Certidão de Averbação, emitida pela Prefeitura Municipal Local, para fazer constar que no terreno objeto da presente matricula foi construído um Imóvel Residencial sito a Rua: José Roberto Ramos, 62, lote 60, quadra 40, Lot. Dona Lica, o qual estima o referido Imóvel no valor de R$ 20.633.85, digo, R$ 50.000,00 (Cinquenta mil Reais) cujas características e confrontações descritas na Certidão de Averbação que é do teor seguinte: Secretaria de Infra- Estrutura Certidão, Certifico a pedido do Sr. [Lucilene Maria da Silva], brasileiro, solteiro, costureiro, portador do CPF nº 075.941. 584-66 para fins de averbação junto ao Cartório Geral de Imóveis desta Cidade, que o Imóvel localizado na Rua José Roberto Ramos, 62, lote 60, quadra 40, Lot. Dona Lica, nesta Cidade, edificado em terreno próprio, acha-se Registrado um Imóvel Residencial de acordo com a petição Registrada sob o nº 28.286, Livro 08, fls. 161 de 20/12/2011 (Licença de legalização), em nome do mesmo. Certifico certidão que o citado imóvel possui atualmente as seguintes características: 5.00 m na frente em pleitos, 23.50 m de ambos os lados, 2 portas na Frente 1 garagem, 1 sala, 2 quartos 1 Suíte, 1 cozinha 1 banheiro 1 porta 1 janela atrás, 1 área de serviço em um terreno medindo 5,00m de frente, por 25,00 m de ambos os lados. Área construída 117,50m² Limitando-se: na parte da frente com o leito da Rua José Roberto Ramos, na parte de trás com um Imóvel s/n da Rua Ana Eulália Rocha, do lado direito com um terreno desocupado e do lado esquerdo com um Imóvel s/n. Certifico finalmente que o citado Imóvel está cadastrado na Prefeitura sob o nº 18.002, no valor Venal de R$ 20.633 ,85 (Vinte mil seiscentos e trinta e três Reais e Oitenta e cinco centavos). Data expedição 10/09/2012 Santa Cruz do Capibaribe, 10 de Setembro de 2012. Secretaria Municipal de Infra-Estrutura [Antônio Carlos de Q. Maia]. Santa Cruz do Capibaribe-PE, digo Foi apresentado neste ato a Certidão Negativa sob o nº 00058/2012-15021776 emitida em 07/12/ 2012, Santa Cruz do Capibaribe-PE 11 de Dezembro de 2012. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ALTERAÇÃO DE ESTADO CIVIL",
+    "TIPO ATO": "AV",
+    "ORDEM": "4",
+    "DATA": "02/06/2016",
+    "TEXTO": "AV-4-17506 AV.4-17.506. Procede-se a averbação para ficar constando que a proprietária do imóvel objeto da presente matrícula, Sra [Lucilene Maria da Silva], atualmente é casada civilmente, de acordo com a Certidão de Casamento sob o nº de matrícula 0773050155 2014 3 00012 164 0005364 94, lavrada em 22 de setembro de 2014, pela Oficiala Substituta [Aline Freire de Sousa Ferraz], desta Comarca. Santa Cruz do Capibaribe-PE, 02 de junho de 2016. Eu, [Rúbrica] A Oficiala do Registro. NOTA: CERTIFICO, e dou fé, que no AV.4 da presente matricula a proprietária é casada civilmente com o Sr. [Edson Marques Torres]. Santa Cruz do Capibaribe-PE, 03 digo, 02 de junho de 2016. Eu, [Rúbrica] A Oficiala do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "5",
+    "DATA": "10/01/2017",
+    "TEXTO": "R-5-17506 R.5-17.506. Por Instrumento Particular com Caráter de escritura pública na forma do art. 61 da Lei nº 4.380, datado de 23 de Dezembro de 2016, Os proprietários [Lucilene Maria da Silva], brasileira, nascida em 06/07/1985, vendedora pracista Representante Comercial Caixeiro Viajante, portadora da Carteira de Identidade n° 769 3485/PE e do CPF 075.941.584-66, casada no regime de comunhão parcial de bens e seu Cônjuge [Edson Marques Torres], brasileiro, nascido em 28/08/1975, sem Ocupação, portador da C.N.H n° 02686310080/PE e do CPF 018.370.534-30, residentes e domiciliados na Rua Manoel Miguel Sobrinho, 119 Dona Dom, nesta Cidade, venderam o Imovel objeto da presente matrícula a [Emanuel Cristovão de Souza], brasileiro, nascido em 13/01/1982, militar em geral, portador da identidade militar n° 46971/PE e do CPF 036.778.904- 38, casado no regime de comunhão parcial de bens, e sua Cônjuge [Rosangela Luzinete da Silva Souza], brasileira, nascida em 24/04/1986, do lar, portadora da CNH n° 04341781817/PE e do CPF 063.582.474-41, residentes e domiciliados na Rua Manoel José dos Prazeres, 200 Dona Dom, nesta Cidade, pelo valor de R$ 117.600,00. Foi apresentado neste ato, O pagamento do Imposto sobre transmissão de bens Imóveis (ITBI) no valor de R$ 768,79, e a Certidão Negativa de Débitos Imobiliários emitida pela Prefeitura Municipal local em 04/01/ 2017, arquivados neste Cartório. Santa Cruz do Capibaribe-PE, 10 de Janeiro de 2017. Eu, [Rúbrica] A Oficiala do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ALIENAÇÃO FIDUCIÁRIA",
+    "TIPO ATO": "R",
+    "ORDEM": "6",
+    "DATA": "10/01/2017",
+    "TEXTO": "R-6-17506 R.6-17.506. Por Instrumento Particular com Caráter de escritura pública, na forma do art. 61 da Lei n° 4.380, datado de 23 de Dezembro de 2016, Os proprietários [Emanuel Cristovão de Souza], brasileiro, nascido em 13/01/1982, militar em geral, portador da identidade militar n° 96, digo nº 46971/PE e do CPF 036.778.904- 38, casado no regime de comunhão parcial de bens, e sua Cônjuge [Rosangela Luzinete da Silva Souza], brasileira, nascida em 24/04/1986, do lar, portadora da CNH n° 04341781817/PE e do CPF 063.582.474-41, residentes e domiciliados na Rua Manoel José dos Prazeres, 200 Dona Dom, nesta Cidade, tendo se confessado devedores da [Caixa Econômica Federal], agência, 4758-29 de Dezembro/PE, da importância de R$ 105.840,00, a ser-lhe pago no prazo de 360 meses, vencendo-se a 1ª parcela em 25/01/2017 e as demais nos meses subsequentes no mesmo dia, deu-lhe em alienação fiduciária o Imóvel objeto da presente matrícula. Santa Cruz do Capibaribe-PE, E, digo 10 de Janeiro de 2017. Eu, [Rúbrica] A Oficiala do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Imobiliária Félix Ltda",
+    "DOCUMENTO DA PARTE": "08823528000172",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Lucilene Maria da Silva",
+    "DOCUMENTO DA PARTE": "07594158466",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "7691485",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HABITE-SE",
+    "TIPO DA PARTE": "PROPRIETÁRIO",
+    "NOME DA PARTE": "Lucilene Maria da Silva",
+    "DOCUMENTO DA PARTE": "07594158466",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-2"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AVERBAÇÃO DE CONSTRUÇÃO",
+    "TIPO DA PARTE": "PROPRIETÁRIO",
+    "NOME DA PARTE": "Lucilene Maria da Silva",
+    "DOCUMENTO DA PARTE": "07594158466",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-3"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ALTERAÇÃO DE ESTADO CIVIL",
+    "TIPO DA PARTE": "PROPRIETÁRIO",
+    "NOME DA PARTE": "Lucilene Maria da Silva",
+    "DOCUMENTO DA PARTE": "07594158466",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-4"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "VENDEDOR",
+    "NOME DA PARTE": "Lucilene Maria da Silva",
+    "DOCUMENTO DA PARTE": "07594158466",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "7693485",
+    "ID": "R-5"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "VENDEDOR",
+    "NOME DA PARTE": "Edson Marques Torres",
+    "DOCUMENTO DA PARTE": "01837053430",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "02686310080",
+    "ID": "R-5"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "COMPRADOR",
+    "NOME DA PARTE": "Emanuel Cristovão de Souza",
+    "DOCUMENTO DA PARTE": "03677890438",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "46971",
+    "ID": "R-5"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "COMPRADOR",
+    "NOME DA PARTE": "Rosangela Luzinete da Silva Souza",
+    "DOCUMENTO DA PARTE": "06358247441",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "04341781817",
+    "ID": "R-5"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ALIENAÇÃO FIDUCIÁRIA",
+    "TIPO DA PARTE": "DEVEDOR FIDUCIANTE",
+    "NOME DA PARTE": "Emanuel Cristovão de Souza",
+    "DOCUMENTO DA PARTE": "03677890438",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "46971",
+    "ID": "R-6"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ALIENAÇÃO FIDUCIÁRIA",
+    "TIPO DA PARTE": "DEVEDOR FIDUCIANTE",
+    "NOME DA PARTE": "Rosangela Luzinete da Silva Souza",
+    "DOCUMENTO DA PARTE": "06358247441",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "04341781817",
+    "ID": "R-6"
+   },
+   {
+    "MATRICULA": "17506",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ALIENAÇÃO FIDUCIÁRIA",
+    "TIPO DA PARTE": "CREDORA FIDUCIÁRIA",
+    "NOME DA PARTE": "Caixa Econômica Federal",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-6"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "17506",
+    "NOME": "Adolfo Félix da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "01927450420",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, comerciante",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   },
+   {
+    "MATRICULA": "17506",
+    "NOME": "Lucilene Maria da Silva",
+    "DATA DE NASCIMENTO": "06/07/1985",
+    "PROFISSAO": "vendedora pracista Representante Comercial Caixeiro Viajante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "07594158466",
+    "CPF DO CONJUGE": "01837053430",
+    "DOC DE IDENTIFICACAO": "7691485",
+    "ORGAO EMISSOR": "SDS",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, nascida em 06/07/1985, vendedora pracista Representante Comercial Caixeiro Viajante, casada no regime de comunhão parcial de bens",
+    "LOGRADOURO": "Rua Manoel Miguel Sobrinho",
+    "NUMERO": "119",
+    "BAIRRO": "Dona Dom",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "17506",
+    "NOME": "Edson Marques Torres",
+    "DATA DE NASCIMENTO": "28/08/1975",
+    "PROFISSAO": "sem Ocupação",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "01837053430",
+    "CPF DO CONJUGE": "07594158466",
+    "DOC DE IDENTIFICACAO": "02686310080",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, nascido em 28/08/1975, sem Ocupação, casado no regime de comunhão parcial de bens",
+    "LOGRADOURO": "Rua Manoel Miguel Sobrinho",
+    "NUMERO": "119",
+    "BAIRRO": "Dona Dom",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "17506",
+    "NOME": "Emanuel Cristovão de Souza",
+    "DATA DE NASCIMENTO": "13/01/1982",
+    "PROFISSAO": "militar em geral",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "03677890438",
+    "CPF DO CONJUGE": "06358247441",
+    "DOC DE IDENTIFICACAO": "46971",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, nascido em 13/01/1982, militar em geral, casado no regime de comunhão parcial de bens",
+    "LOGRADOURO": "Rua Manoel José dos Prazeres",
+    "NUMERO": "200",
+    "BAIRRO": "Dona Dom",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "17506",
+    "NOME": "Rosangela Luzinete da Silva Souza",
+    "DATA DE NASCIMENTO": "24/04/1986",
+    "PROFISSAO": "do lar",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "06358247441",
+    "CPF DO CONJUGE": "03677890438",
+    "DOC DE IDENTIFICACAO": "04341781817",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, nascida em 24/04/1986, do lar, casada no regime de comunhão parcial de bens",
+    "LOGRADOURO": "Rua Manoel José dos Prazeres",
+    "NUMERO": "200",
+    "BAIRRO": "Dona Dom",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "17506",
+    "NOME DA EMPRESA": "Imobiliária Félix Ltda",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "08823528000172",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Adolfo Félix da Silva",
+    "CPF REPRESENTANTE 1": "01927450420",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "Av. Tito Sinézio Aragão",
+    "NUMERO": "112",
+    "BAIRRO": "Centro",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "17506",
+    "NOME DA EMPRESA": "Caixa Econômica Federal",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "NÃO CONSTA",
+    "ESTADO": "NÃO CONSTA",
+    "REPRESENTANTES NOME": "NÃO CONSTA",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   }
+  ]
+ }
+}

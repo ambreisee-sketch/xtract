@@ -1,0 +1,344 @@
+{
+ "matricula": "4732",
+ "status": "resolvido",
+ "confianca": "alta",
+ "fonte_base": "Matrículas faltantes.xlsx",
+ "explicacao": "A matrícula tinha dois atos com o número 3: o R-3-4732 e a AV-3-4732 (o mesmo ocorre em todas as versões: Cópia 2-BA a 2-BZ, Matriculas_PLANILHA_2-AE_a_2-BZ e Matrículas faltantes). O texto do R-3 mostra que ele foi anulado no próprio livro (\"ADQUIRENTE: Sem efeito. Santa Cruz do Cap. 20/01/99\"): não tem adquirente, título nem valor, e a mesma transmissão de Amaro Honorato da Silva e Vera Lúcia da Silva foi lançada em seguida como R-4-4732, na mesma data. Sem esse lançamento anulado, a sequência única fica R-1, R-2, AV-3, R-4, AV-5, exatamente como os cabeçalhos dos textos indicam, então foi retirado o R-3 \"sem efeito\" e as 2 linhas de partes ligadas a ele; nenhum outro ato foi renumerado. O lançamento retirado não tem efeito jurídico nem dados próprios.",
+ "alteracoes": [],
+ "linhas_removidas": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 4124,
+   "motivo": "Ato \"R-3-4732\" é um lançamento anulado no próprio livro: o texto termina em \"ADQUIRENTE: Sem efeito. Santa Cruz do Cap. 20/01/99\", sem adquirente, título ou valor. A transmissão que ele começava (Amaro Honorato da Silva e Vera Lúcia da Silva) foi refeita no R-4-4732 da mesma data, e o número 3 da sequência única R/AV ficou com a AV-3-4732 (construção, protocolo 11.404): R-1, R-2, AV-3, R-4, AV-5 fecham a sequência 1-5 sem lacunas."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 8429,
+   "motivo": "Parte (transmitente Amaro Honorato da Silva) do R-3 \"sem efeito\" removido; a mesma pessoa continua como transmitente no R-4."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 8430,
+   "motivo": "Parte (transmitente Vera Lúcia da Silva) do R-3 \"sem efeito\" removido; a mesma pessoa continua como transmitente no R-4."
+  }
+ ],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "4732",
+    "ATIVA": "CANCELADA",
+    "DATA ABERTURA": "11/05/1990",
+    "PROPRIETARIOS": "[Imobiliária F. M. Administração e Representação Ltda], cadastrada no CGC sob o nº 08.758.848/0001-53, representada pelo seu sócio Presidente [Fernando Machado], brasileiro, casado, comerciante, residente na cidade do Recife-PE, portador do CIC nº 000.255.184-53",
+    "MATRICULA ANTERIOR": "Em virtude de compra feita a [Manoel Lucas de Araújo] e sua esposa [Maria Neves de Araújo], por escritura pública datada de 28 de julho de 1978 e registrada sob nº R.1 MAT. 687, no livro nº 2-G, fls. 37, em 31 de julho de 1978, do Registro Geral de Imóveis desta Comarca. [Rúbrica]",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "4732",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "450,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "rua projetada 18",
+    "QUADRA": "N",
+    "LOTE": "01",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Loteamento Bela Vista",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "01 (um) lote de terra situado no Loteamento Bela Vista, na quadra N (ene), lote nº 01 (um), nesta cidade, medindo 15,00 metros de frente, 15,00 metros na parte de trás e 30,00 metros de ambos os lados, limitando-se pela frente com a rua projetada 18, do lado direito com a rua projetada 08, do lado esquerdo com o lote nº 02 e na parte de trás com o lote nº 20"
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "11/05/1990",
+    "TEXTO": "R-1-4732 TRANSMITENTE: [Imobiliária F. M. Administração e Representação Ltda], cadastrada no CGC sob o nº 08.758.848/0001-53, representada pelo seu sócio [Fernando Machado], brasileiro, casado, comerciante, residente na cidade do Recife-PE, portador do CIC nº 000.255.184-53. TÍTULO DE TRANSMISSÃO digo, ADQUIRENTE: [Severino Manoel de Souza], brasileiro, casado, motorista, residente nesta cidade, portador do CIC nº 371.853.064-34. TÍTULO DE TRANSMISSÃO: Escritura pública de compra e venda datada de 14 de setembro de 1989, lavrada pelo Tabelião Público [Renato Cordeiro de Arruda], do Cartório Único desta Comarca. Valor Ncxz 1.000,00 (Um mil cruzados novos), no padrão monetário da época. Santa Cruz do Capibaribe 11 de maio de 1990. Eu, [Rúbrica] Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "2",
+    "DATA": "20/01/1999",
+    "TEXTO": "R-2-4732 TRANSMITENTES: [Severino Manoel de Souza] e sua esposa [Josefa Severina de Souza], brasileiros, casados, comerciante, do lar, residentes nesta cidade, portadores do CIC Nº 371.853.064-34. ADQUIRENTES: [Amaro Honorato da Silva] e sua esposa [Vera Lúcia da Silva], brasileiros, casados, motorista, comerciante, residentes nesta cidade, portadores do CIC Nº 33924449449 e 880.472.454-49 respectivamente. TÍTULO DE TRANSMISSÃO: Escritura Pública de compra e venda datada em 04 de janeiro de 1999, lavrada pelo Tabelião Público [Renato Cordeiro de Arruda], no livro nº 105, as fls 51/160v deste Cartório Geral do Registro de Imóveis. Valor R$ 3.800,00 (três mil e oitocentos reais). Santa Cruz do Capibaribe - PE, 20 de janeiro de 1999. Eu [Rúbrica] Oficial do Registro. NOTA: Fica cancelado o presente registro em virtude de lapso. Santa Cruz do Capibaribe - PE, 13 de dezembro de 2005. [Rúbrica] Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "11404",
+    "ATO": "CONSTRUÇÃO",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "20/01/1999",
+    "TEXTO": "AV-3-4732 CERTIFICO e dou fé que conforme requerimento datado em 16.06.94, acompanhado da Certidão municipal local, arquivada neste Cartório, consta que foi construída uma casa residencial no imóvel da presente matrícula sito à Av. Raimunda Maria Aragão nº 250, lote nº 1-D, quadra \"N\" Loteam. Bela Vista nesta cidade. Prefeitura municipal de Santa Cruz do Capibaribe-PE. CERTIDÃO. CERTIFICO, a pedido do Sr. [Amaro Honorato da Silva], brasileiro, casado, motorista, residente nesta cidade, portador do CIC Nº 33924449449, para fins de averbação junto ao Cartório Geral de Imóveis desta cidade, que o imóvel localizado à Av. Raimunda Maria Aragão nº 250, lote 1-D, quadra \"N\", Loteam. Bela Vista (lote desmembrado), nesta cidade, edificado em terreno próprio, acha-se registrado um imóvel residencial de acordo com a petição protocolada sob o nº 11.404, livro nº 05, fls 170 datado em 16.06.1994 em nome do mesmo. CERTIFICO, ainda que o citado imóvel possui atualmente as seguintes características: 05,00 metros na parte da frente, 05,00 metros na parte de trás; 09.90 metros de ambos os lados, 01 porta e 01 janela na parte da frente, 01 sala, 02 quartos, 01 cozinha, 01 banheiro, 01 porta e 01 terraço na parte de trás, em um terreno medindo 05,00 metros na parte da frente por 15,00 metros de ambos os lados. Limitando-se na parte da frente com o leito da Av. Raimunda Maria Aragão, na parte de trás com um imóvel da Rua João Monteiro da Silva, do lado direito com o imóvel nº 254 e do lado esquerdo com um imóvel da Rua João Monteiro da Silva. CERTIFICO, finalmente que o citado imóvel está cadastrado na Prefeitura sob o nº 21.283, no valor de R$ 634,91 (seiscentos e trinta e quatro reais e noventa e um centavos). Santa Cruz do Capibaribe-PE 24/11/1998. [Laucídio Candeia da Rocha] - Secretário de Finanças. Santa Cruz do Capibaribe - PE, 20 de janeiro de 1999. Eu [Rúbrica] Oficial do Registro. NOTA: Fica cancelado o presente registro em virtude de lapso. Santa Cruz do Capibaribe, 13/12/2005. [Rúbrica] Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "4",
+    "DATA": "20/01/1999",
+    "TEXTO": "R-4-4732 TRANSMITENTES: [Amaro Honorato da Silva] e sua esposa [Vera Lúcia da Silva], brasileiros, casados, motorista, comerciante, residentes nesta cidade, portadores do CIC Nº 339.244.494-49 e 880.472.454-49 respectivamente. ADQUIRENTE: [José Edese Alves], brasileiro, casado com a Sra. [Maria do Carmo Soares de Lima Alves], sob o regime da comunhão parcial de bens, operador de máquinas, residente nesta cidade, portador do CIC nº 013.882.974-28 e do RG nº 08.942.717.3 SSP-SP. TÍTULO DE TRANSMISSÃO: Escritura pública de compra e venda, datada de 04 de janeiro de 1999, lavrada pelo Tabelião Público [Renato Cordeiro de Arruda], no livro nº 105, fls 57v/60v deste Cartório Geral de Registro de Imóveis. Valor R$ 3.800,00 (três mil e oitocentos reais). Santa Cruz do Capibaribe - PE, 20 de janeiro de 1999. Eu [Rúbrica] Oficial do Registro. NOTA: Fica cancelado o presente registro, em virtude de lapso. Santa Cruz do Capibaribe-PE, 13/12/2005. O qual foi aberta matrícula no livro nº 2-CH, às fls. 114, sob nº 8.766, do lote 1-D. Eu, [Rúbrica] A Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "DESMEMBRAMENTO",
+    "TIPO ATO": "AV",
+    "ORDEM": "5",
+    "DATA": "NÃO CONSTA",
+    "TEXTO": "AV-5-4732 CERTIFICO, e dou fé, que o lote de terra da presente matrícula foi desmembrado, tornando-se 06 (seis) lotes. Transferido para as fls. 115, do livro 2-CH. [Rúbrica]",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Imobiliária F. M. Administração e Representação Ltda",
+    "DOCUMENTO DA PARTE": "08758848000153",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Severino Manoel de Souza",
+    "DOCUMENTO DA PARTE": "37185306434",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Severino Manoel de Souza",
+    "DOCUMENTO DA PARTE": "37185306434",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Josefa Severina de Souza",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Amaro Honorato da Silva",
+    "DOCUMENTO DA PARTE": "33924449449",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Vera Lúcia da Silva",
+    "DOCUMENTO DA PARTE": "88047245449",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "11404",
+    "ATO": "CONSTRUÇÃO",
+    "TIPO DA PARTE": "REQUERENTE",
+    "NOME DA PARTE": "Amaro Honorato da Silva",
+    "DOCUMENTO DA PARTE": "33924449449",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-3"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Amaro Honorato da Silva",
+    "DOCUMENTO DA PARTE": "33924449449",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Vera Lúcia da Silva",
+    "DOCUMENTO DA PARTE": "88047245449",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "4732",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "José Edese Alves",
+    "DOCUMENTO DA PARTE": "01388297428",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "89427173",
+    "ID": "R-4"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "4732",
+    "NOME": "Fernando Machado",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "00025518453",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, comerciante",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Recife"
+   },
+   {
+    "MATRICULA": "4732",
+    "NOME": "Severino Manoel de Souza",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "motorista",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "37185306434",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, motorista",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "4732",
+    "NOME": "Amaro Honorato da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "motorista",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "33924449449",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, motorista",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "4732",
+    "NOME": "Vera Lúcia da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "88047245449",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileira, casada, comerciante",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "4732",
+    "NOME": "José Edese Alves",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "operador de máquinas",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "01388297428",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "089427173",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "SP",
+    "QUALIFICACAO": "brasileiro, casado com a Sra. Maria do Carmo Soares de Lima Alves, sob o regime da comunhão parcial de bens, operador de máquinas",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "4732",
+    "NOME DA EMPRESA": "Imobiliária F. M. Administração e Representação Ltda",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "8758848000153",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Fernando Machado",
+    "CPF REPRESENTANTE 1": "00025518453",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Recife"
+   }
+  ]
+ }
+}

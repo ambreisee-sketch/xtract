@@ -1,0 +1,297 @@
+{
+ "matricula": "16887",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "A matrícula tinha dois atos com o número 3: a AV-3 (certidão de averbação da construção da casa nº 66 da Rua Sebastião Bastos da Silva, 07/03/2012) e o R-3 (venda de José Francisco da Silva Leão e Gercina Ursulino de Souza Leão a Ernando Corado de Souza, 05/11/2012). Os dois textos trazem o número 3 no cabeçalho (\"Av.3\" e \"R.3\"), a outra versão (consolidada sem \"(1)\") é igual e nenhuma outra matrícula cita a 16887. Como os atos de 07/03/2012 são R.1, Av.2 e Av.3 (numeração única R/AV), a venda de 05/11/2012 é o 4º ato e passou a R-4, com suas 3 partes. A renumeração segue a ordem cronológica (por isso confiança média); o TEXTO foi mantido como está na base.",
+ "alteracoes": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 2508,
+   "coluna": "ORDEM",
+   "antes": "3",
+   "depois": "4",
+   "motivo": "Compra e venda de 05/11/2012 (José Francisco da Silva Leão e Gercina Ursulino de Souza Leão a Ernando Corado de Souza). O número 3 já é da AV-3 (certidão de averbação da construção, 07/03/2012), cujo texto começa com \"Av.3\". Os três atos de 07/03/2012 têm cabeçalhos \"R.1\", \"Av.2\" e \"Av.3\", o que mostra que nesta matrícula R e AV seguem uma numeração única; esta venda é o primeiro ato depois deles, portanto o 4º. O cabeçalho transcrito \"R.3\" repete o número da AV-3; nenhuma outra fonte traz outra numeração, por isso a correção segue a ordem cronológica."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 4937,
+   "coluna": "ID",
+   "antes": "R-3",
+   "depois": "R-4",
+   "motivo": "Parte (Transmitente José Francisco da Silva Leão) da compra e venda de 05/11/2012, renumerada de R-3 para R-4."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 4938,
+   "coluna": "ID",
+   "antes": "R-3",
+   "depois": "R-4",
+   "motivo": "Parte (Transmitente Gercina Ursulino de Souza Leão) da compra e venda de 05/11/2012, renumerada de R-3 para R-4."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 4939,
+   "coluna": "ID",
+   "antes": "R-3",
+   "depois": "R-4",
+   "motivo": "Parte (Adquirente Ernando Corado de Souza) da compra e venda de 05/11/2012, renumerada de R-3 para R-4."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "16887",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "07/03/2012",
+    "PROPRIETARIOS": "Prefeitura Municipal de Santa Cruz do Capibaribe-PE, inscrita no CNPJ/ /MF sob o nº 10.091.569/0001-63",
+    "MATRICULA ANTERIOR": "Em virtude de compra feita a [Maria Nazina Limeira Alves], [lina Maria Limeira Alves Alves], [Antônio Américo de Arruda] e sua esposa [Onélia Alves de Arruda] e [José Balbino Neto] e sua esposa [Maria Félix dos Santos], por escritura pública datada de 09 de novembro de 1956, lavrada nestas notas, pe lo Tabelião Michelo Renato Cordeiro de Arruda e registrada sob o nº 245, livro nº 03, fls 50 a 51, em 30 em 30 de Novem bro de 1956, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE 07 de Março de 2012.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "16887",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "65,74",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Sebastião Bastos da Silva",
+    "QUADRA": "NÃO CONSTA",
+    "LOTE": "NÃO CONSTA",
+    "N": "s/n",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "São Cristovão",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL: Um Terreno do Patrimônio Municipal, situado na Rua Sebastião Bastos da Silva, s/n, São Cristovão, nes ta cidade, medindo 03,80 metros na parte da frente, 03,80 metros na parte de trás e 17,30 metros de ambos os lados, perfa zendo um total de 65,74 m², limitando-se na parte da frente com o leito da Rua Sebastião Bastos da Silva, na parte de trás com o imóvel nº 65, da Rua João Fernandes Vieira, do lado direito com o imóvel nº 70 e do lado esquer do com o imóvel nº 62."
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "16887",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Carta de Aforamento",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "07/03/2012",
+    "TEXTO": "R-1-16887 R.1 - Em 07 de Março de 2012. Carta de Aforamento. Nos termos da Carta de Aforamento sob o nº 2.545, datada de 07 de Fevereiro Mat. de 2012, o Município de Santa Cruz do Capibaribe-PE, representada por seu Prefeito Sr. [Antônio Figueirôa de Siqueira], brasileiro, casado, comerciante, residente a Rua Dep. Graciano Aragão, nº 63, nesta cidade, portador do CPF/MF sob o nº 363.437.224-91 e da Cédula de Identidade nº 2.662.495-SSP/PE, concedeu ao Sr. [José Francisco da Silva Leão], brasileiro, casado, aposentado, portador do CPF/MF sob o nº 084.209.804-63, o direito real de uso do terreno descrito na presente matrícula, conforme requerimento datado do ano de 1996, e registrada na Prefeitura Municipal sob o nº 28.476, no Livro nº 08, as fls. 108; portanto, antes da proibição prevista no art-2.038, do Novo Código Civil Bra sileiro. O referido é verdade e dou fé. Santa Cruz do Capibaribe-PE. 07 de Março de 2012. Eu, [Rúbrica] [Rúbrica] [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "16887",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HABITE-SE",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "07/03/2012",
+    "TEXTO": "AV-2-16887 Av.2 CERTIFICO, e dou fé, a requerimento verbal do proprietário [José Francisco da Silva Leão], portador do CPF/MF mat. sob o nº 084.209.804-63, conforme requerimento arquivado neste Cartório, que averbo o HABITE-SE, emitido local pela Prefeitura Municipal local, em 07 de Fevereiro de 2012, que é do teor seguinte: Prefeitura Municipal de Santa Cruz do Capibaribe-PE. HABITE-SE Nº Processo 28.477. Data 7/2/2012. A Secretária de Infraestrutura, após a vistoria regulamentar, expede o presente TERMO DE HABITE-SE para a obra abaixo caracterizada: Proprietário: [José Francisco da Silva Leão]. Natureza da Obra: Residencial. Alvará: 28.476/2012. Observações: Área total construída: 60,80m². Área do terreno 65,74m². Local da obra: Rua Sebastião Bastos da Silva, 66, São Cristóvão. Responsável pelo Projeto: Endereço: Responsável pela Construção: Santa Cruz do Capibaribe-PE, 7 de Fevereiro de 2012. Fabiano Glicério Ramos. Secretário de Infraestrutura. Santa Cruz do Capibaribe-PE. 07 de Março de 2012. [Rúbrica] [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "16887",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CERTIDÃO DE AVERBAÇÃO",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "07/03/2012",
+    "TEXTO": "AV-3-16887 Av.3 CERTIFICO, e dou fé, a requerimento verbal do proprietário [José Francisco da Silva Leão], portador do CPF/MF sob o nº 084.209.804-63, conforme requerimento arquivado neste Cartório, que averbo a CERTIDÃO DE AVERBA 16.887 ÇÃO, emitida pela Prefeitura Municipal local, para fazer constar que no terreno objeto da presente matrícu la, foi construído uma casa sita a Rua Sebastião Bastos da Silva, 66, São Cristóvão, nesta cidade, o qual estima o referido imóvel, no valor de R$ 20.000,00 (trinta mil reais); cujas características e confron taçoes descritas na certidão de averbação, que e do teor seguinte: Secretaria de Infraestrutura. CERTIDÃO CERTIFICO, a pedido do Sr. [José Francisco da Silva Leão], brasileiro, casado, aposentado, por CPF/MF sob o nº 084.209.804-63, para fins de averbação junto ao Cartório Geral de Imóveis desta cidade, que o imóvel lo calizado na Rua Sebastião Bastos da Silva, 66, São Cristóvão, nesta cidade, edificado em terreno munici pal, acha-se registrado um imóvel residencial de acordo com a Petição registrada sob o nº 28.476, Livro 08, fls. 168, de 07/02/2012 (licença de legalização), em nome do mesmo. CERTIFICO ainda que o citado imóvel possui atualmente as seguintes características: 03,80m na p/ da frente e de trás, 13,30m de ambos os lados, 01 porta na frente, 01 garagem, 01 sala, 01 quarto, 01 corredor, 01 cozinha, 01 banheiro 01 porta, 01 janela e 01 terraço na parte de trás, 01 quarto nos fundos medindo 03,80m x 03,00m, em um terreno medindo 03,80m de frente, por 17,30m de ambos os lados. Área construída: 60,80 m², limitando-se na parte da frente com o leito da Rua Sebastião Bastos da Silva, na parte de trás com o imóvel nº 65 da Rua João Fernandes Vieira, do lado direito com o imóvel nº 70 e do lado esquerdo com o imóvel nº 62. CERTIFICO finalmente que o citado imóvel está cadastrado na Prefeitura sob o nº 3.095, no valor venal de R$ 8.884,80 (oito mil, oitocentos e oitenta e quatro reais e oitenta centavos. Data da expedição: 07/02/2012. 07 de Fevereiro de 2012. Fabiano Glicério Ramos. Secretário de Infraestrutu ra. Santa Cruz do Capibaribe-PE. 07 de Março de 2012. Eu, [Rúbrica] [Rúbrica] [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "16887",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "4",
+    "DATA": "05/11/2012",
+    "TEXTO": "R-3-16887 R.3 Transmitentes: [José Francisco da Silva Leão] e sua Esposa [Gercina Ursulino de Souza Leão], brasileiros, casados, comerciantes, portadores das Cédulas de Identidades Rg nºs: 504.146 SSP/PE e 3.164.216 SSP/PE, Inscritos no CPF/MF sob os nºs 084.209.804-63 e 220.646.054-87, respectivamente, residentes e domiciliados nesta cidade; ADQUIRENTE: [Ernando Corado de Sou za], brasileiro, o qual declara-se solteiro, maior, capaz, comerciante, Inscrito no CPF/MF sob o nº 009.900.134-99, portador da carteira de Identidade RG nº: 6.189.060 SSP/PE, residente e domiciliado no na rua Sebastião Bastos da Silva nº 66, nesta cidade. TÍTULO DE TRANSMISSÃO: Escritura Pública de compra e venda datado de 04 de Outubro de 2012, lavrada nestas notas as fls. 135 a 135V do livro nº 196. Pelo Tabelião Público Renato Cordeiro [Rúbrica] [Rúbrica]. Valor R$ 26.00 0,00 (Vinte e seis mil reais). Santa Cruz do Capibaribe-PE. 05 de Novembro de 2012. Eu, [Rúbrica] [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "16887",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Carta de Aforamento",
+    "TIPO DA PARTE": "Concedente",
+    "NOME DA PARTE": "Município de Santa Cruz do Capibaribe-PE",
+    "DOCUMENTO DA PARTE": "10091569000163",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "16887",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Carta de Aforamento",
+    "TIPO DA PARTE": "Concessionário",
+    "NOME DA PARTE": "José Francisco da Silva Leão",
+    "DOCUMENTO DA PARTE": "08420980463",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "16887",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HABITE-SE",
+    "TIPO DA PARTE": "Requerente",
+    "NOME DA PARTE": "José Francisco da Silva Leão",
+    "DOCUMENTO DA PARTE": "08420980463",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-2"
+   },
+   {
+    "MATRICULA": "16887",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CERTIDÃO DE AVERBAÇÃO",
+    "TIPO DA PARTE": "Requerente",
+    "NOME DA PARTE": "José Francisco da Silva Leão",
+    "DOCUMENTO DA PARTE": "08420980463",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-3"
+   },
+   {
+    "MATRICULA": "16887",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "José Francisco da Silva Leão",
+    "DOCUMENTO DA PARTE": "08420980463",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "504146",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "16887",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Gercina Ursulino de Souza Leão",
+    "DOCUMENTO DA PARTE": "22064605487",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "3164216",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "16887",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Adquirente",
+    "NOME DA PARTE": "Ernando Corado de Souza",
+    "DOCUMENTO DA PARTE": "00990013499",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "6189060",
+    "ID": "R-4"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "16887",
+    "NOME": "Antônio Figueirôa de Siqueira",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "NÃO CONSTA",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "Casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "36343722491",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "2662495",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado, comerciante",
+    "LOGRADOURO": "Rua Dep. Graciano Aragão",
+    "NUMERO": "63",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "16887",
+    "NOME": "José Francisco da Silva Leão",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "NÃO CONSTA",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "Casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "08420980463",
+    "CPF DO CONJUGE": "22064605487",
+    "DOC DE IDENTIFICACAO": "504146",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado, aposentado",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "16887",
+    "NOME": "Gercina Ursulino de Souza Leão",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "NÃO CONSTA",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "Casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "22064605487",
+    "CPF DO CONJUGE": "08420980463",
+    "DOC DE IDENTIFICACAO": "3164216",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, casada, comerciante",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "16887",
+    "NOME": "Ernando Corado de Souza",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "NÃO CONSTA",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "Solteiro",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "00990013499",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "6189060",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, solteiro, comerciante",
+    "LOGRADOURO": "Rua Sebastião Bastos da Silva",
+    "NUMERO": "66",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "16887",
+    "NOME DA EMPRESA": "Prefeitura Municipal de Santa Cruz do Capibaribe-PE",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "10091569000163",
+    "ESTADO": "NÃO CONSTA",
+    "REPRESENTANTES NOME": "Antônio Figueirôa de Siqueira",
+    "CPF REPRESENTANTE 1": "36343722491",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   }
+  ]
+ }
+}

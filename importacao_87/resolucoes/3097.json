@@ -1,0 +1,158 @@
+{
+ "matricula": "3097",
+ "status": "resolvido",
+ "confianca": "alta",
+ "fonte_base": "Matrículas faltantes.xlsx",
+ "explicacao": "Na \"Matrículas faltantes.xlsx\" a 3097 tem só o R-1-3097 (F. M. Administração e Representação Ltda para Creusa Gomes Silvestre, 16/09/1985) e a AV-2-3097 (cancelamento da matrícula por lapso em 17/02/2011, imóvel matriculado sob o nº 9.498), mas sobraram duas linhas de partes de \"Renato Cordeiro de Arruda Júnior\" com ID R-2 e R-3, atos que não existem (regra R2). Essas partes vieram de outro registro que a Cópia 2-AE a 2-AZ também numerou como 3097, mas que é a matrícula 3091 (lote 18-B, quadra H, Cruz Alta): os mesmos atos aparecem como \"R.1 Mat 3091\", \"R.2 Mat 3091\" e \"R.3 Mat. 3.091\" na \"PLANILHA UNICA (1) (1).xlsx\", e a matrícula 27250 cita o \"R.3-Mat. 3.091\" de 26/12/2006. As duas linhas foram retiradas. O resto ficou igual à base: matrícula CANCELADA, com R-1 e AV-2, sem número repetido.",
+ "alteracoes": [],
+ "linhas_removidas": [
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 8154,
+   "motivo": "Parte \"Renato Cordeiro de Arruda Júnior\" (Adquirente, ID R-2) sem ato: a 3097 só tem R-1 e AV-2. É o adquirente do R-2 da matrícula 3091 (compra de Alvaro José de Lima, 29/02/1988); as duas linhas de \"Renato Cordeiro de Arruda Júnior\" vêm de outra matrícula. Na \"Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx\" havia dois registros com o número 3097: o do lote 18-B da quadra H do Loteamento Cruz Alta (Imobiliária Tapera -> Alvaro José de Lima -> Renato Cordeiro de Arruda Júnior -> Givaldo Fernandes da Silva) e este, do lote 04 da quadra AB do Loteamento Bela Vista. O primeiro é a matrícula 3091: na \"PLANILHA UNICA (1) (1).xlsx\" (linhas 24-26) os mesmos atos têm os cabeçalhos \"R.1 Mat 3091\", \"R.2 Mat 3091\" e \"R.3 Mat. 3.091\", e a matrícula 27250 cita \"R.3-Mats 3.088 e 3.091 ... em 26 de dezembro de 2006\", que é a venda de Renato para Givaldo."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 8155,
+   "motivo": "Parte \"Renato Cordeiro de Arruda Júnior\" (Transmitente, ID R-3) sem ato: a 3097 não tem R-3. É o transmitente do R-3 da matrícula 3091 (venda a Givaldo Fernandes da Silva, 26/12/2006); as duas linhas de \"Renato Cordeiro de Arruda Júnior\" vêm de outra matrícula. Na \"Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx\" havia dois registros com o número 3097: o do lote 18-B da quadra H do Loteamento Cruz Alta (Imobiliária Tapera -> Alvaro José de Lima -> Renato Cordeiro de Arruda Júnior -> Givaldo Fernandes da Silva) e este, do lote 04 da quadra AB do Loteamento Bela Vista. O primeiro é a matrícula 3091: na \"PLANILHA UNICA (1) (1).xlsx\" (linhas 24-26) os mesmos atos têm os cabeçalhos \"R.1 Mat 3091\", \"R.2 Mat 3091\" e \"R.3 Mat. 3.091\", e a matrícula 27250 cita \"R.3-Mats 3.088 e 3.091 ... em 26 de dezembro de 2006\", que é a venda de Renato para Givaldo."
+  }
+ ],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "3097",
+    "ATIVA": "CANCELADA",
+    "DATA ABERTURA": "16/09/1985",
+    "PROPRIETARIOS": "[F. M. Administração e Representação Ltda], CGC nº 09.758.848/0001-59, representada pelo Sócio Presidente [Fernando Machado], brasileiro, casado, comerciante, residente na cidade do Recife PE portador do CPF nº 000.255.184-53",
+    "MATRICULA ANTERIOR": "NÃO CONSTA",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "3097",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "NÃO CONSTA",
+    "TIPO AREA": "NÃO CONSTA",
+    "LOGRADOURO": "Rua Projetada",
+    "QUADRA": "AB",
+    "LOTE": "04",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Bela Vista",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "Um lote de terra situado no loteamento Bela Vista na Quadra AB, lote nº 04, nesta cidade medindo 10,00 metros de frente por 30,00 metros de ambos os lados limitando-se na parte da frente com a Rua Projetada, na parte de trás com o lote nº 06, do lado direito com o lote nº 03 e do lado esquerdo com o lote nº 05"
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "3097",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "16/09/1985",
+    "TEXTO": "R-1-3097 TRANSMITENTE: [F. M. Administração e Representação Ltda], CGC nº 09.758.848/0001-59, representada pelo Sócio Presidente [Fernando Machado], brasileiro, casado, comerciante, residente na cidade do Recife PE, portador do CPF nº 000.255.184-53. ADQUIRENTE: [Creusa Gomes Silvestre], brasileira, casada, comerciante, residente nesta cidade, portadora do CPF nº 010.433.904-72. TÍTULO DE TRANSMISSÃO: Escritura Pública de compra e venda, datada de 25 de julho de 1985, lavrada pelo Tabelião Público Renato Cordeiro de Arruda do Cartório único desta Comarca. Valor CR$ 600.000. Santa Cruz do Capibaribe, 16 de setembro de 1985. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "3097",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CANCELAMENTO",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "17/02/2011",
+    "TEXTO": "AV-2-3097 CERTIFICO, e dou fé, que a presente matrícula fica CANCELADA, em virtude de lapso. Cujo imóvel está matriculado sob o nº 9.498, às fls 77, no livro nº 2-AJ, em 27/10/2006. Santa Cruz do Capibaribe - PE, 17 de fevereiro de 2011. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "3097",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "F. M. Administração e Representação Ltda",
+    "DOCUMENTO DA PARTE": "09758848000159",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "3097",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Creusa Gomes Silvestre",
+    "DOCUMENTO DA PARTE": "01043390472",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "3097",
+    "NOME": "Fernando Machado",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "00025518453",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, comerciante, residente na cidade do Recife PE",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Recife"
+   },
+   {
+    "MATRICULA": "3097",
+    "NOME": "Creusa Gomes Silvestre",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "01043390472",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileira, casada, comerciante, residente nesta cidade",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "3097",
+    "NOME DA EMPRESA": "F. M. Administração e Representação Ltda",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "09758848000159",
+    "ESTADO": "NÃO CONSTA",
+    "REPRESENTANTES NOME": "Fernando Machado",
+    "CPF REPRESENTANTE 1": "00025518453",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   }
+  ]
+ }
+}

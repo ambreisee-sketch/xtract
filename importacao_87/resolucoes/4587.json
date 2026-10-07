@@ -1,0 +1,288 @@
+{
+ "matricula": "4587",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "Matrículas faltantes.xlsx",
+ "explicacao": "A 4587 era rejeitada pela regra R3: o R-7 (intransferibilidade) tinha PROTOCOLO \"423/2002\", que é o número do Ofício judicial citado no texto e não um protocolo; ele e suas 2 partes passaram a \"NÃO CONSTA\". O resolvedor tinha retirado o R-7 e o R-8 (arrematação a Antonio Waldemir de Lima) por causa do cabeçalho \"R-7-4.584\"/\"R-8-4.584\", mas o verificador os manteve, como na base verificada: o ofício grava a casa da Rua Cabo Otávio Aragão, nº 194, que é o prédio da AV-2-4.587, e a 4584 real (salão da Av. 29 de Dezembro, 408) tem AV-5 de 2009 e R-6 de 2014 com outro dono, o que torna impossível um R-7 de 2002 e uma arrematação de 2005 nela; a folha de continuação desses atos diz \"Transportado do Livro Nº 2-BB - Fls 01 V\", o mesmo lugar onde o ofício situa o registro da casa. A sequência fica R-1, AV-2, R-7, R-8, sem números repetidos; os atos 3 a 6 (entre eles o R-4 de 05/12/1989 citado no ofício) não existem em nenhuma planilha. Confiança média porque o cabeçalho dos dois atos diz \"4.584\"; vale conferir no livro.",
+ "alteracoes": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 1797,
+   "coluna": "PROTOCOLO",
+   "antes": "423/2002",
+   "depois": "NÃO CONSTA",
+   "motivo": "VERIFICADOR: \"423/2002\" é o número do Ofício judicial citado no texto (\"Ofício nº 423/2002. Em, 22 de Julho de 2002\"), não um protocolo do cartório, e o importador só aceita \"NÃO CONSTA\" ou número de até 9 dígitos (regra R3). Esta era a causa da rejeição. O verificador desfez a retirada do R-7 e do R-8 que o resolvedor tinha feito, porque os dois atos são do imóvel desta matrícula: (1) o ofício grava \"Uma casa situada na Rua Cabo Otávio Aragão, nº 194\", que é o prédio averbado na AV-2-4.587; (2) o cabeçalho \"4.584\" não pode ser da 4584 real (salão da Av. 29 de Dezembro, 408), cuja AV-5 é de 17/04/2009 e cujo R-6 é de 31/03/2014, com venda pelo Espólio de Severino João Bezerra, o que é incompatível com um R-7 de 2002 e uma arrematação de 2005 por outra pessoa; (3) na \"Cópia de PLANILHA SANTA 2-BA a 2-BZ\" a folha \"4584\" desses atos diz \"Transportado do Livro Nº 2-BB - Fls 01 V\", e o ofício situa o registro da casa às \"fls. 01 verso, do livro nº 2-BB\"; (4) o imóvel vizinho (Rua São Miguel, 131, matrícula 4590), alvo do mesmo ofício, recebeu sua própria arrematação na folha \"4.590\". A base verificada pelo usuário (Matrículas faltantes) já punha esses atos na 4587."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 3740,
+   "coluna": "PROTOCOLO",
+   "antes": "423/2002",
+   "depois": "NÃO CONSTA",
+   "motivo": "VERIFICADOR: mesmo protocolo inválido \"423/2002\" (número do Ofício) na parte do R-7; ajustado para ficar igual ao ato."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 3741,
+   "coluna": "PROTOCOLO",
+   "antes": "423/2002",
+   "depois": "NÃO CONSTA",
+   "motivo": "VERIFICADOR: mesmo protocolo inválido \"423/2002\" (número do Ofício) na parte do R-7; ajustado para ficar igual ao ato."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "4587",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "17/11/1989",
+    "PROPRIETARIOS": "[Paróquia do Senhor Bom Jesus de Santa Cruz do Capibaribe-PE], representada pelo Pároco [Manoel Francisco Xavier], brasileiro, solteiro, maior, sacerdote católico, residente nesta cidade, portador do CPF nº 000.338.278-85",
+    "MATRICULA ANTERIOR": "Escrituras públicas de 22/02/1911 e 12/06/1912 e registradas sob os nºs 261 e 165, no Registro Geral de Imóveis da Comarca de Taquaritinga do Norte-PE.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "4587",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "82,48",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua Cabo Otávio Aragão",
+    "QUADRA": "NÃO CONSTA",
+    "LOTE": "NÃO CONSTA",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "Um terreno do Patrimônio do Senhor Bom Jesus desta Cidade de Santa Cruz do Capibaribe-PE, situado à Rua Cabo Otávio Aragão, nesta cidade, medindo 04,70 metros de frente, 04,70 metros na parte de trás, 17,55 metros na lateral direita e 17,55 metros na lateral esquerda, com área total de 82,48m², para fins residencial, limitando-se na parte da frente com o leito da Rua Cabo Otávio Aragão, na parte de trás com José Arruda da Silva (imóvel nº 131, da Rua São Miguel), do lado direito com Sebastião Zacarias Neto (imóvel nº 188) e do lado esquerdo com Severino Manoel da Silva (imóvel nº 190)"
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "4587",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "INTRANSFERIBILIDADE",
+    "TIPO ATO": "R",
+    "ORDEM": "7",
+    "DATA": "27/08/2002",
+    "TEXTO": "R-7-4.584 Poder Judiciário do Estado de Pernambuco. Juízo de Direito da cidade e comarca de Santa Cruz do Capibaribe Cartório da 1ª Vara. Ofício nº 423/2002. Em, 22 de Julho de 2002. Prezado Senhor Solicito de Vossa Senhoria registrar o gravame de intransferibilidade dos bens a seguir relacionados, face a Ação Executiva Definitiva Por Quantia Certa, tombo nº 8.340/2002, tendo como exequente [Confecções Everest S/A] e executada [R. M. Araújo Nunes] representada por [Lucinete Margarida Araújo], dos seguintes bens imóveis: 1) Uma casa situada na Rua Cabo Otávio Aragão, nº 194, Centro nesta cidade, conforme registro sob o nº R-4-MAT. 4.583, às fls. 01 verso, do livro nº 2-BB datado de 05 de dezembro de 1989. 2) Um salão situado na Rua São Miguel, nº 131, Centro, nesta cidade, conforme registro sob o nº R-3-MAT. 4.586, às fls. 04 e 04 Verso, do livro nº 2-BB, datado de 05 de dezembro de 1989. Saliento que o Valor em execução é: R$ 248.340,97 (duzentos e quarenta e oito mil trezentos e quarenta reais e noventa e sete centavos). Sendo o que se apresenta fico no aguardo de suas providência ao mesmo tempo em que reitero votos de consideração e apreço. Atenciosamente, Dra [Inês Maria de Albuquerque Alves] Juíza de Direito em exercício cumulativo. Ilmo Sr. [Renato Cordeiro de Arruda] Tabelião Registro de Imóveis. Santa Cruz do Capibaribe, 27 de Agosto de 2002. Eu, [rubrica] a Oficiala do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "4587",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ARREMATAÇÃO",
+    "TIPO ATO": "R",
+    "ORDEM": "8",
+    "DATA": "06/04/2005",
+    "TEXTO": "R-8-4.584 Da Carta de Arrematação datada de 22 de setembro de 2003, extraída dos autos da Ação Executiva Definitiva por Quantia Certa, tombada sob o nº 8.340/2002, ficou constando que por arrematação, o imóvel da presente matrícula ficou pertencendo a [Antonio Waldemir de Lima], brasileiro, casado, comerciante, residente nesta cidade, portador do CPF nº 418.030.194-68 e da cédula de Identidade nº 3.216.126-SSP/PE, pelo o valor de R$ 50.000,00 (cinquenta mil reais). Santa Cruz do Capibaribe-PE, 06 de Abril de 2005. Eu, [rubrica] a Oficiala do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "4587",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "TRANSMISSÃO",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "17/11/1989",
+    "TEXTO": "R-1-4.587 TRANSMITENTE: A [Paróquia do Senhor Bom Jesus de Santa Cruz do Capibaribe-PE], representada pelo Pároco [Manoel Francisco Xavier], brasileiro, solteiro, maior, sacerdote católico, residente nesta cidade, portador do CIC nº 000.338.278-85. ADQUIRENTE: [Zanzão Barros da Silva], filho de João Francisco de Lima e Francisca Maria de Jesus. TÍTULO DE TRANSMISSÃO: Carta de Aforamento nº 314, registro nº 314, Livro nº 01, fls. 01, data: 14 de novembro de 1989. Valor NCz$ 000.338.278-85 (Cinco cruzados novos). Santa Cruz do Capibaribe, 17 de novembro de 1989. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "4587",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AVERBAÇÃO DE CONSTRUÇÃO",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "17/11/1989",
+    "TEXTO": "AV-2-4.587 Certifico, e dou fé, que conforme requerimento datado de 14 de novembro de 1989, assinado por [Manoel Campina da Silva], acompanhado da certidão municipal local, consta que no terreno objeto da matrícula nº 4.587, acima, foi construído o prédio sito à Rua Cabo Otávio Aragão, nº 194, nesta cidade, conforme a dita certidão que é do teor seguinte: Prefeitura Municipal de Santa Cruz do Capibaribe. Secretaria de Viação, Obra, Urbanismo e Serviços Urbanos. Certidão: Certifico, a pedido da parte interessada, para fins de averbação junto ao Cartório Geral de Imóveis desta cidade, que o imóvel localizado na Rua Cabo Otávio Aragão, 194, edificado em terreno foreiro do Patrimônio Religioso do Senhor Bom Jesus, acha-se editado nesta Prefeitura sob o nº 928, livro 01, fls. 4.587, do exercício de 1957, em nome de [Zanzão Barros da Silva]. Certifico, ainda, que o citado imóvel possui atualmente as seguintes características: 04,70 metros na parte da frente, 04,70 metros na parte de trás, 17,55 metros de ambos os lados, 01 porta e 02 janelas na parte da frente, 02 salas, 02 quartos, 01 corredor, 01 cozinha, 01 sanitário, 01 porta e 01 janela na parte de trás, terreno para muro medindo 04,70 metros de frente, por 03,50 metros de ambos os lados, limitando-se na parte da frente com o leito da Rua Cabo Otávio Aragão, na parte de trás com José Arruda da Silva (imóvel nº 131, da Rua São Miguel), do lado direito com Sebastião Zacarias Neto (imóvel nº 188) e do lado esquerdo com Severino Manoel da Silva (imóvel nº 190). Certifico, finalmente que o referido imóvel está inscrito no cadastro imobiliário desta Prefeitura sob o nº 1.048, no valor venal de NCz$ 1.724,03 (um mil, setecentos e vinte e quatro cruzados novos e três centavos). Do que, para constar, forneço a presente certidão. Santa Cruz do Capibaribe, 14 de novembro de 1989. Deoclicio Carlos da Rocha - Diretor de Obras. Santa Cruz do Capibaribe, 17 de novembro de 1989. Eu, [Rúbrica] O Oficial de Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "4587",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "INTRANSFERIBILIDADE",
+    "TIPO DA PARTE": "Exequente",
+    "NOME DA PARTE": "Confecções Everest S/A",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-7"
+   },
+   {
+    "MATRICULA": "4587",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "INTRANSFERIBILIDADE",
+    "TIPO DA PARTE": "Executada",
+    "NOME DA PARTE": "R. M. Araújo Nunes",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-7"
+   },
+   {
+    "MATRICULA": "4587",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ARREMATAÇÃO",
+    "TIPO DA PARTE": "Arrematante",
+    "NOME DA PARTE": "Antonio Waldemir de Lima",
+    "DOCUMENTO DA PARTE": "41803019468",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "3216126",
+    "ID": "R-8"
+   },
+   {
+    "MATRICULA": "4587",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "TRANSMISSÃO",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Paróquia do Senhor Bom Jesus de Santa Cruz do Capibaribe-PE",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "4587",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "TRANSMISSÃO",
+    "TIPO DA PARTE": "REPRESENTANTE DA TRANSMITENTE",
+    "NOME DA PARTE": "Manoel Francisco Xavier",
+    "DOCUMENTO DA PARTE": "00033827885",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "4587",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "TRANSMISSÃO",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Zanzão Barros da Silva",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "4587",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AVERBAÇÃO DE CONSTRUÇÃO",
+    "TIPO DA PARTE": "REQUERENTE",
+    "NOME DA PARTE": "Manoel Campina da Silva",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-2"
+   },
+   {
+    "MATRICULA": "4587",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AVERBAÇÃO DE CONSTRUÇÃO",
+    "TIPO DA PARTE": "PROPRIETÁRIO",
+    "NOME DA PARTE": "Zanzão Barros da Silva",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-2"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "4587",
+    "NOME": "Antonio Waldemir de Lima",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "41803019468",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "3216126",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado, comerciante",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "4587",
+    "NOME": "Manoel Francisco Xavier",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "sacerdote católico",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "solteiro",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "00033827885",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, solteira, maior, sacerdote católico, residente nesta cidade",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "4587",
+    "NOME DA EMPRESA": "Confecções Everest S/A",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "NÃO CONSTA",
+    "ESTADO": "NÃO CONSTA",
+    "REPRESENTANTES NOME": "NÃO CONSTA",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   },
+   {
+    "MATRICULA": "4587",
+    "NOME DA EMPRESA": "R. M. Araújo Nunes",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "NÃO CONSTA",
+    "ESTADO": "NÃO CONSTA",
+    "REPRESENTANTES NOME": "Lucinete Margarida Araújo",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   },
+   {
+    "MATRICULA": "4587",
+    "NOME DA EMPRESA": "Paróquia do Senhor Bom Jesus de Santa Cruz do Capibaribe-PE",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Manoel Francisco Xavier",
+    "CPF REPRESENTANTE 1": "00033827885",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ]
+ }
+}

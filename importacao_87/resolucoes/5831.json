@@ -1,0 +1,271 @@
+{
+ "matricula": "5831",
+ "status": "resolvido",
+ "confianca": "alta",
+ "fonte_base": "Matrículas faltantes.xlsx",
+ "explicacao": "A matrícula tinha dois atos com o número 4: a AV-4 de 15/07/2011 e o R-4 de 02/09/2011. A AV-4 foi anulada no próprio livro: o texto diz que o lançamento da divisão amigável (livro 182, fls 186/186v) ficou \"SEM EFEITO em virtude de lapso\", a base já a marcava como \"DIVISÃO AMIGÁVEL (SEM EFEITO)\" com REGISTRADO \"N\", e as versões antigas a trazem só como \"AV-4-5.831 CANCELADO\". A mesma escritura foi registrada de novo como R-4-5.831 em 02/09/2011, passando o imóvel a Noêmia Maria da Silva. Foi retirada só a AV-4 sem efeito, que não tinha partes. A sequência fica R-1, AV-2, R-3, R-4, como dizem os cabeçalhos dos textos, sem renumerar nada. A 5831 não existe na \"PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx\".",
+ "alteracoes": [],
+ "linhas_removidas": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 4071,
+   "motivo": "AV-4 de 15/07/2011 (ATO \"DIVISÃO AMIGÁVEL (SEM EFEITO)\", REGISTRADO \"N\", sem partes). O próprio texto diz que esse lançamento da divisão amigável (livro 182, fls 186/186v) ficou \"SEM EFEITO em virtude de lapso\". A mesma escritura de divisão amigável (livro 182, fls 186 a 186v) foi lançada de novo como R-4-5.831 em 02/09/2011, que é o ato válido e fica com o número 4. Nas versões antigas (Cópia 2-BA a 2-BZ e Matriculas_PLANILHA_2-AE_a_2-BZ) esse mesmo lançamento aparece apenas como \"AV-4-5.831 CANCELADO\"."
+  }
+ ],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "5831",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "18/07/1997",
+    "PROPRIETARIOS": "[Prefeitura Municipal de Santa Cruz do Capibaribe - PE]; inscrita no CGC sob o nº 10.091.569/0001-63",
+    "MATRICULA ANTERIOR": "Escritura Pública registrada no livro nº 03, às fls 50 sob o nº 245 datado em 30.11.1956 do Registro Geral de Imóveis desta Comarca.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "5831",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "31,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua Cabo Otávio Aragão",
+    "QUADRA": "NÃO CONSTA",
+    "LOTE": "NÃO CONSTA",
+    "N": "S/Nº",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "UM (01) TERRENO do Patrimônio do município, situado a’ Rua Cabo Otávio Aragão S/Nº nesta cidade. Medindo 6,20 m de frente, 6,20 m de fundos, 5,00 m na lateral direita e 5,00 m na lateral esquerda, com área total de 31,00 m2 para fins comerciais. Limitando-se na parte da frente com a Rua Cabo Otávio Aragão, na parte de trás com o imóvel nº 09 da Rua Ver. José Vieira de Araujo, do lado direito com o imóvel nº 797, e do lado esquerdo com o imóvel nº 807"
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AFORAMENTO",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "18/07/1997",
+    "TEXTO": "R-1-5.831 TRANSMITENTE: [Prefeitura Municipal de Santa Cruz do Capibaribe - PE]; inscrita no CGC sob o nº 10.091.569/0001-63. ADQUIRENTE: [Raimundo Mestre da Silva], brasileiro, casado, agricultor, residente nesta cidade, portador do CIC nº 124.300.804-00. TÍTULO DE TRANSMISSÃO: Carta de Aforamento nº 1.980, registro nº 12.433, livro nº 06, às fls. 25 em 02.07.97 valor R$ 5,00 (cinco reais). Sta Cruz do Capibaribe-PE; 18 de Julho de 1997. Eu, [Rúbrica] O Oficial de Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "12933",
+    "ATO": "AVERBAÇÃO DE CONSTRUÇÃO",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "18/07/1997",
+    "TEXTO": "AV-2-5.831 CERTIFICO e dou fé que conforme requerimento datado em 02.07.1997, acompanhado da Certidão municipal arquivada em Cartório consta que no terreno objeto da mat. Nº 5.831 acima foi construído um salão sito a’ Rua Cabo Otávio Aragão nº 803 nesta cidade, conforme Certidão fornecida pela Prefeitura Municipal desta Cruz do Capibaribe-PE que é do teor seguinte: Prefeitura Municipal de Sta Cruz do Capibaribe-PE, CERTIDÃO. CERTIFICO a pedido do Sr. [Raimundo Mestre da Silva], brasileiro, casado, agricultor, residente nesta cidade, portador do CIC nº 124.300.804-00, para fins de averbação junto ao Cartório Geral de Imóveis desta cidade, que o imóvel localizado p’ Rua Cabo Otávio Aragão nº 803 nesta cidade, edificado em terreno municipal, acha-se registrado um salão único de acordo com a petição protocolada sob o nº 12.933, livro nº 06, às fls. 25 em 02.07.1997 em nome do mesmo. CERTIFICO, ainda que o citado imóvel possui atualmente as seguintes características: medindo 6,20 metros na parte da frente por 5,00 metros de ambos os lados, 01 porta na parte da frente, 01 janela na parte da frente, 01 salão, 01 sanitário, em um terreno medindo 6,20 x 5,00, limitando-se na parte da frente com a Rua Cabo Otávio Aragão, na parte de trás com o imóvel nº 09 da Rua Ver. José Vieira de Araujo, do lado direito com o imóvel nº 197 e do lado esquerdo com o imóvel nº 807. CERTIFICO, finalmente que o citado imóvel está cadastrado na Prefeitura sob o nº 22.321 no valor venal de R$ 5.125,00 (cinco mil cento e vinte e cinco reais). Sta Cruz do Capibaribe-PE, 04 de Julho de 1997. Dióscoro Passos da Rocha - Diretor de Obras. Sta Cruz do Capibaribe-PE; 18 de Julho de 1997. Eu, [Rúbrica] O Oficial de Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "3",
+    "DATA": "26/01/2000",
+    "TEXTO": "R-3-5.831 TRANSMITENTES: [Raimundo Mestre da Silva] e sua esposa [Maria Amélia da Silva], brasileiros, casados, aposentados, do lar, residentes nesta cidade, portadores do CIC nº 124.300.804-00; ADQUIRENTES: [Maria da Glória da Silva Mestre], brasileira, solteira, maior, enfermeira, portadora do CIC nº 165.623.994-91 e da cédula de identidade nº 1.507.159-SSP/PE. TÍTULO DE TRANSMISSÃO, digo e [Noêmia Maria da Silva], brasileira, separada judicialmente, comerciante, portadora do CIC nº 025.587.724-22 e da cédula de identidade nº 4.901.551-SSP/PE. TÍTULO DE TRANSMISSÃO: Escritura Pública de Compra e venda, com o digo, o consentimento de seus filhos genros e noras identificados na Escritura datada em 24 de outubro de 1999, lavrada pelo tabelião Renato Cordeiro de Arruda no livro nº 107, às folhas nº 67/71v deste cartório de Registro Geral de Imóveis. Valor R$ 3.250,00. Santa Cruz do Capibaribe-PE, 26 de janeiro de 2000. Eu, [Rúbrica] o Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "DIVISÃO AMIGÁVEL",
+    "TIPO ATO": "R",
+    "ORDEM": "4",
+    "DATA": "02/09/2011",
+    "TEXTO": "R-4-5.831 Por Escritura Pública de Divisão Amigável, datada de 13 de junho de 2011, lavrada nestas notas, às fls nº 186 a 186v, no livro nº 182, pelo Tabelião Público Substituta Fernanda Cordeiro de Arruda; Pelas outorgantes e reciprocamente outorgadas [Maria da Glória da Silva Mestre] e [Noêmia Maria da Silva], o imóvel objeto da presente matrícula passa a pertencer na proporção de 100% (cem por cento) à Srª [Noêmia Maria da Silva], brasileira, separada judicialmente, comerciante, inscrita no CPF/MF sob o nº 025.587.724-22, portadora da carteira de identidade RG nº 4.901.551-SSP/PE, residente e domiciliada na Rua Cabo Otávio Aragão nº 803 nesta cidade. Pelo valor de R$ 12.500,00 (doze mil e quinhentos reais). Santa Cruz do Capibaribe-PE, 02 de setembro de 2011. Eu, [Rúbrica] Oficial do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AFORAMENTO",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Prefeitura Municipal de Santa Cruz do Capibaribe - PE",
+    "DOCUMENTO DA PARTE": "10091569000163",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AFORAMENTO",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Raimundo Mestre da Silva",
+    "DOCUMENTO DA PARTE": "12430080400",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "12933",
+    "ATO": "AVERBAÇÃO DE CONSTRUÇÃO",
+    "TIPO DA PARTE": "REQUERENTE",
+    "NOME DA PARTE": "Raimundo Mestre da Silva",
+    "DOCUMENTO DA PARTE": "12430080400",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-2"
+   },
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Raimundo Mestre da Silva",
+    "DOCUMENTO DA PARTE": "12430080400",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Maria Amélia da Silva",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Maria da Glória da Silva Mestre",
+    "DOCUMENTO DA PARTE": "16562399491",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "1507159",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Noêmia Maria da Silva",
+    "DOCUMENTO DA PARTE": "02558772422",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "4901551",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "DIVISÃO AMIGÁVEL",
+    "TIPO DA PARTE": "OUTORGANTE E RECIPROCAMENTE OUTORGADA",
+    "NOME DA PARTE": "Maria da Glória da Silva Mestre",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "5831",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "DIVISÃO AMIGÁVEL",
+    "TIPO DA PARTE": "OUTORGANTE E RECIPROCAMENTE OUTORGADA",
+    "NOME DA PARTE": "Noêmia Maria da Silva",
+    "DOCUMENTO DA PARTE": "02558772422",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "4901551",
+    "ID": "R-4"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "5831",
+    "NOME": "Raimundo Mestre da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "agricultor",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "12430080400",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, agricultor, residente nesta cidade",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "5831",
+    "NOME": "Maria da Glória da Silva Mestre",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "enfermeira",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "solteira",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "16562399491",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "1507159",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, solteira, maior, enfermeira",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   },
+   {
+    "MATRICULA": "5831",
+    "NOME": "Noêmia Maria da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "separada judicialmente",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "02558772422",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "4901551",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, separada judicialmente, comerciante",
+    "LOGRADOURO": "Rua Cabo Otávio Aragão",
+    "NUMERO": "803",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "5831",
+    "NOME DA EMPRESA": "Prefeitura Municipal de Santa Cruz do Capibaribe - PE",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "10091569000163",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "NÃO CONSTA",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ]
+ }
+}

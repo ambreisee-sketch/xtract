@@ -1,0 +1,290 @@
+{
+ "matricula": "5931",
+ "status": "resolvido",
+ "confianca": "alta",
+ "fonte_base": "Matrículas faltantes.xlsx",
+ "explicacao": "A matrícula tinha duas AV-3. A primeira (base: \"DESMEMBRAMENTO (CANCELADO)\", REGISTRADO \"N\") foi anulada no próprio livro: o texto termina com \"Fica cancelada a AV.3 da presente matrícula\". A segunda é a AV-3 válida, o desmembramento do lote 20 em 20-A, 20-B e 20-C (planta aprovada em 16/04/1998), que cita o R.2 de Benedito Florentino Pessoa e é a base da AV-4 (desmembramento do lote 20-A). Nas versões antigas (Cópia 2-BA a 2-BZ e Matriculas_PLANILHA_2-AE_a_2-BZ) a AV-3 válida aparece duas vezes com o mesmo texto, o que confirma que só há uma AV-3 válida. A matrícula 13576 cita o \"R.2-Mat. 5.931\" e a \"AV.4 ... 5.931\". Foi retirada a AV-3 cancelada e a linha repetida da Prefeitura ligada a ela; a sequência fica R-1, R-2, AV-3, AV-4, sem renumerar nada. A 5931 não existe na \"PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx\".",
+ "alteracoes": [],
+ "linhas_removidas": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 4075,
+   "motivo": "Primeira \"AV-3-5931\" (ATO \"DESMEMBRAMENTO (CANCELADO)\", REGISTRADO \"N\"). O próprio lançamento foi anulado no livro: o texto termina com \"Fica cancelada a AV.3 da presente matrícula\" e ainda cita uma planta aprovada em 09.02.1999, data posterior ao próprio lançamento (11/05/1998). O número 3 ficou com a AV-3 válida (desmembramento em lotes 20-A, 20-B e 20-C, planta aprovada em 16/04/1998, eng. Tilmilsom Altamir Cunha), que é a base da AV-4 (novo desmembramento do lote 20-A). A matrícula 13576 confirma a sequência ao citar o \"R.2-Mat. 5.931\" e o \"AV.4-Mat. ... 5.931\"."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 8344,
+   "motivo": "Linha repetida: havia duas partes idênticas \"Prefeitura Municipal de Santa Cruz do Capibaribe - PE\" (Parte, DESMEMBRAMENTO, ID AV-3), uma para cada AV-3. Com a retirada da AV-3 cancelada, fica uma só (linha 8345), ligada à AV-3 válida, junto com Benedito Florentino Pessoa."
+  }
+ ],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "5931",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "09/02/1998",
+    "PROPRIETARIOS": "[Imobiliária F.M Administração e Representação Ltda], com sede à rua Conde Pereira Carneiro nº 129 - Imbiribeira - Recife - PE, inscrita no CGC sob o nº 09.758.878/0001-59, neste ato representada pelo seu proprietário Sr. [Fernando Machado], brasileiro, casado, comerciante, residente nesta cidade, portador do CIC nº 000.255.184-53",
+    "MATRICULA ANTERIOR": "NÃO CONSTA",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "5931",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "450,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua Projetada nº 27",
+    "QUADRA": "QFº AF",
+    "LOTE": "20",
+    "N": "20",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Bela Vista",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "UM (01) lote de terras de Nº 20 (vinte), situado na Quadra nº QFº AF (a efe), no Loteamento Bela Vista, nesta cidade. Medindo 15.00 metros na parte da frente, 15.00 metros na parte de trás e 30.00 metros de ambos os lados. Limitando-se na parte da frente com a Rua Projetada nº 27, na parte de trás com o lote nº 01, do lado direito com o lote nº 19, do lado esquerdo com a Rua Projetada nº 10. limitando-se na parte da frente digo"
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "5931",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "09/02/1998",
+    "TEXTO": "R-1-5931 TRANSMITENTE: A [Imobiliária F M Administração e Representação Ltda] acima citada. ADQUIRENTE: [Amaro Honorato da Silva], brasileiro, casado com a Sra. [Vera Lúcia da Silva], sob o regime da Comunhão parcial de bens, comerciante, residente nesta cidade, portador do CIC Nº 33924449449 e do RG nº 2.157.645 SSP-PE. TÍTULO DE TRANSMISSÃO: Escritura Pública de compra e venda datada em 26.01.1998, lavrada pelo Tabelião Público [Renato Cordeiro de Arruda], no Livro Nº 99, às fls 134V/136V deste Cartório Geral do Registro de Imóveis. Valor R$ 2.500,00 (dois mil e quinhentos reais). Santa Cruz do Capibaribe - PE, 09 de fevereiro de 1998. [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "5931",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "2",
+    "DATA": "11/05/1998",
+    "TEXTO": "R-2-5931 TRANSMITENTES: [Amaro Honorato da Silva] e sua esposa [Vera Lúcia da Silva], brasileiros, casados, comerciantes, residentes nesta cidade, portadores do CIC nº 33924449449 e 880.472.454-49 respectivamente. ADQUIRENTE: [Benedito Florentino Pessoa], brasileiro, casado com a Sra [Joselilda Otília da Silva Pessoa], motorista, residente nesta cidade, portador do CIC nº 138.104.894-68. TÍTULO DE TRANSMISSÃO: Escritura Pública de Compra e venda, datada em 05 de maio de 1998 lavrada pelo Tabelião Público [Renato Cordeiro de Arruda], no livro nº 99, às fls 162V/165 deste Cartório Geral do Registro de Imóveis. Valor R$ 2.500,00 (dois mil e quinhentos reais). Santa Cruz do Capibaribe - PE, 11 de maio de 1998. [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "5931",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "DESMEMBRAMENTO",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "14/05/1998",
+    "TEXTO": "AV-3-5931 CERTIFICO, dou fé, que o lote de terras objeto da presente matrícula foi desmembrado, conforme planta de desmembramento, aprovada pela Prefeitura Municipal local, em 16 de abril de 1998, assinada pelo Engenheiro Civil [Tilmilsom Altamir Cunha], arquivada neste Cartório. ficando assim discriminado: LOTE Nº 20-A: medindo 15,00 metros na parte da frente, 15,00 metros na parte de trás e 20,00 metros de ambos os lados, perfazendo um total de 300,00 m², limitando-se na parte da frente com o leito da Rua Maria F. Ramos, na parte de trás com o lote nº 20-B, do lado direito com o lote nº 19 e do lado esquerdo com o leito da Rua Maria G. de Araújo. LOTE Nº 20-B: medindo 05,00 metros na parte da frente, 05,00 metros na parte de trás e 15,00 metros de ambos os lados, perfazendo um total de 75,00 m², limitando-se na parte da frente com o leito da Rua Maria G. de digo, limitando-se na parte da frente com o leito da Rua Maria G. de Araújo, na parte de trás com parte do lote nº 19, do lado direito com o lote nº 20-A e do lado esquerdo com o lote nº 20-C. LOTE Nº 20-C: medindo 05,00 metros na parte da frente, 05,00 metros na parte de trás e 15,00 metros de ambos os lados, perfazendo um total de 75,00 m², limitando-se na parte da frente com o leito da Rua Maria G. de Araújo, na parte de trás com parte do lote nº 19, do lado direito com o lote nº 20-B e do lado esquerdo com o lote nº 01 e que o lote nº 20-A foi vendido ao Sr. [Benedito Florentino Pessoa], conforme registro de nº R.2 MAT. 5.931, deste livro. Santa Cruz do Capibaribe-PE, 11 de maio de 1998. [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "5931",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "DESMEMBRAMENTO",
+    "TIPO ATO": "AV",
+    "ORDEM": "4",
+    "DATA": "NÃO CONSTA",
+    "TEXTO": "AV-4-5931 CERTIFICO e dou fé, que o lote de terras de nº 20-A, da presente matrícula foi desmembrado, tornando-se 03 (três) lotes de terras de nos 20-A, 20-B e 20-C (vinte a, vinte bê e vinte cê), situados na AFº \"AF\" (a efe), no Loteamento Bela Vista, nesta cidade, com as seguintes características: LOTE Nº 20-A: medindo 05,00 metros na parte da frente, 05,00 metros na parte de trás e 20,00 metros de ambos os lados, perfazendo um total de 100,00 m2. limitando-se na parte da frente com o leito da Rua Amaral das Chagas, na parte de trás com o lote nº 20-B, do lado direito com o lote nº 19 e do lado esquerdo com o lote nº 20-C. LOTE Nº 20-B: medindo 05,00 metros na parte da frente, 05,00 metros na parte de trás e 20,00 metros de ambos os lados, perfazendo um total de 100,00 m2, limitando-se na parte da frente com o",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "5931",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Imobiliária F M Administração e Representação Ltda",
+    "DOCUMENTO DA PARTE": "09758878000159",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "5931",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Adquirente",
+    "NOME DA PARTE": "Amaro Honorato da Silva",
+    "DOCUMENTO DA PARTE": "33924449449",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "RG 2157645 SSP-PE",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "5931",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Amaro Honorato da Silva",
+    "DOCUMENTO DA PARTE": "33924449449",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "5931",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Vera Lúcia da Silva",
+    "DOCUMENTO DA PARTE": "88047245449",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "5931",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Adquirente",
+    "NOME DA PARTE": "Benedito Florentino Pessoa",
+    "DOCUMENTO DA PARTE": "13810489468",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "5931",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "DESMEMBRAMENTO",
+    "TIPO DA PARTE": "Parte",
+    "NOME DA PARTE": "Prefeitura Municipal de Santa Cruz do Capibaribe - PE",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-3"
+   },
+   {
+    "MATRICULA": "5931",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "DESMEMBRAMENTO",
+    "TIPO DA PARTE": "Parte",
+    "NOME DA PARTE": "Benedito Florentino Pessoa",
+    "DOCUMENTO DA PARTE": "13810489468",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-3"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "5931",
+    "NOME": "Fernando Machado",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "00025518453",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, comerciante, residente nesta cidade",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "5931",
+    "NOME": "Amaro Honorato da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "33924449449",
+    "CPF DO CONJUGE": "88047245449",
+    "DOC DE IDENTIFICACAO": "2157645",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado com a Sra. Vera Lúcia da Silva, sob o regime da Comunhão parcial de bens, comerciante, residente nesta cidade",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "5931",
+    "NOME": "Vera Lúcia da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "88047245449",
+    "CPF DO CONJUGE": "33904449449",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileira, casada, comerciante, residente nesta cidade",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "5931",
+    "NOME": "Benedito Florentino Pessoa",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "motorista",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "13810489468",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado com a Sra Joselilda Otília da Silva Pessoa, motorista, residente nesta cidade",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "5931",
+    "NOME DA EMPRESA": "Imobiliária F.M Administração e Representação Ltda",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "97588780008159",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Fernando Machado",
+    "CPF REPRESENTANTE 1": "00025518453",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "Rua Conde Pereira Carneiro",
+    "NUMERO": "129",
+    "BAIRRO": "Imbiribeira",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Recife"
+   },
+   {
+    "MATRICULA": "5931",
+    "NOME DA EMPRESA": "Prefeitura Municipal Local",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "NÃO CONSTA",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ]
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "matricula": "2745",
+ "status": "resolvido",
+ "confianca": "baixa",
+ "fonte_base": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx",
+ "explicacao": "A 2745 só existe nas planilhas antigas (Cópia 2-AE a 2-AZ e Matriculas_PLANILHA_2-AE_a_2-BZ); não está na \"PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1)\". Ela não tem erro de numeração: tem um único ato (R-1, hipoteca ao Banco do Brasil de 29/07/1987) e as partes estão ligadas a ele. O problema era a descrição do imóvel, que continha o final do texto do próprio R-1 (prestações e o fecho \"Dejam em hipoteca... 29 de julho de 1987\"), copiado da página de continuação; esse trecho foi retirado e ficou só \"Transportado do Livro nº 2 AE, fls. 04 verso.\". A DATA ABERTURA 31987 foi convertida para 29/07/1987. Atenção: a descrição real do imóvel (endereço, medidas, confrontações), o proprietário e o título anterior não aparecem em nenhuma planilha nem em citação de outra matrícula (o arquivo \"LIVRO 2-AE (2)\" vai da 2706 à 2761 sem a 2745); precisam ser completados pelo livro 2-AE, fls. 04/04v. Por isso a confiança é baixa: a matrícula importa sem erro, mas fica sem a descrição do imóvel. VERIFICADOR: a DATA ABERTURA ficou NÃO CONSTA, porque 29/07/1987 é a data da hipoteca; pela sequência do livro 2-AE (2743 aberta em 31/10/1984, 2746 em 06/11/1984) a 2745 foi aberta no começo de novembro de 1984. Isso também mostra que esta página é continuação (\"Transportado do Livro nº 2 AE, fls. 04 verso\"): a abertura, a descrição e possíveis atos anteriores a 1987 estão no livro, e o número \"R-1\" da hipoteca (que vem só do cabeçalho digitado) deve ser conferido no livro antes de importar; se houver atos anteriores, ela não será o R-1. O trecho retirado da DESCRICAO (parcelas de 22/08/87 a 22/07/90, CZ$ 4.470,00) não está no TEXTO do R-1 e fica registrado só em \"alteracoes\".",
+ "alteracoes": [
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 176,
+   "coluna": "DESCRICAO",
+   "antes": "Transportado do Livro nº 2 AE, fls. 04 verso. suctivas, vencendo-se a primeira em 22/08/87 e a última em 22/07/90, sendo cada uma das seis primeiras de valor de CZ$ 4.470,00 (quatro mil, quatrocentos e setenta cruzados) e as 30 (trinta) subsequentes de valor correspondente, a contar da data do título juros 2.745% a.p./q. meses de p.m. Dejam em hipoteca, além do outro imóvel objeto da matrícula Santa Cruz do Capibaribe, 29 de julho de 1987. Eu, [Rúbrica] O Oficial do Registro",
+   "depois": "Transportado do Livro nº 2 AE, fls. 04 verso.",
+   "motivo": "Depois da frase \"Transportado do Livro nº 2 AE, fls. 04 verso.\" a DESCRICAO não descreve imóvel: é o final do texto do R-1 (hipoteca por cédula de crédito industrial), com as prestações (\"vencendo-se a primeira em 22/08/87 e a última em 22/07/90 ... CZ$ 4.470,00\") e o mesmo fecho do R-1 (\"Dejam em hipoteca, além do outro imóvel objeto da matrícula Santa Cruz do Capibaribe, 29 de julho de 1987. Eu, [Rúbrica] O Oficial do Registro\"). O \"2.745% a.p./q.\" é o número da matrícula lido como taxa de juros. Esse trecho foi retirado e ficou só a referência à folha onde está a descrição. A descrição verdadeira não está em nenhuma planilha."
+  },
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 184,
+   "coluna": "DATA ABERTURA",
+   "antes": "31987.0",
+   "depois": "29/07/1987",
+   "motivo": "Número de série de data do Excel (31987 = 29/07/1987), convertido para dd/mm/aaaa; é a mesma data do R-1 (\"Santa Cruz do Capibaribe, 29 de julho de 1987\")."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 620,
+   "coluna": "ORDEM",
+   "antes": "1.0",
+   "depois": "1",
+   "motivo": "Formato: número 1.0 gravado como texto \"1\"."
+  },
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 184,
+   "coluna": "NOTAS",
+   "antes": "(vazio)",
+   "depois": "NÃO CONSTA",
+   "motivo": "Formato: célula vazia vira \"NÃO CONSTA\"."
+  },
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 184,
+   "coluna": "DATA ABERTURA",
+   "antes": "29/07/1987",
+   "depois": "NÃO CONSTA",
+   "motivo": "VERIFICADOR: 29/07/1987 (série 31987 da Cópia) é a data da hipoteca, não a da abertura. As matrículas vizinhas do mesmo livro 2-AE mostram que a 2745 foi aberta entre 31/10/1984 (2743) e 06/11/1984 (2746); a numeração é cronológica (2739-2742 em 26/10/1984, 2743 em 31/10/1984, 2746 em 06/11/1984, 2750 em 08/11/1984, 2751-2754 em 09/11/1984). A data exata não está em nenhuma planilha, por isso fica NÃO CONSTA em vez de uma data errada de 1987."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "2745",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "NÃO CONSTA",
+    "PROPRIETARIOS": "NÃO CONSTA",
+    "MATRICULA ANTERIOR": "Transportado do Livro nº 2 AE, fls. 04 verso",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "2745",
+    "TIPO IMOVEL ONR": "NÃO CONSTA",
+    "AREA TOTAL": "NÃO CONSTA",
+    "TIPO AREA": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "QUADRA": "NÃO CONSTA",
+    "LOTE": "NÃO CONSTA",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "Transportado do Livro nº 2 AE, fls. 04 verso."
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "2745",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HIPOTECA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "29/07/1987",
+    "TEXTO": "R-1-2745\nPor Cédula de Crédito Industrial de 22 de julho de 1987, os devedores hipotecantes [Maria José Avelino da Silva] e seu esposo [Severino Pedro da Silva], brasileiros, casados, ela comerciante ele artesão, residentes nesta cidade portadores dos CPFs nos 543.933.454-87 e 076.343.314-49 respectivamente, tendo se confessados devedores ao [Banco do Brasil S/A], Agência de Santa Cruz do Capibaribe - PE, Instituição Financeira sob a forma de empresa pública, já qualificada na referida Cédula de Crédito Industrial, com sua sede em Brasília - Capital Federal, representada na forma mencionada no final desse instrumento, doravante designado B.B. S/A, na quantia de CZ$ 61.000,00 (sessenta e um mil cruzados), a ser-lhe pago em prestações a contar da data do título juros de 8,5% de variação que se verificar no valor unitário da OTN e juros remuneratórios de 3,0% e mais 0,5% da taxa de serviço. Dejam em hipoteca, além do outro imóvel objeto da matrícula Santa Cruz do Capibaribe, 29 de julho de 1987. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "2745",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HIPOTECA",
+    "TIPO DA PARTE": "Devedora hipotecante",
+    "NOME DA PARTE": "Maria José Avelino da Silva",
+    "DOCUMENTO DA PARTE": "54393345487",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "2745",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HIPOTECA",
+    "TIPO DA PARTE": "Devedor hipotecante",
+    "NOME DA PARTE": "Severino Pedro da Silva",
+    "DOCUMENTO DA PARTE": "07634331449",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "2745",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HIPOTECA",
+    "TIPO DA PARTE": "Credor",
+    "NOME DA PARTE": "Banco do Brasil S/A",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "2745",
+    "NOME": "Maria José Avelino da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "Casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "54393345487",
+    "CPF DO CONJUGE": "07634331449",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileira, casada, comerciante, residente nesta cidade",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "Pernambuco",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "2745",
+    "NOME": "Severino Pedro da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "artesão",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "Casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "07634331449",
+    "CPF DO CONJUGE": "54393345487",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, artesão, residente nesta cidade",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "Pernambuco",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "2745",
+    "NOME DA EMPRESA": "Banco do Brasil S/A",
+    "NOME FANTASIA": "B.B. S/A",
+    "CNPJ/CGC": "NÃO CONSTA",
+    "ESTADO": "Distrito Federal",
+    "REPRESENTANTES NOME": "NÃO CONSTA",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Brasília"
+   }
+  ]
+ }
+}

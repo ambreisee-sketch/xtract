@@ -1,0 +1,367 @@
+{
+ "matricula": "15937",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "A matrícula 15937 foi aberta por engano em 07/06/2011 para o solo 1.328 do Moda Center, com o R-1 de concessão do Município a José Trajano da Silva Júnior. O próprio livro cancelou esse registro (\"Fica CANCELADA em virtude de lapso\"), porque o solo e a concessão já estavam na matrícula 15933. No mesmo dia, uma NOTA refez a matrícula para o lote 12 da quadra 06 do Loteamento São Miguel II, de Luiz Carlos Alves de Siqueira (título R-1/AV-2-Mat. 15.007), e a numeração recomeçou: Av.1 (habite-se, 13/01/2014), Av.2 (construção), R3 (venda a Juliana Gomes de Melo) e R4 (alienação fiduciária à Caixa), todos de 2014. A planilha tinha R-1, AV-1 e AV-1 com o número 1, e as duas AV-1 eram o mesmo texto (NOTA + Av.1). Foi retirado o R-1 cancelado, com suas 3 partes e os cadastros só ligados a ele, e a cópia da AV-1. MATRÍCULA e T. URBANO passaram a ter o imóvel, o proprietário e o título da NOTA, e ATIVA passou a \"ATIVA\". A sequência ficou AV-1, AV-2, R-3, R-4, igual aos cabeçalhos do livro. A confiança é média porque o cabeçalho foi trocado com base na NOTA; vale conferir no livro. VERIFICADOR: a matrícula 15607 (lote 12, quadra 06, São Miguel II, R-1 de 25/02/2011 a Luiz Carlos Alves de Siqueira, AV-2 de desmembramento em 12 e 12-A de 27/04/2011) confirma na AV-3 de 07/06/2011 que o lote 12 ficou com Luiz Carlos em matrícula aberta nesse dia e o 12-A foi para a 15.938; por isso o \"15.007\" citado na NOTA (mantido como no texto) corresponde, pelas datas e folhas, à 15.607, já que a 15007 das planilhas é outro lote (quadra L, Nelo Aragão).",
+ "alteracoes": [
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 796,
+   "coluna": "ATIVA",
+   "antes": "CANCELADA",
+   "depois": "ATIVA",
+   "motivo": "O \"CANCELADA\" vem do fecho do R-1 (\"Fica CANCELADA em virtude de lapso\"), que anulou só a abertura feita por engano para o solo 1.328 do Moda Center. A matrícula continuou em uso para o lote 12: AV-1 e AV-2 em 13/01/2014, R-3 e R-4 em 27/08/2014, com alienação fiduciária à Caixa."
+  },
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 796,
+   "coluna": "PROPRIETARIOS",
+   "antes": "[O Município de Santa Cruz do Capibaribe-PE], sob o nº 10.091.569/0001-63",
+   "depois": "[Luiz Carlos Alves de Siqueira], brasileiro, casado, motorista, portador da Cédula de Identidade nº 847.539-SSP/PE, inscrito no CPF/MF sob o nº 839.743.694-49, residente e domiciliado na Rua Belo Horizonte, nº 570, Santa Tereza, nesta cidade",
+   "motivo": "Proprietário copiado sem mudanças do campo \"PROPRIETÁRIO:\" da NOTA. A NOTA lançada no livro em 07/06/2011, logo após o R-1 cancelado por lapso, refaz a matrícula 15937 para o imóvel verdadeiro (texto das linhas 1543/1544: \"NOTA: IMÓVEL: 01 (um) lote de terra de nº 12 (doze), situado na quadra nº 06 (seis), no Loteamento São Miguel II ... PROPRIETÁRIO: [Luiz Carlos Alves de Siqueira] ... TÍTULO ANTERIOR: ... R-1-Mat. 15.007 ... AV-2-Mat. 15.007 ... 07 de Junho de 2011\"). Todos os atos seguintes (habite-se, construção na Rua Olavo Bilac 671, venda a Juliana Gomes de Melo e alienação fiduciária à Caixa) tratam desse lote. A matrícula 15938, aberta no mesmo dia para o lote 12-A (desmembrado do lote 12, mesma origem R-1/AV-2-Mat. 15.007), confronta \"do lado esquerdo com o lote n.º 12\". A descrição da base (solo 1.328 do Moda Center, do Município) era a da abertura feita por lapso: esse solo já está na matrícula 15933."
+  },
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 796,
+   "coluna": "MATRICULA ANTERIOR",
+   "antes": "Em virtude de Escritura Pública de Desapropriação amigável datada de 10 de Novembro de 1999, lavrada nestas notas, pelo Tabelião Público Renato Cordeiro de Arruda e registrada sob o nº R.1-Mat. 3.215, às fls. 94, no livro nº 2-AF, em 21 de Dezembro de 1999, encontrando-se atualmente matriculado sob o nº MAT. 7.033, às fls. 152, no livro nº 2-BU, em 26 de Abril de 2002, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE. 07 de Junho de 2011.",
+   "depois": "Em virtude de Compra feita a [Imobiliária A.C.T. Incorporações Ltda.], por Escritura Pública de Compra e Venda, lavrada nestas notas pelo Tabelião Público Renato Cordeiro de Arruda, às fls. 83/83v, no livro nº 178, em 06 de Dezembro de 2010, e registrada sob o nº R-1-Mat. 15.007, no livro nº 2-DQ, às fls. 150, em 25 de Fevereiro de 2011, encontrando-se atualmente averbado sob o nº AV-2-Mat. 15.007, no livro nº 2-DQ, às fls. 150, em 27 de Abril de 2011, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE. 07 de Junho de 2011.",
+   "motivo": "Título anterior copiado sem mudanças do campo \"TÍTULO ANTERIOR:\" da NOTA."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 792,
+   "coluna": "DESCRICAO",
+   "antes": "IMÓVEL: 01 (um) saldo de nº 1.328, no Setor nº 04, na Rua nº 13, no Santa Cruz Moda Center, nesta cidade, medindo 02,00 metros na parte da frente, 02,00 metros na parte de trás e 0,90 centímetros de ambos os lados; limitando-se: na parte da frente com a Rua nº 13 na parte de trás com a Rua de Serviço nº 13, do lado direito com o box nº 1327 e do lado esquerdo com a Rua nº 24.",
+   "depois": "IMÓVEL: 01 (um) lote de terra de nº 12 (doze), situado na quadra nº 06 (seis), no Loteamento São Miguel II, nesta cidade, medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 18,00 metros de ambos os lados, limitando-se na parte da frente com o leito da Rua Projetada nº 11, na parte de trás com parte do lote nº 17, do lado direito com o lote nº 12-A e do lado esquerdo com o lote nº 11.",
+   "motivo": "Descrição copiada sem mudanças do campo \"IMÓVEL:\" da NOTA (lote 12, quadra 06, Loteamento São Miguel II)."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 792,
+   "coluna": "AREA TOTAL",
+   "antes": "1,80",
+   "depois": "72,00",
+   "motivo": "Lote de 04,00 m x 18,00 m; o habite-se transcrito na AV-1 diz \"Área do Terreno: 72,00m²\"."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 792,
+   "coluna": "LOGRADOURO",
+   "antes": "Rua nº 13",
+   "depois": "Rua Projetada nº 11",
+   "motivo": "NOTA: \"limitando-se na parte da frente com o leito da Rua Projetada nº 11\"."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 792,
+   "coluna": "QUADRA",
+   "antes": "04",
+   "depois": "06",
+   "motivo": "NOTA: \"situado na quadra nº 06 (seis)\"."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 792,
+   "coluna": "LOTE",
+   "antes": "1328",
+   "depois": "12",
+   "motivo": "NOTA: \"lote de terra de nº 12 (doze)\"."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 792,
+   "coluna": "BAIRRO",
+   "antes": "Santa Cruz Moda Center",
+   "depois": "São Miguel II",
+   "motivo": "NOTA: \"no Loteamento São Miguel II\". Mesma grafia da matrícula vizinha 15938 (lote 12-A)."
+  }
+ ],
+ "linhas_removidas": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 1542,
+   "motivo": "R-1 (concessão de direito real de uso do solo 1.328 do Moda Center pelo Município a José Trajano da Silva Júnior e Fernanda Rafaela de Lucena Trajano), cancelado no próprio livro: o texto termina com \"Fica CANCELADA em virtude de lapso\". A mesma concessão (escritura de 16/02/2011, livro 180, fls. 23 a 24) já estava registrada como R-1 da matrícula 15933 (solo 1.328, setor 04, Rua nº 13, aberta em 03/06/2011). Depois da NOTA, o livro recomeça a numeração em Av.1, Av.2, R3, R4, então o número 1 fica com a AV-1 (habite-se)."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 1543,
+   "motivo": "Cópia da linha 1544: mesmo TEXTO (a NOTA de 07/06/2011 seguida da \"Av. 1-15.937\", habite-se de 13/01/2014). A NOTA não é ato numerado: é a reabertura da matrícula, e o seu conteúdo foi para MATRÍCULA e T. URBANO. O número 1 é da \"Av. 1-15.937\", que continua na linha 1544 (HABITE-SE, 13/01/2014), com o texto completo."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 2960,
+   "motivo": "Parte (concedente Município de Santa Cruz do Capibaribe-PE) do R-1 cancelado por lapso, que foi removido; essa concessão é da matrícula 15933."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 2961,
+   "motivo": "Parte (concessionário José Trajano da Silva Júnior) do R-1 cancelado por lapso, que foi removido; essa concessão é da matrícula 15933."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 2962,
+   "motivo": "Parte (concessionária Fernanda Rafaela de Lucena Trajano) do R-1 cancelado por lapso, que foi removido; essa concessão é da matrícula 15933."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 2963,
+   "motivo": "Parte (Luiz Carlos Alves de Siqueira, proprietário) da linha 1543, removida como cópia. A mesma parte continua na AV-1 (linha 2964)."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 2127,
+   "motivo": "Antônio Figueirôa de Siqueira (prefeito que representou o Município) só aparecia no R-1 cancelado por lapso (concessão que é da matrícula 15933)."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 2128,
+   "motivo": "José Trajano da Silva Júnior só aparecia no R-1 cancelado por lapso (concessão que é da matrícula 15933)."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 2129,
+   "motivo": "Fernanda Rafaela de Lucena Trajano só aparecia no R-1 cancelado por lapso (concessão que é da matrícula 15933)."
+  },
+  {
+   "aba": "P. JURÍDICA",
+   "linha_origem": 720,
+   "motivo": "O Município de Santa Cruz do Capibaribe-PE só aparecia no R-1 cancelado por lapso e na abertura feita por engano (solo 1.328 do Moda Center, matrícula 15933)."
+  }
+ ],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "15937",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "07/06/2011",
+    "PROPRIETARIOS": "[Luiz Carlos Alves de Siqueira], brasileiro, casado, motorista, portador da Cédula de Identidade nº 847.539-SSP/PE, inscrito no CPF/MF sob o nº 839.743.694-49, residente e domiciliado na Rua Belo Horizonte, nº 570, Santa Tereza, nesta cidade",
+    "MATRICULA ANTERIOR": "Em virtude de Compra feita a [Imobiliária A.C.T. Incorporações Ltda.], por Escritura Pública de Compra e Venda, lavrada nestas notas pelo Tabelião Público Renato Cordeiro de Arruda, às fls. 83/83v, no livro nº 178, em 06 de Dezembro de 2010, e registrada sob o nº R-1-Mat. 15.007, no livro nº 2-DQ, às fls. 150, em 25 de Fevereiro de 2011, encontrando-se atualmente averbado sob o nº AV-2-Mat. 15.007, no livro nº 2-DQ, às fls. 150, em 27 de Abril de 2011, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE. 07 de Junho de 2011.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "15937",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "72,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua Projetada nº 11",
+    "QUADRA": "06",
+    "LOTE": "12",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "São Miguel II",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL: 01 (um) lote de terra de nº 12 (doze), situado na quadra nº 06 (seis), no Loteamento São Miguel II, nesta cidade, medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 18,00 metros de ambos os lados, limitando-se na parte da frente com o leito da Rua Projetada nº 11, na parte de trás com parte do lote nº 17, do lado direito com o lote nº 12-A e do lado esquerdo com o lote nº 11."
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "15937",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HABITE-SE",
+    "TIPO ATO": "AV",
+    "ORDEM": "1",
+    "DATA": "13/01/2014",
+    "TEXTO": "AV-1-15937 NOTA: IMÓVEL: 01 (um) lote de terra de nº 12 (doze), situado na quadra nº 06 (seis), no Loteamento São Miguel II, nesta cidade, medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 18,00 metros de ambos os lados, limitando-se na parte da frente com o leito da Rua Projetada nº 11, na parte de trás com parte do lote nº 17, do lado direito com o lote nº 12-A e do lado esquerdo com o lote nº 11. PROPRIETÁRIO: [Luiz Carlos Alves de Siqueira], brasileiro, casado, motorista, portador da Cédula de Identidade nº 847.539-SSP/PE, inscrito no CPF/MF sob o nº 839.743.694-49, residente e domiciliado na Rua Belo Horizonte, nº 570, Santa Tereza, nesta cidade. TÍTULO ANTERIOR: Em virtude de Compra feita a [Imobiliária A.C.T. Incorporações Ltda.], por Escritura Pública de Compra e Venda, lavrada nestas notas pelo Tabelião Público Renato Cordeiro de Arruda, às fls. 83/83v, no livro nº 178, em 06 de Dezembro de 2010, e registrada sob o nº R-1-Mat. 15.007, no livro nº 2-DQ, às fls. 150, em 25 de Fevereiro de 2011, encontrando-se atualmente averbado sob o nº AV-2-Mat. 15.007, no livro nº 2-DQ, às fls. 150, em 27 de Abril de 2011, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE. 07 de Junho de 2011. Eu, [Rúbrica] A Oficial do Registro. Av. 1-15.937. CERTIFICO, e dou fé a requerimento do proprietário [Luiz Carlos Alves de Siqueira], inscrito no CPF/MF 839.743.694-49, arquivado neste Cartório, que averbo o HABITE-SE emitido pela Prefeitura Municipal local em 11/12/2013, que é do teor seguinte: Prefeitura Municipal de Santa Cruz do Capibaribe. HABITE-SE. Processo: 31.705. Data: 11/12/2013. A Secretaria de Infraestrutura, após a vistoria regulamentar, expede o presente Termo de Habite-se para a obra abaixo caracterizada. Proprietário: [Luiz Carlos Alves de Siqueira]. Natureza da Obra: Residencial. Alvará: 31.642/2013. Observações: Área Construção: 64,00m². Área do Terreno: 72,00m². Local da Obra: Rua Olavo Bilac, n.º 671, lote 12 (desmembrado), Quadra \"06\", Lot. São Miguel II. Santa Cruz do Capibaribe, 11 de dezembro de 2013. Mario Francisco de Melo. Gestor de Obras. Santa Cruz do Capibaribe-PE, 13 de Janeiro de 2014. Eu, [Rúbrica] A Oficiala do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "15937",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONSTRUÇÃO",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "13/01/2014",
+    "TEXTO": "AV-2-15937 Av. 2-15.937. CERTIFICO, e dou fé, a requerimento do proprietário [Luiz Carlos Alves de Siqueira], inscrito no CPF/MF 839.743.694-49, arquivado neste cartório, que de acordo com a certidão de averbação, emitida pelo gestor de obras Mario Francisco de Melo, da Secretaria de Infraestrutura desta cidade, em 12/12/2013, arquivada neste Cartório, promovo esta averbação para fazer constar que no lote de terras de 12, situado na quadra \"06\", no Loteamento São Miguel II, objeto da presente matrícula, foi construída uma casa dando frente para a Rua Olavo Bilac, nº 671, com as seguintes características: medindo 04,00m na parte da frente e de trás, 16,00m de ambos os lados, 01 porta e 01 janela na parte da frente, 01 sala, 02 quartos, 01 corredor, 01 cozinha, 01 banheiro, 01 porta e 01 janela na parte de trás, 01 área de serviços, em um terreno medindo 04,00m na parte da frente e de trás, 18,00m de ambos os lados. Área construída 64,00m². Limitando-se: na parte da frente com o leito da Rua Olavo Bilac, na parte de trás com um imóvel s/n da Rua Prefeito Fausto Ramos, do lado direito com o imóvel nº 667 e do lado esquerdo com o imóvel nº 675, estimada pelo valor de R$ 50.000,00 (cinquenta mil reais). CERTIFICO, finalmente, que a citada casa encontra-se cadastrada na Prefeitura Municipal local sob o nº 27858, no valor venal de R$ 18.023,89. Santa Cruz do Capibaribe-PE, 13 de Janeiro de 2014. Eu, [Rúbrica] A Oficiala do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "15937",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "3",
+    "DATA": "27/08/2014",
+    "TEXTO": "R-3-15937 R3 15.937. Por Instrumento particular com caráter de escritura pública na forma do artigo 61 e seus parágrafos da Lei nº 4.380 de 21 de agosto de 1964, alterada pela Lei nº 5.049 de 29 de Junho de 1966, datada de 07 de Julho de 2014, O proprietário: [Luiz Carlos Alves de Siqueira], brasileiro, nascido em 18/09/1959, motorista, portador da CNH nº 00857280870 e do CPF nº 839.743.694-49, casado no regime de Comunhão Universal de bens com a Sr.ª [Alda Maria Lopes de Siqueira], brasileira, nascida em 05/02/1959, portadora da Carteira de Identidade nº 3057199 SDS/PE e do CPF 477.397.114-20, residentes e domiciliados em Rua Edson Simões 394, Térreo, Pajeu em São José do Egito/PE, venderam o imóvel objeto da presente matrícula a Senhora: [Juliana Gomes de Melo], brasileira, nascida em 26/08/1985, portadora da Carteira de Identidade nº 7.118.152 SDS/PE e do CPF 056.554.564-78, divorciada em R Olavo Bilac, 671, Residencial São Miguel, nesta cidade, pelo valor de R$ 93.380,00. Foi apresentado neste ato o pagamento do Imposto sobre Transmissão de Bens Imóveis (ITBI) no valor de R$ 702,65 e a Certidão Negativa de débito Imobiliário emitida pela prefeitura Municipal local em 15/08/2014 e arquivada neste Cartório. Santa Cruz do Capibaribe-PE, 27 de agosto de 2014. Eu, [Rúbrica] A Oficiala do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "15937",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ALIENAÇÃO FIDUCIÁRIA",
+    "TIPO ATO": "R",
+    "ORDEM": "4",
+    "DATA": "27/08/2014",
+    "TEXTO": "R-4-15937 R4 15.937. Por Instrumento particular com caráter de escritura pública na forma do artigo 61 e seus parágrafos da Lei nº 4.380 de 21 de agosto de 1964, alterada pela Lei nº 5.049 de 29 de Junho de 1966, datada de 07 de Julho de 2014. A proprietária: [Juliana Gomes de Melo], brasileira, nascida em 26/08/1985, portadora da Carteira de Identidade nº 7.118.152 SDS/PE e do CPF 056.554.564-78, divorciada em R Olavo Bilac, 671, Residencial São Miguel, nesta cidade, tendo-se confessado devedora da [Caixa Econômica Federal] agência desta cidade da importância de R$ 79.578,43, a ser-lhe pago no prazo de 360 meses, vencendo-se a 1ª parcela em 07/08/2014 e as demais nos meses subsequentes no mesmo dia, deu-lhe em alienação fiduciária, o imóvel objeto da presente matrícula. Santa Cruz do Capibaribe-PE, 27 de agosto de 2014. Eu, [Rúbrica] A Oficiala do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "15937",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HABITE-SE",
+    "TIPO DA PARTE": "PROPRIETÁRIO",
+    "NOME DA PARTE": "Luiz Carlos Alves de Siqueira",
+    "DOCUMENTO DA PARTE": "83974369449",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-1"
+   },
+   {
+    "MATRICULA": "15937",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONSTRUÇÃO",
+    "TIPO DA PARTE": "PROPRIETÁRIO",
+    "NOME DA PARTE": "Luiz Carlos Alves de Siqueira",
+    "DOCUMENTO DA PARTE": "83974369449",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-2"
+   },
+   {
+    "MATRICULA": "15937",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "VENDEDOR",
+    "NOME DA PARTE": "Luiz Carlos Alves de Siqueira",
+    "DOCUMENTO DA PARTE": "83974369449",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "15937",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "VENDEDOR",
+    "NOME DA PARTE": "Alda Maria Lopes de Siqueira",
+    "DOCUMENTO DA PARTE": "47739711420",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "15937",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "COMPRADOR",
+    "NOME DA PARTE": "Juliana Gomes de Melo",
+    "DOCUMENTO DA PARTE": "05655456478",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "15937",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ALIENAÇÃO FIDUCIÁRIA",
+    "TIPO DA PARTE": "FIDUCIANTE",
+    "NOME DA PARTE": "Juliana Gomes de Melo",
+    "DOCUMENTO DA PARTE": "05655456478",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "15937",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ALIENAÇÃO FIDUCIÁRIA",
+    "TIPO DA PARTE": "CREDOR FIDUCIÁRIO",
+    "NOME DA PARTE": "Caixa Econômica Federal",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-4"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "15937",
+    "NOME": "Luiz Carlos Alves de Siqueira",
+    "DATA DE NASCIMENTO": "18/09/1959",
+    "PROFISSAO": "motorista",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "83974369449",
+    "CPF DO CONJUGE": "47739711420",
+    "DOC DE IDENTIFICACAO": "00857280870",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, motorista",
+    "LOGRADOURO": "Rua Edson Simões",
+    "NUMERO": "394",
+    "BAIRRO": "Pajeu",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "São José do Egito"
+   },
+   {
+    "MATRICULA": "15937",
+    "NOME": "Alda Maria Lopes de Siqueira",
+    "DATA DE NASCIMENTO": "05/02/1959",
+    "PROFISSAO": "NÃO CONSTA",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "47739711420",
+    "CPF DO CONJUGE": "83974369449",
+    "DOC DE IDENTIFICACAO": "3057199",
+    "ORGAO EMISSOR": "SDS",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira",
+    "LOGRADOURO": "Rua Edson Simões",
+    "NUMERO": "394",
+    "BAIRRO": "Pajeu",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "São José do Egito"
+   },
+   {
+    "MATRICULA": "15937",
+    "NOME": "Juliana Gomes de Melo",
+    "DATA DE NASCIMENTO": "26/08/1985",
+    "PROFISSAO": "NÃO CONSTA",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "divorciada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "05655456478",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "7118152",
+    "ORGAO EMISSOR": "SDS",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, divorciada",
+    "LOGRADOURO": "Rua Olavo Bilac",
+    "NUMERO": "671",
+    "BAIRRO": "Residencial São Miguel",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "15937",
+    "NOME DA EMPRESA": "Caixa Econômica Federal",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "NÃO CONSTA",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ]
+ }
+}

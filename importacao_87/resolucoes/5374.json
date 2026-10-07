@@ -1,0 +1,574 @@
+{
+ "matricula": "5374",
+ "status": "resolvido",
+ "confianca": "alta",
+ "fonte_base": "Matrículas faltantes.xlsx",
+ "explicacao": "A versão de \"Matrículas faltantes.xlsx\" é uma recuperação automática (NOTAS \"RECUPERADA_DA_ESPINHA\"). O importador a rejeitava porque nenhuma das 8 partes tinha ID de ato (regra R2), e a DATA ABERTURA estava por extenso. A recuperação também cortou textos (MATRICULA ANTERIOR, DESCRICAO), pôs AREA TOTAL 10,00 em vez de 250,00, usou as datas das escrituras em vez das datas dos registros, rotulou o cancelamento da hipoteca (AV-3) como \"HIPOTECA\" e gerou cadastros de pessoas errados. Os 4 atos (R-1, R-2, AV-3, R-4) e seus textos são os mesmos nas outras 3 versões (Matriculas_faltantes_PADRAO_CONSOLIDADA, Cópia 2-BA a 2-BZ e Matriculas_PLANILHA_2-AE_a_2-BZ), que concordam entre si. Por isso essas correções e as partes/pessoas ligadas a cada ato vieram delas, sem renumerar nenhum ato. TEXTO e NOTAS da base foram mantidos.",
+ "alteracoes": [
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 740,
+   "coluna": "DATA ABERTURA",
+   "antes": "08 de fevereiro de 1994",
+   "depois": "08/02/1994",
+   "motivo": "Data escrita por extenso (\"08 de fevereiro de 1994\"), fora do padrão dd/mm/aaaa (regra R5). É a data do R-1 (\"Santa Cruz do Capibaribe, 08 de fevereiro de 1994\"); igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 740,
+   "coluna": "PROPRIETARIOS",
+   "antes": "NÃO CONSTA",
+   "depois": "[Maria do Socorro Vieira], brasileira, divorciada, comerciante, residente nesta cidade, portadora do CPF N.º 882.791.114-68",
+   "motivo": "Vazio na base. A proprietária na abertura é a transmitente do R-1, Maria do Socorro Vieira, com a qualificação que está no texto do R-1; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 740,
+   "coluna": "MATRICULA ANTERIOR",
+   "antes": "Em virtude de herança dos bens deixados pelo falecimento de José Vieira Filho, conforme formal de Partilha datado de 21",
+   "depois": "Em virtude de herança dos bens deixados pelo falecimento de José Vieira Filho, conforme formal de Partilha datado de 21 de novembro de 1985 extraído pelo Escrivão Renato Cordeiro de Arruda dos autos de inventário n.º 1216/84, expedido pelo Juiz de Direito desta Comarca, Dr. Roberto da Silva Maia e registrada sob o N.º R-1-MAT. 4.995, no livro N.º 2BF, às fls. 43 em 07 de novembro de 1991 do Registro Geral de Imóveis desta Comarca. [Rúbrica]",
+   "motivo": "Texto cortado na base (\"...datado de 21\"); texto completo igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 714,
+   "coluna": "AREA TOTAL",
+   "antes": "10,00",
+   "depois": "250,00",
+   "motivo": "A base trazia 10,00 (só a frente). A descrição diz 10,00 m de frente e de fundos por 25,00 m dos dois lados, ou seja, 250 m²; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 714,
+   "coluna": "LOGRADOURO",
+   "antes": "NÃO CONSTA",
+   "depois": "Rua Cezário Aragão",
+   "motivo": "Vazio na base. A descrição diz \"dando frente para a Rua Cezário Aragão\"; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 714,
+   "coluna": "TIPO LOGRADOURO ONR",
+   "antes": "NÃO CONSTA",
+   "depois": "Rua",
+   "motivo": "Vazio na base. É uma rua (Rua Cezário Aragão); igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 714,
+   "coluna": "N",
+   "antes": "NÃO CONSTA",
+   "depois": "390",
+   "motivo": "Vazio na base. A descrição diz \"terreno de N.º 390\"; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 714,
+   "coluna": "DESCRICAO",
+   "antes": "IMÓVEL - 01 (UM) terreno de N.º 390 (Trezentos e noventa), dando frente para a Rua Cezário Aragão nesta cidade, medindo 10,00 metros na parte da frente, 10,00 metros na parte de trás e 25,00 metros de ambos os lados. Limitando-se na parte da frente com o leito da Rua Cezário Aragão, na parte de trás com o terreno de N.º 364, do lado direito com o terreno n.º 400 e do lado esquerdo com o terreno de N.º 386, cujo terreno era composto de 02 (dois) terrenos de N.ºs 390 e 396, dando frente para a ref",
+   "depois": "IMÓVEL - 01 (UM) terreno de N.º 390 (Trezentos e noventa), dando frente para a Rua Cezário Aragão nesta cidade, medindo 10,00 metros na parte da frente, 10,00 metros na parte de trás e 25,00 metros de ambos os lados. Limitando-se na parte da frente com o leito da Rua Cezário Aragão, na parte de trás com o terreno de N.º 364, do lado direito com o terreno n.º 400 e do lado esquerdo com o terreno de N.º 386, cujo terreno era composto de 02 (dois) terrenos de N.ºs 390 e 396, dando frente para a referida rua, medindo cada um 05,00 metros de frente por 25,00 metros de fundos e em virtude de remembramento, os referidos terrenos tornaram-se um só terreno de N.º 390 (trezentos e noventa), já caracterizado acima, conforme planta de remembramento aprovada pela Prefeitura Municipal local em 14 de agosto de 1992, assinada pelo Eng. Civil José Roberval da Silva, arquivada em Cartório",
+   "motivo": "Texto cortado na base (\"...dando frente para a ref\"); texto completo (com o remembramento dos terrenos 390 e 396) igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 2359,
+   "coluna": "DATA",
+   "antes": "03/01/1994",
+   "depois": "08/02/1994",
+   "motivo": "A base usava a data errada da escritura (\"03 de janeiro de 1994 digo 03 de março de 1993\"). O registro foi feito em \"Santa Cruz do Capibaribe, 08 de fevereiro de 1994\", como diz o fim do texto; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 2360,
+   "coluna": "DATA",
+   "antes": "15/09/1995",
+   "depois": "23/10/1995",
+   "motivo": "A base usava a data da escritura (15/09/1995). O registro foi feito em \"Santa Cruz do Capibaribe, 23 de outubro de 1995\", como diz o fim do texto; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 2361,
+   "coluna": "DATA",
+   "antes": "28/04/2000",
+   "depois": "09/04/2004",
+   "motivo": "A base usava a data da assembleia do banco (28/04/2000). A averbação foi feita em \"Santa Cruz do Capibaribe - PE, 09 de Abril de 2004\", como diz o fim do texto; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 2361,
+   "coluna": "ATO",
+   "antes": "HIPOTECA",
+   "depois": "CANCELAMENTO DE REGISTRO",
+   "motivo": "O texto é o pedido do BANDEPE para cancelar o \"registro 2, matrícula 5.374\" (a hipoteca R-2), e não uma nova hipoteca; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 2362,
+   "coluna": "DATA",
+   "antes": "29/04/2004",
+   "depois": "03/08/2005",
+   "motivo": "A base usava a data da escritura (29/04/2004). O registro foi feito em \"Santa Cruz do Capibaribe - PE 03 de agosto de 2005\", como diz o fim do texto; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  }
+ ],
+ "linhas_removidas": [
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 4963,
+   "motivo": "Na base, nenhuma parte tinha ID de ato (todas \"NÃO CONSTA\"), e por isso o importador rejeitava a matrícula (regra R2). Além disso, os papéis na hipoteca estavam trocados (banco como \"Devedor\", Hélio como \"Credor\") e Fernanda tinha o CPF do marido. As partes foram trocadas pela lista completa e ligada a cada ato que está nas outras 3 versões."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 4964,
+   "motivo": "Na base, nenhuma parte tinha ID de ato (todas \"NÃO CONSTA\"), e por isso o importador rejeitava a matrícula (regra R2). Além disso, os papéis na hipoteca estavam trocados (banco como \"Devedor\", Hélio como \"Credor\") e Fernanda tinha o CPF do marido. As partes foram trocadas pela lista completa e ligada a cada ato que está nas outras 3 versões."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 4965,
+   "motivo": "Na base, nenhuma parte tinha ID de ato (todas \"NÃO CONSTA\"), e por isso o importador rejeitava a matrícula (regra R2). Além disso, os papéis na hipoteca estavam trocados (banco como \"Devedor\", Hélio como \"Credor\") e Fernanda tinha o CPF do marido. As partes foram trocadas pela lista completa e ligada a cada ato que está nas outras 3 versões."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 4966,
+   "motivo": "Na base, nenhuma parte tinha ID de ato (todas \"NÃO CONSTA\"), e por isso o importador rejeitava a matrícula (regra R2). Além disso, os papéis na hipoteca estavam trocados (banco como \"Devedor\", Hélio como \"Credor\") e Fernanda tinha o CPF do marido. As partes foram trocadas pela lista completa e ligada a cada ato que está nas outras 3 versões."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 4967,
+   "motivo": "Na base, nenhuma parte tinha ID de ato (todas \"NÃO CONSTA\"), e por isso o importador rejeitava a matrícula (regra R2). Além disso, os papéis na hipoteca estavam trocados (banco como \"Devedor\", Hélio como \"Credor\") e Fernanda tinha o CPF do marido. As partes foram trocadas pela lista completa e ligada a cada ato que está nas outras 3 versões."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 4968,
+   "motivo": "Na base, nenhuma parte tinha ID de ato (todas \"NÃO CONSTA\"), e por isso o importador rejeitava a matrícula (regra R2). Além disso, os papéis na hipoteca estavam trocados (banco como \"Devedor\", Hélio como \"Credor\") e Fernanda tinha o CPF do marido. As partes foram trocadas pela lista completa e ligada a cada ato que está nas outras 3 versões."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 4969,
+   "motivo": "Na base, nenhuma parte tinha ID de ato (todas \"NÃO CONSTA\"), e por isso o importador rejeitava a matrícula (regra R2). Além disso, os papéis na hipoteca estavam trocados (banco como \"Devedor\", Hélio como \"Credor\") e Fernanda tinha o CPF do marido. As partes foram trocadas pela lista completa e ligada a cada ato que está nas outras 3 versões."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 4970,
+   "motivo": "Na base, nenhuma parte tinha ID de ato (todas \"NÃO CONSTA\"), e por isso o importador rejeitava a matrícula (regra R2). Além disso, os papéis na hipoteca estavam trocados (banco como \"Devedor\", Hélio como \"Credor\") e Fernanda tinha o CPF do marido. As partes foram trocadas pela lista completa e ligada a cada ato que está nas outras 3 versões."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 2478,
+   "motivo": "Linha da recuperação automática com dados errados: CIDADE preenchida com o nome da pessoa, Hélio de Souza Lima repetido 4 vezes, Fernanda com o CPF 592.249.244-68 (do marido) e qualificação vazia. Foi trocada pelos cadastros completos das outras versões."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 2479,
+   "motivo": "Linha da recuperação automática com dados errados: CIDADE preenchida com o nome da pessoa, Hélio de Souza Lima repetido 4 vezes, Fernanda com o CPF 592.249.244-68 (do marido) e qualificação vazia. Foi trocada pelos cadastros completos das outras versões."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 2480,
+   "motivo": "Linha da recuperação automática com dados errados: CIDADE preenchida com o nome da pessoa, Hélio de Souza Lima repetido 4 vezes, Fernanda com o CPF 592.249.244-68 (do marido) e qualificação vazia. Foi trocada pelos cadastros completos das outras versões."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 2481,
+   "motivo": "Linha da recuperação automática com dados errados: CIDADE preenchida com o nome da pessoa, Hélio de Souza Lima repetido 4 vezes, Fernanda com o CPF 592.249.244-68 (do marido) e qualificação vazia. Foi trocada pelos cadastros completos das outras versões."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 2482,
+   "motivo": "Linha da recuperação automática com dados errados: CIDADE preenchida com o nome da pessoa, Hélio de Souza Lima repetido 4 vezes, Fernanda com o CPF 592.249.244-68 (do marido) e qualificação vazia. Foi trocada pelos cadastros completos das outras versões."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 2483,
+   "motivo": "Linha da recuperação automática com dados errados: CIDADE preenchida com o nome da pessoa, Hélio de Souza Lima repetido 4 vezes, Fernanda com o CPF 592.249.244-68 (do marido) e qualificação vazia. Foi trocada pelos cadastros completos das outras versões."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 2484,
+   "motivo": "Linha da recuperação automática com dados errados: CIDADE preenchida com o nome da pessoa, Hélio de Souza Lima repetido 4 vezes, Fernanda com o CPF 592.249.244-68 (do marido) e qualificação vazia. Foi trocada pelos cadastros completos das outras versões."
+  }
+ ],
+ "linhas_adicionadas": [
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 4975",
+   "motivo": "Parte ligada ao ato pelo ID, com papel e documento iguais ao texto do ato; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 4976",
+   "motivo": "Parte ligada ao ato pelo ID, com papel e documento iguais ao texto do ato; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 4977",
+   "motivo": "Parte ligada ao ato pelo ID, com papel e documento iguais ao texto do ato; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 4978",
+   "motivo": "Parte ligada ao ato pelo ID, com papel e documento iguais ao texto do ato; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 4979",
+   "motivo": "Parte ligada ao ato pelo ID, com papel e documento iguais ao texto do ato; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 4980",
+   "motivo": "Parte ligada ao ato pelo ID, com papel e documento iguais ao texto do ato; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 4981",
+   "motivo": "Parte ligada ao ato pelo ID, com papel e documento iguais ao texto do ato; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 4982",
+   "motivo": "Parte ligada ao ato pelo ID, com papel e documento iguais ao texto do ato; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 4983",
+   "motivo": "Parte ligada ao ato pelo ID, com papel e documento iguais ao texto do ato; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 4984",
+   "motivo": "Parte ligada ao ato pelo ID, com papel e documento iguais ao texto do ato; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 2476",
+   "motivo": "Cadastro com os dados dos textos (CPF, RG, estado civil, endereço); igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 2477",
+   "motivo": "Cadastro com os dados dos textos (CPF, RG, estado civil, endereço); igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 2478",
+   "motivo": "Cadastro com os dados dos textos (CPF, RG, estado civil, endereço); igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 2479",
+   "motivo": "Cadastro com os dados dos textos (CPF, RG, estado civil, endereço); igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "P. JURÍDICA",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 780",
+   "motivo": "Pessoa jurídica que é parte do R-2/AV-3 e não tinha cadastro na base; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  },
+  {
+   "aba": "P. JURÍDICA",
+   "fonte": "Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx linha 781",
+   "motivo": "Pessoa jurídica que é parte do R-2/AV-3 e não tinha cadastro na base; igual em \"Matriculas_faltantes_PADRAO_CONSOLIDADA.xlsx\", \"Cópia de PLANILHA SANTA 2-BA a 2-BZ.xlsx\" e \"Matriculas_PLANILHA_2-AE_a_2-BZ.xlsx\"."
+  }
+ ],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "5374",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "08/02/1994",
+    "PROPRIETARIOS": "[Maria do Socorro Vieira], brasileira, divorciada, comerciante, residente nesta cidade, portadora do CPF N.º 882.791.114-68",
+    "MATRICULA ANTERIOR": "Em virtude de herança dos bens deixados pelo falecimento de José Vieira Filho, conforme formal de Partilha datado de 21 de novembro de 1985 extraído pelo Escrivão Renato Cordeiro de Arruda dos autos de inventário n.º 1216/84, expedido pelo Juiz de Direito desta Comarca, Dr. Roberto da Silva Maia e registrada sob o N.º R-1-MAT. 4.995, no livro N.º 2BF, às fls. 43 em 07 de novembro de 1991 do Registro Geral de Imóveis desta Comarca. [Rúbrica]",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "RECUPERADA_DA_ESPINHA (Code C route=HTML; R1 nunca ingeriu) 2026-07-13"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "5374",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "250,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua Cezário Aragão",
+    "QUADRA": "NÃO CONSTA",
+    "LOTE": "NÃO CONSTA",
+    "N": "390",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL - 01 (UM) terreno de N.º 390 (Trezentos e noventa), dando frente para a Rua Cezário Aragão nesta cidade, medindo 10,00 metros na parte da frente, 10,00 metros na parte de trás e 25,00 metros de ambos os lados. Limitando-se na parte da frente com o leito da Rua Cezário Aragão, na parte de trás com o terreno de N.º 364, do lado direito com o terreno n.º 400 e do lado esquerdo com o terreno de N.º 386, cujo terreno era composto de 02 (dois) terrenos de N.ºs 390 e 396, dando frente para a referida rua, medindo cada um 05,00 metros de frente por 25,00 metros de fundos e em virtude de remembramento, os referidos terrenos tornaram-se um só terreno de N.º 390 (trezentos e noventa), já caracterizado acima, conforme planta de remembramento aprovada pela Prefeitura Municipal local em 14 de agosto de 1992, assinada pelo Eng. Civil José Roberval da Silva, arquivada em Cartório"
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "08/02/1994",
+    "TEXTO": "TRANSMITENTE: [Maria do Socorro Vieira], brasileira, divorciada, comerciante, residente nesta cidade, portadora do CPF N.º 882.791.114-68. ADQUIRENTE: [Hélio de Souza Lima], brasileiro, solteiro, maior, comerciante, residente nesta cidade, portador do CIC N.º 592.249.244-68. TÍTULO DE TRANSMISSÃO: Escritura Pública de compra e venda datada em 03 de janeiro de 1994 digo 03 de março de 1993, lavrada pelo Tabelião Público Renato Cordeiro de Arruda, no livro N.º 90, às fls. 94 V/96 deste Cartório do Registro Geral de Imóveis. Valor: CR$ 5.000.000,00 (Cinco milhões de Cruzeiros), no padrão monetário da época. Santa Cruz do Capibaribe, 08 de fevereiro de 1994. Eu, [Rúbrica] Oficial do Registro. [Rúbrica]",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HIPOTECA",
+    "TIPO ATO": "R",
+    "ORDEM": "2",
+    "DATA": "23/10/1995",
+    "TEXTO": "Por escritura pública de constituição de garantia real vinculada ao instrumento particular de contrato de composição de dívida, celebrado em 14.07.95, entre o [Banco do Estado de Pernambuco S/A - Bandepe] e a firma [Hélio de Souza Lima - Me], datada de 15 de setembro de 1995, lavrada pela Tabeliã Pública pª escritura Maria Anália Carneiro de Arruda, às fls. 83 a 85 verso do livro n.º 95 deste Cartório Único, o proprietário [Hélio de Souza Lima], brasileiro, solteiro, maior, comerciante, residente à Rua Capitão Teodoro, 34, nesta cidade, portador do CPF nº 592.249.244-68, sendo o confesso devedor do [Banco do Estado de Pernambuco S/A - Bandepe], no valor de R$ 15.882,52 (quinze mil, oitocentos e oitenta e dois reais e cinquenta e dois centavos), com vencimento final previsto para 14.07.96 deu em hipoteca, o imóvel objeto da presente matrícula. Santa Cruz do Capibaribe, 23 de outubro de 1995. Eu, [Rúbrica] O Oficial do Registro. [Rúbrica]",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CANCELAMENTO DE REGISTRO",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "09/04/2004",
+    "TEXTO": "BANDEPE - Ilustríssimo Senhor Oficial do Cartório de Registro de Imóveis de Santa Cruz do Capibaribe - PE. [Banco de Pernambuco S.A. - BANDEPE], atual razão social do [Banco do Estado de Pernambuco S/A - BANDEPE], por força de decisão da Assembléia Geral Extraordinária realizada em 28 de abril de 2000, na qual restou aprovada proposta para reformulação do seu Estatuto Social, conforme cópia autenticada que ora se anexa, inscrito no CNPJ/MF n.º 10.866.788/0001-77, neste ato devidamente representado na qualidade de credor de [Hélio de Souza Lima] CPF/CNPJ: 592.249.244-68 conforme CÉDULA RURAL HIPOTECÁRIA abaixo descrita: Número do contrato 00005155.1. Data de emissão: valor: R$ 13.098,00 Data vencimento: Inscrição no Cartório de Santa Cruz do Capibaribe - PE sob nr. de registro 2, matrícula 5.374 Livro 2-BI - Registro Geral. Autoriza a Vsa. a proceder todos os atos necessários para o cancelamento do citado registro. Recife-PE 25 de março de 2004. [Banco de Pernambuco S.A. - BANDEPE] - [João Pedro Baldy] - 302.832.211 [Carlos Fumio Hennice] NAPE 351326018 Firmas Reconhecidas no Cartório do 11º Tabelião de Notas da cidade de São Paulo - SP. Santa Cruz do Capibaribe - PE, 09 de Abril de 2004. Eu, [Rúbrica] Escrevente autorizada. [Rúbrica]",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "4",
+    "DATA": "03/08/2005",
+    "TEXTO": "TRANSMITENTES: [Hélio de Souza Lima] e sua esposa [Fernanda Lucimara Leite de Lima], brasileiros, casados, comerciantes, residentes à Rua Duque de Caxias, nº 222, Nova Santa Cruz, nesta cidade, portadores dos CPF n.ºs 592.249.244-68 e 849.108.454-72 e das Cédulas de Identidade n.ºs 3.219.393-SSP/PE e 4.539.351-SSP/PE, respectivamente. ADQUIRENTE: [Cezar Carlos dos Santos], brasileiro, solteiro, maior, comerciante, residente nesta cidade, portador do CPF nº 995.171.324-68 e da Cédula de Identidade n.º 1.425.514-SSP/AL. TÍTULO DE TRANSMISSÃO: Escritura pública de compra e venda datada de 29 de abril de 2004, lavrada nestas notas, pela Tabeliã Pública Maria Anália Carneiro de Arruda, às fls. nº 130 V a 132, do livro nº 140. Valor: R$. 10.000,00 (Dez mil reais). Santa Cruz do Capibaribe - PE 03 de agosto de 2005. Eu, [Rúbrica] A Oficiala do Registro. [Rúbrica]",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Maria do Socorro Vieira",
+    "DOCUMENTO DA PARTE": "88279111468",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Hélio de Souza Lima",
+    "DOCUMENTO DA PARTE": "59224924468",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HIPOTECA",
+    "TIPO DA PARTE": "PROPRIETÁRIO / CONFESSO DEVEDOR",
+    "NOME DA PARTE": "Hélio de Souza Lima",
+    "DOCUMENTO DA PARTE": "59224924468",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HIPOTECA",
+    "TIPO DA PARTE": "CREDOR",
+    "NOME DA PARTE": "Banco do Estado de Pernambuco S/A - Bandepe",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HIPOTECA",
+    "TIPO DA PARTE": "FIRMA",
+    "NOME DA PARTE": "Hélio de Souza Lima - Me",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CANCELAMENTO DE REGISTRO",
+    "TIPO DA PARTE": "CREDOR",
+    "NOME DA PARTE": "Banco de Pernambuco S.A. - BANDEPE",
+    "DOCUMENTO DA PARTE": "10866788000177",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-3"
+   },
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CANCELAMENTO DE REGISTRO",
+    "TIPO DA PARTE": "DEVEDOR",
+    "NOME DA PARTE": "Hélio de Souza Lima",
+    "DOCUMENTO DA PARTE": "59224924468",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-3"
+   },
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Hélio de Souza Lima",
+    "DOCUMENTO DA PARTE": "59224924468",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "3219393",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Fernanda Lucimara Leite de Lima",
+    "DOCUMENTO DA PARTE": "84910845472",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "4539351",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "5374",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Cezar Carlos dos Santos",
+    "DOCUMENTO DA PARTE": "99517132468",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "1425514",
+    "ID": "R-4"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "5374",
+    "NOME": "Maria do Socorro Vieira",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "Comerciante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "Divorciada",
+    "NACIONALIDADE": "Brasileira",
+    "CPF": "88279111468",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileira, divorciada, comerciante, residente nesta cidade",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "5374",
+    "NOME": "Hélio de Souza Lima",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "Comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "Casado",
+    "NACIONALIDADE": "NÃO CONSTA",
+    "CPF": "59224924468",
+    "CPF DO CONJUGE": "84910845472",
+    "DOC DE IDENTIFICACAO": "3219393",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado, comerciante, residente à Rua Duque de Caxias, nº 222, Nova Santa Cruz, nesta cidade",
+    "LOGRADOURO": "Rua Capitão Teodoro",
+    "NUMERO": "34",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "5374",
+    "NOME": "Fernanda Lucimara Leite de Lima",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "Comerciante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "Casada",
+    "NACIONALIDADE": "NÃO CONSTA",
+    "CPF": "84910845472",
+    "CPF DO CONJUGE": "59224924468",
+    "DOC DE IDENTIFICACAO": "4539351",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, casada, comerciante, residente à Rua Duque de Caxias, nº 222, Nova Santa Cruz, nesta cidade",
+    "LOGRADOURO": "Rua Duque de Caxias",
+    "NUMERO": "222",
+    "BAIRRO": "Nova Santa Cruz",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "5374",
+    "NOME": "Cezar Carlos dos Santos",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "Comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "Solteiro",
+    "NACIONALIDADE": "Brasileira",
+    "CPF": "99517132468",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "1425514",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "AL",
+    "QUALIFICACAO": "brasileiro, solteiro, maior, comerciante, residente nesta cidade",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "5374",
+    "NOME DA EMPRESA": "Banco do Estado de Pernambuco S/A - Bandepe",
+    "NOME FANTASIA": "BANDEPE",
+    "CNPJ/CGC": "10866788000177",
+    "ESTADO": "NÃO CONSTA",
+    "REPRESENTANTES NOME": "João Pedro Baldy; Carlos Fumio Hennice",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   },
+   {
+    "MATRICULA": "5374",
+    "NOME DA EMPRESA": "Hélio de Souza Lima - Me",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "NÃO CONSTA",
+    "ESTADO": "NÃO CONSTA",
+    "REPRESENTANTES NOME": "Hélio de Souza Lima",
+    "CPF REPRESENTANTE 1": "59224924468",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   }
+  ]
+ }
+}

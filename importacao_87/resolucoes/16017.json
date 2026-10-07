@@ -1,0 +1,327 @@
+{
+ "matricula": "16017",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "Havia dois R-2, com o mesmo TEXTO, e esse texto juntava dois registros diferentes: a Retificação e Ratificação de 06/07/2011 (o Município concede a Sebastião Barbosa Estevam e Severina Olinda Estevam o direito real de uso do polo 443) e a Concessão de Direito Real de Uso de 02/08/2011 (Sebastião e Severina concedem esse direito a José Erivaldo de Almeida e Ediânia Maria Leite Florêncio de Almeida). As DATAs, os nomes dos atos e as partes das duas linhas batem com esses dois registros, então não é cópia: são dois atos. Cada linha ficou com o seu trecho do texto, sem mudar nenhuma palavra, e a concessão de 02/08/2011 passou a ser R-3, com suas 4 partes, porque vem depois da AV-1 e do R-2 na numeração única R/AV. Os dois trechos trazem \"R-2 Mat. 16.017\" no cabeçalho, a outra versão (consolidada sem \"(1)\") é igual e nenhuma outra matrícula cita a 16017, por isso a correção segue a ordem cronológica (confiança média).",
+ "alteracoes": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 1624,
+   "coluna": "TEXTO",
+   "antes": "R-2-16017 R-2 Mat. 16.017 Por Escritura Pública de Retificação e Ratificação, datada de 25 de novembro de 2010, lavrada nestas notas, às fls. 14 a 15, do Livro nº 178, pelo Tabelião [Renato Cordeiro de Arruda], o outorgante Concedente o [Município de Santa Cruz do Capibaribe-PE], pessoa Jurídica de Direito Público, inscrito no CNPJ/MF sob o nº 10.091.569/0001-63, com sede na Av. Padre Zuzinha, nº 178, Centro, nesta Cidade, neste ato, representado pelo Senhor Prefeito [Antônio Figueirôa de Siqueira], brasileiro, casado, comerciante, residente à Rua Rogaciano Luiz Aragão, nº 63, nesta Cidade, portador do CPF/MF sob o nº 363.437.224-91 e da Cédula de Identidade nº 2.662.495-SSP/PE, concedeu aos Concessionários [Sebastião Estevam], digo, [Sebastião Barbosa Estevam] e sua esposa [Severina Olinda Estevam], brasileiros, casados sob o regime da Comunhão Universal de bens, comerciantes, residentes à Rua Manoel João da Silva, nº 70, Cruz Alta, nesta Cidade, portadores dos CPF/MF sob os nºs 206.576.091-53 e 522.283.555-34 e das Cédulas de Identidade nºs 274.843-SSP/MT e 3.445.402-SSP/PE, respectivamente, o direito real de uso do polo nº 443, no setor nº 03, na Rua nº 05, no Santa Cruz Moda Center, nesta Cidade, ficando retificado e ratificado na Escritura lavrada em 08 de Junho de 2005, no Livro nº 136, às fls. 89v/90v, que era Superfície de Área. Santa Cruz do Capibaribe-PE; 06 de Julho de 2011. Eu, [Rúbrica] O Oficial do Registro. R-2-16017 R-2 Mat. 16.017 Por Escritura Pública de Concessão de Direito Real de Uso, datada de 08 de Julho de 2011, Por Escritura, digo, lavrada nestas notas, às fls nº 93 a 93v, do Livro nº 183, o Concedente [Sebastião Barbosa Estevam] e sua esposa [Severina Olinda Estevam], brasileiros, casados sob o regime da comunhão universal de bens, comerciantes, residentes nesta Cidade, inscritos nos CPF/MF sob o nos 206.576.091-53 e 522.283.555-34 e portadores das cédulas de Identidade nos 274.843-SSP/MT e 3.445.402-SSP/PE, concedeu aos Srs [José Erivaldo de Almeida] e sua esposa [Ediânia Maria Leite Florêncio de Almeida], brasileiros, casados, comerciantes, gerentes comercial, residentes nesta Cidade, inscrito nos CPF/MF sob o nº 30.201.279-4 SSP/SP e 1.669.311-SSP/PB, o direito real de uso do solo de nº 443, no Setor nº 03, na Rua 05, no Santa Cruz Moda Center, nesta Cidade, para fins comercial, a título gratuito. Santa Cruz do Capibaribe-PE; 02 de Agosto de 2011. Eu, [Rúbrica] A Oficiala do Registro.",
+   "depois": "R-2-16017 R-2 Mat. 16.017 Por Escritura Pública de Retificação e Ratificação, datada de 25 de novembro de 2010, lavrada nestas notas, às fls. 14 a 15, do Livro nº 178, pelo Tabelião [Renato Cordeiro de Arruda], o outorgante Concedente o [Município de Santa Cruz do Capibaribe-PE], pessoa Jurídica de Direito Público, inscrito no CNPJ/MF sob o nº 10.091.569/0001-63, com sede na Av. Padre Zuzinha, nº 178, Centro, nesta Cidade, neste ato, representado pelo Senhor Prefeito [Antônio Figueirôa de Siqueira], brasileiro, casado, comerciante, residente à Rua Rogaciano Luiz Aragão, nº 63, nesta Cidade, portador do CPF/MF sob o nº 363.437.224-91 e da Cédula de Identidade nº 2.662.495-SSP/PE, concedeu aos Concessionários [Sebastião Estevam], digo, [Sebastião Barbosa Estevam] e sua esposa [Severina Olinda Estevam], brasileiros, casados sob o regime da Comunhão Universal de bens, comerciantes, residentes à Rua Manoel João da Silva, nº 70, Cruz Alta, nesta Cidade, portadores dos CPF/MF sob os nºs 206.576.091-53 e 522.283.555-34 e das Cédulas de Identidade nºs 274.843-SSP/MT e 3.445.402-SSP/PE, respectivamente, o direito real de uso do polo nº 443, no setor nº 03, na Rua nº 05, no Santa Cruz Moda Center, nesta Cidade, ficando retificado e ratificado na Escritura lavrada em 08 de Junho de 2005, no Livro nº 136, às fls. 89v/90v, que era Superfície de Área. Santa Cruz do Capibaribe-PE; 06 de Julho de 2011. Eu, [Rúbrica] O Oficial do Registro.",
+   "motivo": "O TEXTO desta linha e o da linha 1625 eram iguais e juntavam dois registros: a Retificação e Ratificação (Município concede a Sebastião Barbosa Estevam e Severina Olinda Estevam o direito real de uso do polo 443; assinada em 06 de Julho de 2011) e a Concessão de Direito Real de Uso (Sebastião e Severina concedem a José Erivaldo de Almeida e Ediânia; assinada em 02 de Agosto de 2011). Esta linha (RETIFICAÇÃO E RATIFICAÇÃO, DATA 06/07/2011) ficou só com o trecho da retificação, sem alterar nenhuma palavra."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 1625,
+   "coluna": "TEXTO",
+   "antes": "R-2-16017 R-2 Mat. 16.017 Por Escritura Pública de Retificação e Ratificação, datada de 25 de novembro de 2010, lavrada nestas notas, às fls. 14 a 15, do Livro nº 178, pelo Tabelião [Renato Cordeiro de Arruda], o outorgante Concedente o [Município de Santa Cruz do Capibaribe-PE], pessoa Jurídica de Direito Público, inscrito no CNPJ/MF sob o nº 10.091.569/0001-63, com sede na Av. Padre Zuzinha, nº 178, Centro, nesta Cidade, neste ato, representado pelo Senhor Prefeito [Antônio Figueirôa de Siqueira], brasileiro, casado, comerciante, residente à Rua Rogaciano Luiz Aragão, nº 63, nesta Cidade, portador do CPF/MF sob o nº 363.437.224-91 e da Cédula de Identidade nº 2.662.495-SSP/PE, concedeu aos Concessionários [Sebastião Estevam], digo, [Sebastião Barbosa Estevam] e sua esposa [Severina Olinda Estevam], brasileiros, casados sob o regime da Comunhão Universal de bens, comerciantes, residentes à Rua Manoel João da Silva, nº 70, Cruz Alta, nesta Cidade, portadores dos CPF/MF sob os nºs 206.576.091-53 e 522.283.555-34 e das Cédulas de Identidade nºs 274.843-SSP/MT e 3.445.402-SSP/PE, respectivamente, o direito real de uso do polo nº 443, no setor nº 03, na Rua nº 05, no Santa Cruz Moda Center, nesta Cidade, ficando retificado e ratificado na Escritura lavrada em 08 de Junho de 2005, no Livro nº 136, às fls. 89v/90v, que era Superfície de Área. Santa Cruz do Capibaribe-PE; 06 de Julho de 2011. Eu, [Rúbrica] O Oficial do Registro. R-2-16017 R-2 Mat. 16.017 Por Escritura Pública de Concessão de Direito Real de Uso, datada de 08 de Julho de 2011, Por Escritura, digo, lavrada nestas notas, às fls nº 93 a 93v, do Livro nº 183, o Concedente [Sebastião Barbosa Estevam] e sua esposa [Severina Olinda Estevam], brasileiros, casados sob o regime da comunhão universal de bens, comerciantes, residentes nesta Cidade, inscritos nos CPF/MF sob o nos 206.576.091-53 e 522.283.555-34 e portadores das cédulas de Identidade nos 274.843-SSP/MT e 3.445.402-SSP/PE, concedeu aos Srs [José Erivaldo de Almeida] e sua esposa [Ediânia Maria Leite Florêncio de Almeida], brasileiros, casados, comerciantes, gerentes comercial, residentes nesta Cidade, inscrito nos CPF/MF sob o nº 30.201.279-4 SSP/SP e 1.669.311-SSP/PB, o direito real de uso do solo de nº 443, no Setor nº 03, na Rua 05, no Santa Cruz Moda Center, nesta Cidade, para fins comercial, a título gratuito. Santa Cruz do Capibaribe-PE; 02 de Agosto de 2011. Eu, [Rúbrica] A Oficiala do Registro.",
+   "depois": "R-2-16017 R-2 Mat. 16.017 Por Escritura Pública de Concessão de Direito Real de Uso, datada de 08 de Julho de 2011, Por Escritura, digo, lavrada nestas notas, às fls nº 93 a 93v, do Livro nº 183, o Concedente [Sebastião Barbosa Estevam] e sua esposa [Severina Olinda Estevam], brasileiros, casados sob o regime da comunhão universal de bens, comerciantes, residentes nesta Cidade, inscritos nos CPF/MF sob o nos 206.576.091-53 e 522.283.555-34 e portadores das cédulas de Identidade nos 274.843-SSP/MT e 3.445.402-SSP/PE, concedeu aos Srs [José Erivaldo de Almeida] e sua esposa [Ediânia Maria Leite Florêncio de Almeida], brasileiros, casados, comerciantes, gerentes comercial, residentes nesta Cidade, inscrito nos CPF/MF sob o nº 30.201.279-4 SSP/SP e 1.669.311-SSP/PB, o direito real de uso do solo de nº 443, no Setor nº 03, na Rua 05, no Santa Cruz Moda Center, nesta Cidade, para fins comercial, a título gratuito. Santa Cruz do Capibaribe-PE; 02 de Agosto de 2011. Eu, [Rúbrica] A Oficiala do Registro.",
+   "motivo": "Mesma junção de dois registros da linha 1624. Esta linha (CONCESSÃO DE DIREITO REAL DE USO, DATA 02/08/2011) ficou só com o trecho da concessão a José Erivaldo de Almeida e Ediânia Maria Leite Florêncio de Almeida, sem alterar nenhuma palavra."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 1625,
+   "coluna": "ORDEM",
+   "antes": "2",
+   "depois": "3",
+   "motivo": "Concessão de Direito Real de Uso de 02/08/2011 (Sebastião Barbosa Estevam e Severina Olinda Estevam a José Erivaldo de Almeida e Ediânia Maria Leite Florêncio de Almeida). Ela pressupõe o R-2 de 06/07/2011, que deu aos concedentes o direito real de uso do polo. Na numeração única R/AV, depois da AV-1 e do R-2 (ambos de 06/07/2011), ela é o 3º ato. O cabeçalho transcrito \"R-2 Mat. 16.017\" repete o número anterior; nenhuma fonte traz outra numeração, por isso a correção segue a ordem cronológica."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 3113,
+   "coluna": "ID",
+   "antes": "R-2",
+   "depois": "R-3",
+   "motivo": "Parte (Concedente Sebastião Barbosa Estevam) da Concessão de Direito Real de Uso de 02/08/2011, renumerada de R-2 para R-3."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 3114,
+   "coluna": "ID",
+   "antes": "R-2",
+   "depois": "R-3",
+   "motivo": "Parte (Concedente Severina Olinda Estevam) da Concessão de Direito Real de Uso de 02/08/2011, renumerada de R-2 para R-3."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 3115,
+   "coluna": "ID",
+   "antes": "R-2",
+   "depois": "R-3",
+   "motivo": "Parte (Concessionário José Erivaldo de Almeida) da Concessão de Direito Real de Uso de 02/08/2011, renumerada de R-2 para R-3."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 3116,
+   "coluna": "ID",
+   "antes": "R-2",
+   "depois": "R-3",
+   "motivo": "Parte (Concessionária Ediânia Maria Leite Florêncio de Almeida) da Concessão de Direito Real de Uso de 02/08/2011, renumerada de R-2 para R-3."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "16017",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "06/07/2011",
+    "PROPRIETARIOS": "O [Município de Santa Cruz do Capibaribe-PE], pessoa Jurídica de Direito Público, inscrito no CNPJ/MF sob o nº 10.091.569/0001-63, com sede na Av. Padre Zuzinha, nº 178, Centro, nesta Cidade, neste ato, representado pelo Senhor Prefeito [Antônio Figueirôa de Siqueira], brasileiro, casado, comerciante, residente à Rua Rogaciano Luiz Aragão, nº 63, nesta Cidade, portador do CPF/MF sob o nº 363.437.224-91 e da Cédula de Identidade nº 2.662.495-SSP/PE",
+    "MATRICULA ANTERIOR": "Em virtude de Escritura Pública de desapropriação amigável, datada em 10 de setembro de 1999, feita entre o [Banco do Brasil S/A] e a [Prefeitura Municipal de Santa Cruz do Capibaribe-PE], lavrada nestas notas, pelo Tabelião Público [Renato Cordeiro de Arruda], no livro nº 108, às fls. 47v/53 v e registrada sob o n. R.7-Mat. 3.215, no Livro n. 2-AJ, às fls. 94/94v, em 21 de dezembro de 1999, encontrando-se atualmente matriculado sob o nº 7.033, no Livro nº 2-BU, às fls. 152, em 26 de Abril de 2002, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE; 06 de Julho de 2011.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "16017",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "3,60",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua nº 05",
+    "QUADRA": "NÃO CONSTA",
+    "LOTE": "NÃO CONSTA",
+    "N": "443",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Santa Cruz Moda Center",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL: 01 (um) polo de nº 443, no setor nº 03, na Rua nº 05, no Santa Cruz Moda Center, nesta Cidade, medindo 02,00 metros na parte da frente, 02,00 metros na parte de trás e 0,90 centímetros de ambos os lados. Limitando-se na parte da frente com a Rua nº 05; na parte de trás com a Rua de Serviço nº 04; do lado direito com o polo nº 444 e do lado esquerdo com o polo nº 442"
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "16017",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "SUPERFÍCIE DE ÁREA",
+    "TIPO ATO": "AV",
+    "ORDEM": "1",
+    "DATA": "06/07/2011",
+    "TEXTO": "AV-1-16017 AV-1 Mat. 16.017 CERTIFICO, e dou fé, que de acordo com a Escritura Pública de Superfície de Área, lavrada nestas notas, às fls. 89v/90v, no Livro nº 136, em 08 de Junho de 2005, pela Tabeliã Pública [Maria Amália Carneiro de Arruda] e averbada sob o nº AV. 485-Mat. 7.033, no Livro n. 2-CD, às fls. 148 verso, em 08 de Junho de 2005, neste Cartório de Registro Geral de Imóveis, o polo objeto da presente matrícula, foi cedido aos Srs. [Sebastião Barbosa Estevam] e sua esposa [Severina Olinda Estevam], brasileiros, casados sob o regime da Comunhão Universal de bens, comerciantes, residentes à Rua Manoel João da Silva, nº 70, Cruz Alta, nesta Cidade, portadores dos CPF/MF sob os nºs 206.576.091-53 e 522.283.555-34 e das Cédulas de Identidade nºs 274.843-SSP/MT e 3.445.402-SSP/PE, respectivamente. Santa Cruz do Capibaribe-PE; 06 de Julho de 2011. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "16017",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "RETIFICAÇÃO E RATIFICAÇÃO",
+    "TIPO ATO": "R",
+    "ORDEM": "2",
+    "DATA": "06/07/2011",
+    "TEXTO": "R-2-16017 R-2 Mat. 16.017 Por Escritura Pública de Retificação e Ratificação, datada de 25 de novembro de 2010, lavrada nestas notas, às fls. 14 a 15, do Livro nº 178, pelo Tabelião [Renato Cordeiro de Arruda], o outorgante Concedente o [Município de Santa Cruz do Capibaribe-PE], pessoa Jurídica de Direito Público, inscrito no CNPJ/MF sob o nº 10.091.569/0001-63, com sede na Av. Padre Zuzinha, nº 178, Centro, nesta Cidade, neste ato, representado pelo Senhor Prefeito [Antônio Figueirôa de Siqueira], brasileiro, casado, comerciante, residente à Rua Rogaciano Luiz Aragão, nº 63, nesta Cidade, portador do CPF/MF sob o nº 363.437.224-91 e da Cédula de Identidade nº 2.662.495-SSP/PE, concedeu aos Concessionários [Sebastião Estevam], digo, [Sebastião Barbosa Estevam] e sua esposa [Severina Olinda Estevam], brasileiros, casados sob o regime da Comunhão Universal de bens, comerciantes, residentes à Rua Manoel João da Silva, nº 70, Cruz Alta, nesta Cidade, portadores dos CPF/MF sob os nºs 206.576.091-53 e 522.283.555-34 e das Cédulas de Identidade nºs 274.843-SSP/MT e 3.445.402-SSP/PE, respectivamente, o direito real de uso do polo nº 443, no setor nº 03, na Rua nº 05, no Santa Cruz Moda Center, nesta Cidade, ficando retificado e ratificado na Escritura lavrada em 08 de Junho de 2005, no Livro nº 136, às fls. 89v/90v, que era Superfície de Área. Santa Cruz do Capibaribe-PE; 06 de Julho de 2011. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "16017",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONCESSÃO DE DIREITO REAL DE USO",
+    "TIPO ATO": "R",
+    "ORDEM": "3",
+    "DATA": "02/08/2011",
+    "TEXTO": "R-2-16017 R-2 Mat. 16.017 Por Escritura Pública de Concessão de Direito Real de Uso, datada de 08 de Julho de 2011, Por Escritura, digo, lavrada nestas notas, às fls nº 93 a 93v, do Livro nº 183, o Concedente [Sebastião Barbosa Estevam] e sua esposa [Severina Olinda Estevam], brasileiros, casados sob o regime da comunhão universal de bens, comerciantes, residentes nesta Cidade, inscritos nos CPF/MF sob o nos 206.576.091-53 e 522.283.555-34 e portadores das cédulas de Identidade nos 274.843-SSP/MT e 3.445.402-SSP/PE, concedeu aos Srs [José Erivaldo de Almeida] e sua esposa [Ediânia Maria Leite Florêncio de Almeida], brasileiros, casados, comerciantes, gerentes comercial, residentes nesta Cidade, inscrito nos CPF/MF sob o nº 30.201.279-4 SSP/SP e 1.669.311-SSP/PB, o direito real de uso do solo de nº 443, no Setor nº 03, na Rua 05, no Santa Cruz Moda Center, nesta Cidade, para fins comercial, a título gratuito. Santa Cruz do Capibaribe-PE; 02 de Agosto de 2011. Eu, [Rúbrica] A Oficiala do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "16017",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "SUPERFÍCIE DE ÁREA",
+    "TIPO DA PARTE": "Cessionário",
+    "NOME DA PARTE": "Sebastião Barbosa Estevam",
+    "DOCUMENTO DA PARTE": "20657609153",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "274843",
+    "ID": "AV-1"
+   },
+   {
+    "MATRICULA": "16017",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "SUPERFÍCIE DE ÁREA",
+    "TIPO DA PARTE": "Cessionária",
+    "NOME DA PARTE": "Severina Olinda Estevam",
+    "DOCUMENTO DA PARTE": "52228355534",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "3445402",
+    "ID": "AV-1"
+   },
+   {
+    "MATRICULA": "16017",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "RETIFICAÇÃO E RATIFICAÇÃO",
+    "TIPO DA PARTE": "Concedente",
+    "NOME DA PARTE": "Município de Santa Cruz do Capibaribe-PE",
+    "DOCUMENTO DA PARTE": "10091569000163",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "16017",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "RETIFICAÇÃO E RATIFICAÇÃO",
+    "TIPO DA PARTE": "Concessionário",
+    "NOME DA PARTE": "Sebastião Barbosa Estevam",
+    "DOCUMENTO DA PARTE": "20657609153",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "274843",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "16017",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "RETIFICAÇÃO E RATIFICAÇÃO",
+    "TIPO DA PARTE": "Concessionária",
+    "NOME DA PARTE": "Severina Olinda Estevam",
+    "DOCUMENTO DA PARTE": "52228355534",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "3445402",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "16017",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONCESSÃO DE DIREITO REAL DE USO",
+    "TIPO DA PARTE": "Concedente",
+    "NOME DA PARTE": "Sebastião Barbosa Estevam",
+    "DOCUMENTO DA PARTE": "20657609153",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "274843",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "16017",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONCESSÃO DE DIREITO REAL DE USO",
+    "TIPO DA PARTE": "Concedente",
+    "NOME DA PARTE": "Severina Olinda Estevam",
+    "DOCUMENTO DA PARTE": "52228355534",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "3445402",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "16017",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONCESSÃO DE DIREITO REAL DE USO",
+    "TIPO DA PARTE": "Concessionário",
+    "NOME DA PARTE": "José Erivaldo de Almeida",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "302012794",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "16017",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONCESSÃO DE DIREITO REAL DE USO",
+    "TIPO DA PARTE": "Concessionária",
+    "NOME DA PARTE": "Ediânia Maria Leite Florêncio de Almeida",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "1669311",
+    "ID": "R-3"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "16017",
+    "NOME": "Antônio Figueirôa de Siqueira",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "36343722491",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "2662495",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado, comerciante",
+    "LOGRADOURO": "Rua Rogaciano Luiz Aragão",
+    "NUMERO": "63",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "16017",
+    "NOME": "Sebastião Barbosa Estevam",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "20657609153",
+    "CPF DO CONJUGE": "52228355534",
+    "DOC DE IDENTIFICACAO": "274843",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "MT",
+    "QUALIFICACAO": "brasileiros, casados sob o regime da Comunhão Universal de bens, comerciantes",
+    "LOGRADOURO": "Rua Manoel João da Silva",
+    "NUMERO": "70",
+    "BAIRRO": "Cruz Alta",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "16017",
+    "NOME": "Severina Olinda Estevam",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "52228355534",
+    "CPF DO CONJUGE": "20657609153",
+    "DOC DE IDENTIFICACAO": "3445402",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiros, casados sob o regime da Comunhão Universal de bens, comerciantes",
+    "LOGRADOURO": "Rua Manoel João da Silva",
+    "NUMERO": "70",
+    "BAIRRO": "Cruz Alta",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "16017",
+    "NOME DA EMPRESA": "Município de Santa Cruz do Capibaribe-PE",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "10091569000163",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Antônio Figueirôa de Siqueira",
+    "CPF REPRESENTANTE 1": "36343722491",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "Av. Padre Zuzinha",
+    "NUMERO": "178",
+    "BAIRRO": "Centro",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "16017",
+    "NOME DA EMPRESA": "Banco do Brasil S/A",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "NÃO CONSTA",
+    "ESTADO": "NÃO CONSTA",
+    "REPRESENTANTES NOME": "NÃO CONSTA",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   }
+  ]
+ }
+}

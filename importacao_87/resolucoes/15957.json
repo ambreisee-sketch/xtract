@@ -1,0 +1,293 @@
+{
+ "matricula": "15957",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "Havia dois R-2, com o mesmo TEXTO, e esse texto juntava dois registros diferentes: a reti-ratificação de 10/06/2011, em que o Município reconhece Severino Adilson da Costa e Adeilza Maria Costa como concessionários do solo 1.522 do Moda Center, e a concessão de 14/09/2011, em que Severino e Adeilza passam o direito real de uso a Otávio Patrocínio Julião Filho. As DATAs, os nomes dos atos e as partes das duas linhas batem com esses dois registros, então não é cópia. Cada linha ficou com o seu trecho do texto, sem mudar nenhuma palavra. A concessão de 14/09/2011 passou a R-3, por vir depois do R-2 na numeração única R/AV (AV-1, R-2, R-3), e as suas 3 partes passaram a apontar para R-3. Os dois trechos trazem \"R-2\"/\"R.2\" no cabeçalho e a outra versão (consolidada sem \"(1)\") é igual, então a correção segue a ordem cronológica (confiança média). Otávio não tem linha em P. FÍSICA na base, e isso não foi acrescentado.",
+ "alteracoes": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 1561,
+   "coluna": "TEXTO",
+   "antes": "R-2-15957 R-2-Mat. 15.957 Por Escritura Pública de Reti-ratificação e Ratificação, datada em 03 de Janeiro de 2011, lavrada nestas notas, às fls. 26 a 27, do livro n° 179, pelo Tabelião Público Renato Cordeiro de Arruda, o outorgante Concedente o [Município de Santa Cruz do Capibaribe-PE], pessoa Jurídica de Direito Público, inscrito no CNPJ/MF sob o n° 10.091.569/0001-63, com sede na Av. Padre Zuzinha, n° 178, Centro, nesta Cidade, neste ato, representado pelo Senhor Prefeito [Antônio Figueirôa de Siqueira], brasileiro, casado, comerciante, residente à Rua Rogaciano Aris Aragão, n° 63, nesta Cidade, portador do CPF/MF sob os n°s 363.437.224-91 e da Cédula de Identidade n° 2.662.495-SSP/PE, concedeu aos Concessionários [Severino Adilson da Costa] e sua esposa [Adeilza Maria Costa], brasileiros, casados sob o regime da Comunhão parcial de bens, comerciantes, residentes à Rua D. Pedro I, n° 159, Dona Dom, nesta Cidade, portadores do CPF/MF sob os n°s 551.741.324-20 e 032.132.834-52 e das Cédulas de Identidades n°s 3.287.170-SSP/PE e 5.790.073-SSP/PE, respectivamente, o direito real de uso do solo n° 1.522, no setor n° 03, na Rua n° 16, no Santa Cruz Moda Center, nesta Cidade, ficando retificado e ratificado na escritura lavrada em 13 de Agosto de 2003, no livro n° 127, às fls. 146v/147v, que era Superfície de Área. Santa Cruz do Capibaribe-PE, 10 de Junho de 2011. Eu, [Rúbrica] o Oficial. R-2-15957 R.2-Mat. 15.957 Por Escritura Pública de Concessão de Direito Real de Uso, datada de 10 de Junho de 2011, lavrada nestas notas às fls no 184 a 184v, do Livro no 182, pelo Tabelião Pública 2º Substituta Fernanda Carneiro de Arruda; Os Concedentes [Severino Adilson da Costa] e sua esposa [Adeilza Maria Costa], brasileiros, casados sob o regime da comunhão parcial de bens, comerciantes, residentes e domiciliados à Rua Dom Pedro, no 159, Dona Dom, nesta cidade, inscrito no CPF/MF sob o no 551.741.324-20 e 032.132.834-52 e portadores das cédulas de Identidade nos 3.287.170-SSP/PE e 5.790.073-SSP/PE, concedeu ao Concessionário: [Otávio Patrocínio Julião Filho], brasileiro, solteiro, maior, agricultor, residente e domiciliado no Sítio Logradouro, do Município de Sairé, digo, Brejo da Madre de Deus-PE, o direito real de uso do solo no 1.522, no setor no 03, na Rua no 16, no Santa Cruz Moda Center, nesta cidade; para fins comerciais, a título gratuito. Santa Cruz do Capibaribe-PE. 14 de Setembro de 2011. Eu, [Rúbrica] O Oficial do Registro.",
+   "depois": "R-2-15957 R-2-Mat. 15.957 Por Escritura Pública de Reti-ratificação e Ratificação, datada em 03 de Janeiro de 2011, lavrada nestas notas, às fls. 26 a 27, do livro n° 179, pelo Tabelião Público Renato Cordeiro de Arruda, o outorgante Concedente o [Município de Santa Cruz do Capibaribe-PE], pessoa Jurídica de Direito Público, inscrito no CNPJ/MF sob o n° 10.091.569/0001-63, com sede na Av. Padre Zuzinha, n° 178, Centro, nesta Cidade, neste ato, representado pelo Senhor Prefeito [Antônio Figueirôa de Siqueira], brasileiro, casado, comerciante, residente à Rua Rogaciano Aris Aragão, n° 63, nesta Cidade, portador do CPF/MF sob os n°s 363.437.224-91 e da Cédula de Identidade n° 2.662.495-SSP/PE, concedeu aos Concessionários [Severino Adilson da Costa] e sua esposa [Adeilza Maria Costa], brasileiros, casados sob o regime da Comunhão parcial de bens, comerciantes, residentes à Rua D. Pedro I, n° 159, Dona Dom, nesta Cidade, portadores do CPF/MF sob os n°s 551.741.324-20 e 032.132.834-52 e das Cédulas de Identidades n°s 3.287.170-SSP/PE e 5.790.073-SSP/PE, respectivamente, o direito real de uso do solo n° 1.522, no setor n° 03, na Rua n° 16, no Santa Cruz Moda Center, nesta Cidade, ficando retificado e ratificado na escritura lavrada em 13 de Agosto de 2003, no livro n° 127, às fls. 146v/147v, que era Superfície de Área. Santa Cruz do Capibaribe-PE, 10 de Junho de 2011. Eu, [Rúbrica] o Oficial.",
+   "motivo": "O TEXTO desta linha e o da linha 1562 eram iguais e juntavam dois registros: a reti-ratificação da escritura de 2003 (Município aos concessionários Severino Adilson da Costa e Adeilza Maria Costa, assinada em 10 de junho de 2011) e a nova concessão de direito real de uso de Severino e Adeilza a Otávio Patrocínio Julião Filho (14 de setembro de 2011). Esta linha (RETI-RATIFICAÇÃO E RATIFICAÇÃO, DATA 10/06/2011) ficou só com o trecho da reti-ratificação, sem alterar nenhuma palavra."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 1562,
+   "coluna": "TEXTO",
+   "antes": "R-2-15957 R-2-Mat. 15.957 Por Escritura Pública de Reti-ratificação e Ratificação, datada em 03 de Janeiro de 2011, lavrada nestas notas, às fls. 26 a 27, do livro n° 179, pelo Tabelião Público Renato Cordeiro de Arruda, o outorgante Concedente o [Município de Santa Cruz do Capibaribe-PE], pessoa Jurídica de Direito Público, inscrito no CNPJ/MF sob o n° 10.091.569/0001-63, com sede na Av. Padre Zuzinha, n° 178, Centro, nesta Cidade, neste ato, representado pelo Senhor Prefeito [Antônio Figueirôa de Siqueira], brasileiro, casado, comerciante, residente à Rua Rogaciano Aris Aragão, n° 63, nesta Cidade, portador do CPF/MF sob os n°s 363.437.224-91 e da Cédula de Identidade n° 2.662.495-SSP/PE, concedeu aos Concessionários [Severino Adilson da Costa] e sua esposa [Adeilza Maria Costa], brasileiros, casados sob o regime da Comunhão parcial de bens, comerciantes, residentes à Rua D. Pedro I, n° 159, Dona Dom, nesta Cidade, portadores do CPF/MF sob os n°s 551.741.324-20 e 032.132.834-52 e das Cédulas de Identidades n°s 3.287.170-SSP/PE e 5.790.073-SSP/PE, respectivamente, o direito real de uso do solo n° 1.522, no setor n° 03, na Rua n° 16, no Santa Cruz Moda Center, nesta Cidade, ficando retificado e ratificado na escritura lavrada em 13 de Agosto de 2003, no livro n° 127, às fls. 146v/147v, que era Superfície de Área. Santa Cruz do Capibaribe-PE, 10 de Junho de 2011. Eu, [Rúbrica] o Oficial. R-2-15957 R.2-Mat. 15.957 Por Escritura Pública de Concessão de Direito Real de Uso, datada de 10 de Junho de 2011, lavrada nestas notas às fls no 184 a 184v, do Livro no 182, pelo Tabelião Pública 2º Substituta Fernanda Carneiro de Arruda; Os Concedentes [Severino Adilson da Costa] e sua esposa [Adeilza Maria Costa], brasileiros, casados sob o regime da comunhão parcial de bens, comerciantes, residentes e domiciliados à Rua Dom Pedro, no 159, Dona Dom, nesta cidade, inscrito no CPF/MF sob o no 551.741.324-20 e 032.132.834-52 e portadores das cédulas de Identidade nos 3.287.170-SSP/PE e 5.790.073-SSP/PE, concedeu ao Concessionário: [Otávio Patrocínio Julião Filho], brasileiro, solteiro, maior, agricultor, residente e domiciliado no Sítio Logradouro, do Município de Sairé, digo, Brejo da Madre de Deus-PE, o direito real de uso do solo no 1.522, no setor no 03, na Rua no 16, no Santa Cruz Moda Center, nesta cidade; para fins comerciais, a título gratuito. Santa Cruz do Capibaribe-PE. 14 de Setembro de 2011. Eu, [Rúbrica] O Oficial do Registro.",
+   "depois": "R-2-15957 R.2-Mat. 15.957 Por Escritura Pública de Concessão de Direito Real de Uso, datada de 10 de Junho de 2011, lavrada nestas notas às fls no 184 a 184v, do Livro no 182, pelo Tabelião Pública 2º Substituta Fernanda Carneiro de Arruda; Os Concedentes [Severino Adilson da Costa] e sua esposa [Adeilza Maria Costa], brasileiros, casados sob o regime da comunhão parcial de bens, comerciantes, residentes e domiciliados à Rua Dom Pedro, no 159, Dona Dom, nesta cidade, inscrito no CPF/MF sob o no 551.741.324-20 e 032.132.834-52 e portadores das cédulas de Identidade nos 3.287.170-SSP/PE e 5.790.073-SSP/PE, concedeu ao Concessionário: [Otávio Patrocínio Julião Filho], brasileiro, solteiro, maior, agricultor, residente e domiciliado no Sítio Logradouro, do Município de Sairé, digo, Brejo da Madre de Deus-PE, o direito real de uso do solo no 1.522, no setor no 03, na Rua no 16, no Santa Cruz Moda Center, nesta cidade; para fins comerciais, a título gratuito. Santa Cruz do Capibaribe-PE. 14 de Setembro de 2011. Eu, [Rúbrica] O Oficial do Registro.",
+   "motivo": "Mesma junção de dois registros da linha 1561. Esta linha (CONCESSÃO DE DIREITO REAL DE USO, DATA 14/09/2011) ficou só com o trecho da concessão a Otávio Patrocínio Julião Filho, sem alterar nenhuma palavra."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 1562,
+   "coluna": "ORDEM",
+   "antes": "2",
+   "depois": "3",
+   "motivo": "Concessão de direito real de uso de 14/09/2011 (Severino Adilson da Costa e Adeilza Maria Costa a Otávio Patrocínio Julião Filho). Ela só é possível depois do R-2 de 10/06/2011, que reconheceu Severino e Adeilza como concessionários do Município. Na numeração única R/AV (AV-1 e R-2 em 10/06/2011), ela é o 3º ato. O cabeçalho transcrito \"R.2-Mat. 15.957\" repete o número anterior; nenhuma fonte traz outra numeração, por isso a correção segue a ordem cronológica."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 3002,
+   "coluna": "ID",
+   "antes": "R-2",
+   "depois": "R-3",
+   "motivo": "Parte (Concedente Severino Adilson da Costa) da concessão de 14/09/2011, renumerada de R-2 para R-3."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 3003,
+   "coluna": "ID",
+   "antes": "R-2",
+   "depois": "R-3",
+   "motivo": "Parte (Concedente Adeilza Maria Costa) da concessão de 14/09/2011, renumerada de R-2 para R-3."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 3004,
+   "coluna": "ID",
+   "antes": "R-2",
+   "depois": "R-3",
+   "motivo": "Parte (Concessionário Otávio Patrocínio Julião Filho) da concessão de 14/09/2011, renumerada de R-2 para R-3."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "15957",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "10/06/2011",
+    "PROPRIETARIOS": "O [Município de Santa Cruz do Capibaribe-PE], pessoa Jurídica de Direito Público, inscrito no CNPJ/MF sob o n° 10.091.569/0001-63, com sede na Av. Padre Zuzinha, n° 178, Centro, nesta Cidade, neste ato, representado pelo Senhor Prefeito [Antônio Figueirôa de Siqueira], brasileiro, casado, comerciante, residente à Rua Rogaciano Aris Aragão, n° 63, nesta Cidade, portador do CPF/MF sob o n° 363.437.224-91 e da Cédula de Identidade n° 2.662.495-SSP/PE",
+    "MATRICULA ANTERIOR": "Em virtude de Escritura Pública de Desapropriação amigável, datada de 10 de Novembro de 1999, feita entre o Banco do Brasil S/A e a Prefeitura Municipal de Santa Cruz do Capibaribe-PE, lavrada nestas notas, pelo Tabelião Público Renato Cordeiro de Arruda, no livro n° 108, às fls. 47v/53v e registrada sob o n° R.7-Mat. 3.215, no livro n° 2-AT, às fls. 94/94v, em 21 de Dezembro de 1999, encontrando-se atualmente matriculado sob o n° 7.033, no livro n° 2-BU, às fls. 152, em 29 de Abril de 2003, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE, 10 de Junho de 2011.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "15957",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "1,80",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua n° 16",
+    "QUADRA": "03",
+    "LOTE": "1522",
+    "N": "1522",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Santa Cruz Moda Center",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL: Os (um) solo de n° 1.522, no setor n° 03, na Rua n° 16, no \"Santa Cruz Moda Center\", nesta Cidade, medindo 02,00 metros na parte da frente, 02,00 metros na parte de trás e 0,90 centímetros de ambos os lados limitando-se na parte da frente com a Rua n° 16, na parte de trás com a Rua de Serviço n° 15, do lado direito com o solo n° 1523 e do lado esquerdo com o solo n° 1521"
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "15957",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "RETIFICAÇÃO",
+    "TIPO ATO": "AV",
+    "ORDEM": "1",
+    "DATA": "10/06/2011",
+    "TEXTO": "AV-1-15957 AV-1-Mat. 15.957 RECTIFICO, e dou fé, que de acordo com a Escritura Pública de Superfície de Área, lavrada nestas notas, às fls. 146v/147v, no livro n° 127, em 13 de Agosto de 2003, pela Tabeliã Pública Maria Anália Carneiro de Arruda e averbada sob o n° AV. 232-Mat. 7.033, no livro n° 2-BX, às fls. 204, em 03 de Setembro de 2003, neste Cartório de Registro Geral de Imóveis, o solo objeto da presente matrícula, foi cedido aos Srs. [Severino Adilson da Costa] e sua esposa [Adeilza Maria Costa], brasileiros, casados sob o regime da comunhão parcial de bens, comerciantes, residentes à Rua D. Pedro I, n° 159, Dona Dom, nesta Cidade, portadores dos CPF/MF sob os n°s 551.741.324-20 e 032.132.834-52 e das Cédulas de Identidades n°s 3.287.170-SSP/PE e 5.790.073-SSP/PE, respectivamente. Santa Cruz do Capibaribe-PE, 10 de Junho de 2011. Eu, [Rúbrica] o Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "15957",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "RETI-RATIFICAÇÃO E RATIFICAÇÃO",
+    "TIPO ATO": "R",
+    "ORDEM": "2",
+    "DATA": "10/06/2011",
+    "TEXTO": "R-2-15957 R-2-Mat. 15.957 Por Escritura Pública de Reti-ratificação e Ratificação, datada em 03 de Janeiro de 2011, lavrada nestas notas, às fls. 26 a 27, do livro n° 179, pelo Tabelião Público Renato Cordeiro de Arruda, o outorgante Concedente o [Município de Santa Cruz do Capibaribe-PE], pessoa Jurídica de Direito Público, inscrito no CNPJ/MF sob o n° 10.091.569/0001-63, com sede na Av. Padre Zuzinha, n° 178, Centro, nesta Cidade, neste ato, representado pelo Senhor Prefeito [Antônio Figueirôa de Siqueira], brasileiro, casado, comerciante, residente à Rua Rogaciano Aris Aragão, n° 63, nesta Cidade, portador do CPF/MF sob os n°s 363.437.224-91 e da Cédula de Identidade n° 2.662.495-SSP/PE, concedeu aos Concessionários [Severino Adilson da Costa] e sua esposa [Adeilza Maria Costa], brasileiros, casados sob o regime da Comunhão parcial de bens, comerciantes, residentes à Rua D. Pedro I, n° 159, Dona Dom, nesta Cidade, portadores do CPF/MF sob os n°s 551.741.324-20 e 032.132.834-52 e das Cédulas de Identidades n°s 3.287.170-SSP/PE e 5.790.073-SSP/PE, respectivamente, o direito real de uso do solo n° 1.522, no setor n° 03, na Rua n° 16, no Santa Cruz Moda Center, nesta Cidade, ficando retificado e ratificado na escritura lavrada em 13 de Agosto de 2003, no livro n° 127, às fls. 146v/147v, que era Superfície de Área. Santa Cruz do Capibaribe-PE, 10 de Junho de 2011. Eu, [Rúbrica] o Oficial.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "15957",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONCESSÃO DE DIREITO REAL DE USO",
+    "TIPO ATO": "R",
+    "ORDEM": "3",
+    "DATA": "14/09/2011",
+    "TEXTO": "R-2-15957 R.2-Mat. 15.957 Por Escritura Pública de Concessão de Direito Real de Uso, datada de 10 de Junho de 2011, lavrada nestas notas às fls no 184 a 184v, do Livro no 182, pelo Tabelião Pública 2º Substituta Fernanda Carneiro de Arruda; Os Concedentes [Severino Adilson da Costa] e sua esposa [Adeilza Maria Costa], brasileiros, casados sob o regime da comunhão parcial de bens, comerciantes, residentes e domiciliados à Rua Dom Pedro, no 159, Dona Dom, nesta cidade, inscrito no CPF/MF sob o no 551.741.324-20 e 032.132.834-52 e portadores das cédulas de Identidade nos 3.287.170-SSP/PE e 5.790.073-SSP/PE, concedeu ao Concessionário: [Otávio Patrocínio Julião Filho], brasileiro, solteiro, maior, agricultor, residente e domiciliado no Sítio Logradouro, do Município de Sairé, digo, Brejo da Madre de Deus-PE, o direito real de uso do solo no 1.522, no setor no 03, na Rua no 16, no Santa Cruz Moda Center, nesta cidade; para fins comerciais, a título gratuito. Santa Cruz do Capibaribe-PE. 14 de Setembro de 2011. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "15957",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "RETIFICAÇÃO",
+    "TIPO DA PARTE": "Cessionário",
+    "NOME DA PARTE": "Severino Adilson da Costa",
+    "DOCUMENTO DA PARTE": "55174132420",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "3287170",
+    "ID": "AV-1"
+   },
+   {
+    "MATRICULA": "15957",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "RETIFICAÇÃO",
+    "TIPO DA PARTE": "Cessionária",
+    "NOME DA PARTE": "Adeilza Maria Costa",
+    "DOCUMENTO DA PARTE": "03213283452",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "5790073",
+    "ID": "AV-1"
+   },
+   {
+    "MATRICULA": "15957",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "RETI-RATIFICAÇÃO E RATIFICAÇÃO",
+    "TIPO DA PARTE": "Concedente",
+    "NOME DA PARTE": "Município de Santa Cruz do Capibaribe-PE",
+    "DOCUMENTO DA PARTE": "10091569000163",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "15957",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "RETI-RATIFICAÇÃO E RATIFICAÇÃO",
+    "TIPO DA PARTE": "Concessionário",
+    "NOME DA PARTE": "Severino Adilson da Costa",
+    "DOCUMENTO DA PARTE": "55174132420",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "3287170",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "15957",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "RETI-RATIFICAÇÃO E RATIFICAÇÃO",
+    "TIPO DA PARTE": "Concessionária",
+    "NOME DA PARTE": "Adeilza Maria Costa",
+    "DOCUMENTO DA PARTE": "03213283452",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "5790073",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "15957",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONCESSÃO DE DIREITO REAL DE USO",
+    "TIPO DA PARTE": "Concedente",
+    "NOME DA PARTE": "Severino Adilson da Costa",
+    "DOCUMENTO DA PARTE": "55174132420",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "3287170",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "15957",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONCESSÃO DE DIREITO REAL DE USO",
+    "TIPO DA PARTE": "Concedente",
+    "NOME DA PARTE": "Adeilza Maria Costa",
+    "DOCUMENTO DA PARTE": "03213283452",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "5790073",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "15957",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONCESSÃO DE DIREITO REAL DE USO",
+    "TIPO DA PARTE": "Concessionário",
+    "NOME DA PARTE": "Otávio Patrocínio Julião Filho",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-3"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "15957",
+    "NOME": "Antônio Figueirôa de Siqueira",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "36343722491",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "2662495",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado, comerciante",
+    "LOGRADOURO": "Rua Rogaciano Aris Aragão",
+    "NUMERO": "63",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "15957",
+    "NOME": "Severino Adilson da Costa",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "55174132420",
+    "CPF DO CONJUGE": "03213283452",
+    "DOC DE IDENTIFICACAO": "3287170",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiros, casados sob o regime da comunhão parcial de bens, comerciantes",
+    "LOGRADOURO": "Rua D. Pedro I",
+    "NUMERO": "159",
+    "BAIRRO": "Dona Dom",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "15957",
+    "NOME": "Adeilza Maria Costa",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "03213283452",
+    "CPF DO CONJUGE": "55174132420",
+    "DOC DE IDENTIFICACAO": "5790073",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiros, casados sob o regime da comunhão parcial de bens, comerciantes",
+    "LOGRADOURO": "Rua D. Pedro I",
+    "NUMERO": "159",
+    "BAIRRO": "Dona Dom",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "15957",
+    "NOME DA EMPRESA": "Município de Santa Cruz do Capibaribe-PE",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "10091569000163",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Antônio Figueirôa de Siqueira",
+    "CPF REPRESENTANTE 1": "36343722491",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "Av. Padre Zuzinha",
+    "NUMERO": "178",
+    "BAIRRO": "Centro",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ]
+ }
+}

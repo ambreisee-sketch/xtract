@@ -1,0 +1,237 @@
+{
+ "matricula": "6214",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "Matrículas faltantes.xlsx",
+ "explicacao": "A matrícula tinha duas AV-2: a retificação de 06/10/1999 (esclarece que o lote correto é o nº 25) e o Habite-se de 27/04/2009, seguido da AV-3 (CND do INSS, também de 27/04/2009). Os dois textos trazem o cabeçalho \"AV-2-6214\", ou seja, o próprio livro repetiu o número; as versões antigas (Cópia 2-BA a 2-BZ e Matriculas_PLANILHA_2-AE_a_2-BZ) também têm as duas AV-2, e nenhuma outra matrícula cita atos da 6214. Os dois atos são válidos, então nada foi retirado. Como R e AV dividem uma numeração única em ordem cronológica, a renumeração seguiu só a cronologia: R-1 e AV-2 (retificação) em 06/10/1999, AV-3 (Habite-se) e AV-4 (CND) em 27/04/2009; os IDs das 2 partes foram ajustados. O TEXTO foi mantido como está (com os cabeçalhos originais \"AV-2\" e \"AV-3\"). Atenção: o T. URBANO verificado ainda diz lote 28, enquanto a retificação e o Habite-se dizem lote 25; não foi alterado. A 6214 não existe na \"PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx\".",
+ "alteracoes": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 4081,
+   "coluna": "ORDEM",
+   "antes": "3",
+   "depois": "4",
+   "motivo": "Consequência da renumeração do Habite-se (que passou a AV-3): a averbação da CND do INSS, da mesma data (27/04/2009) e lançada logo depois do Habite-se no livro (\"AV-3-6214\"), passa a AV-4 para não repetir o número 3."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 8350,
+   "coluna": "ID",
+   "antes": "AV-3",
+   "depois": "AV-4",
+   "motivo": "Parte (requerente Associação Bíblica e Cultural Amantes da Liberdade) da averbação da CND, renumerada de AV-3 para AV-4."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 4080,
+   "coluna": "ORDEM",
+   "antes": "2",
+   "depois": "3",
+   "motivo": "Renumeração por ordem cronológica. O livro tem dois lançamentos \"AV-2-6214\": a retificação de 06/10/1999 (lote correto nº 25), feita no mesmo dia do R-1, e o Habite-se de 27/04/2009. Como R e AV dividem uma numeração única em ordem cronológica, a retificação de 1999 fica com o 2 e o Habite-se de 2009 passa a 3. Nenhuma outra matrícula cita atos da 6214."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 8349,
+   "coluna": "ID",
+   "antes": "AV-2",
+   "depois": "AV-3",
+   "motivo": "Parte (proprietária Associação Bíblica e Cultural Amantes da Liberdade) do Habite-se, renumerado de AV-2 para AV-3."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "6214",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "06/10/1999",
+    "PROPRIETARIOS": "[A Imobiliária Tapera Ltda], com sede na cidade de Recife-PE, inscrita no CGC sob o nº 11.301.454/0001-19, neste ato, representada pelo seu sócio [Almir Ferreira Pita], brasileiro, casado, comerciante, residente na cidade de Recife-PE, portador do CPF nº 008.768.724-00",
+    "MATRICULA ANTERIOR": "Em virtude de compra feita a [Manoel Lucas de Araújo] e sua esposa [Maria Neves de Araújo] e [Aureliano João de Santana] e sua esposa [Cecília Alves Ramos de Santana], por Escritura Pública datada em 13.11.1981, lavrada nestas notas pelo Tabelião Público [Renato Cordeiro de Arruda] e registrada sob o nº R-1- mat. nº 1.692, fls. 07 do livro nº 2-R em 06.01.1982 do Registro Geral de Imóveis.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "6214",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "360,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua L",
+    "QUADRA": "G",
+    "LOTE": "28",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Cruz Alta",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "Um (01) lote de terras de nº 28 (vinte e oito), situado na Quadra \"G\" (gê), no loteamento Cruz Alta, nesta cidade. MEDINDO: 12.00 metros na parte da frente; 12.00 metros na parte de trás e 30.00 metros de ambos os lados. LIMITANDO-SE na parte da frente com a Rua L; na parte de trás com os lotes nºs 05 e 06; do lado direito com o lote nº 29 e do lado esquerdo com o lote nº 27"
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "6214",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "06/10/1999",
+    "TEXTO": "R-1-6214 TRANSMITENTE: [A Imobiliária Tapera Ltda], acima identificada. ADQUIRENTE: [Associação Bíblica e Cultural Amantes da Liberdade], inscrita no CGC sob o nº 35.679.125/0001-14, com sede à Rua Araújo Lima, nº 85, Bairro São Francisco, na cidade de Caruaru-PE, neste ato, representada por seu Presidente [Luciano Simplício de Jesus], brasileiro, casado, cabeleireiro, residente na cidade de Caruaru-PE, portador do CPF nº 386.364.094-20 e do RG nº 2.865.661 SSP-PE. TÍTULO DE TRANSMISSÃO: Escritura Pública de compra e venda, datada em 13/09/1999, lavrada pelo Tabelião Público [Renato Cordeiro de Arruda], no livro nº 108 fls. 08/20v/20v deste Cartório Geral do Registro de Imóveis. Santa Cruz do Capibaribe-PE, 06 de outubro de 1999. Eu [Rúbrica] O Oficial.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "6214",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "RETIFICAÇÃO",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "06/10/1999",
+    "TEXTO": "AV-2-6214 / CERTIFICO, e dou fé, que fica esclarecido que o imóvel correto do lote acima citado é de nº 25 (vinte e cinco), tendo as mesmas medidas e limitando-se na parte da frente com a Rua L, na parte de trás com os lotes de nºs 08 e 09; do lado direito com o lote nº 26 e do lado esquerdo com o lote nº 24. Santa Cruz do Capibaribe-PE, 06 de outubro de 1999. Eu [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "6214",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HABITE-SE",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "27/04/2009",
+    "TEXTO": "AV-2-6214 CERTIFICO, e dou fé, a requerimento da [Associação Bíblica e Cultural Amantes da Liberdade], datado de 05 de fevereiro de 2009, arquivado neste Cartório, que procedi a averbação do Habite-se fornecido pela Prefeitura Municipal Local, datado de 21 de janeiro de 2002, que é do teor seguinte: Prefeitura Municipal de Santa Cruz do Capibaribe. HABITE-SE nº XXXXX, Processo nº 17.188. Data: 21/01/2002. A Secretaria de Viação Obras, Urbanismo e Serviços Públicos, após a vistoria regulamentar, expede o presente TERMO DE HABITE-SE para a obra abaixo caracterizada: Proprietário: [Associação Bíblica e Cultural Amantes da Liberdade]. Endereço: Nesta cidade. Natureza da Obra: Religiosa. Alvará: 16.156/2001. Edificação: Área total construída 221,00 m². Área do Terreno: 360,00 m². Local da obra: Rua Bahia, nº 180, lote 25, quadra \"G\", no Lot. Cruz Alta. Responsável pelo Projeto: XXX. Endereço: XXX. Responsável, digo, Responsável pela construção XXX. Endereço: XXX. Santa Cruz do Capibaribe-PE, 21 de janeiro de 2002. Rodolfo Felix Filho - Secretário de Infra-Estrutura. Santa Cruz do Capibaribe-PE, 27 de abril de 2009. Eu [Rúbrica] o Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "6214",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CERTIDÃO NEGATIVA DE DÉBITO",
+    "TIPO ATO": "AV",
+    "ORDEM": "4",
+    "DATA": "27/04/2009",
+    "TEXTO": "AV-3-6214 CERTIFICO, e dou fé, a requerimento da [Associação Bíblica e Cultural Amantes da Liberdade], datado de 05 de fevereiro de 2008, arquivado neste Cartório, que procedi a averbação da certidão negativa de débito do INSS, referente à construção do prédio situado na Rua Bahia, nº 180, lote nº 25, quadra \"G\", no lot. Cruz Alta, nesta cidade, que é do teor seguinte: Ministério da Fazenda. Secretaria da Receita Federal do Brasil. CERTIDÃO NEGATIVA De Débitos Relativos às Contribuições Previdenciárias e às de Terceiros nº 118432008-15021050. Nome: [Associação Bíblica e Cultural Amantes da Liberdade]. CNPJ: 37.280.00491/73. Ressalvado o direito de a Fazenda Nacional cobrar e inscrever quaisquer dívidas de responsabilidade do sujeito passivo acima identificado que vierem a ser apuradas, é certificado que não constam pendências em seu nome relativas a contribuições administradas pela Secretaria da Receita Federal do Brasil (RFB) e a inscrições em Dívida Ativa do Instituto Nacional do Seguro Social (INSS). Esta Certidão, emitida apenas para o estabelecimento especificado, refere-se exclusivamente às contribuições previdenciárias e às contribuições devidas, por lei, a Terceiros, inclusive as inscritas em Dívida Ativa do INSS, não abrangendo os demais tributos administrados pela RFB e as inscrições em Dívida Ativa da União, administradas pela Procuradoria-Geral da Fazenda Nacional (PGFN), objeto de Certidão Conjunta PGFN/RFB. Esta certidão tem a finalidade de averbação no Registro de Imóveis da obra de construção civil do imóvel localizado: Rua Bahia, 180, lote 25, Quadra \"G\" - Cruz Alta - Santa Cruz do Capibaribe-PE/ 55.190-000. Com área comercial de obra nova de 0000221,00 (duzentos e vinte e um metros quadrados). A aceitação desta certidão está condicionada à finalidade para a qual foi emitida e à verificação de sua autenticidade na Internet, no endereço <http://www.receita.fazenda.gov.br>. Certidão emitida com base na Portaria Conjunta PGFN/RFB nº 3, de 02/05/2008. Emitida em 29/12/2008. Válida até 27/06/2009. Certidão emitida gratuitamente. Isenção: qualquer rasura ou emenda invalidará este documento. Santa Cruz do Capibaribe-PE, 27 de abril de 2009. Eu [Rúbrica] o Oficial do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "6214",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "A Imobiliária Tapera Ltda",
+    "DOCUMENTO DA PARTE": "11301454000119",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "6214",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Associação Bíblica e Cultural Amantes da Liberdade",
+    "DOCUMENTO DA PARTE": "35679125000114",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "6214",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HABITE-SE",
+    "TIPO DA PARTE": "PROPRIETÁRIO",
+    "NOME DA PARTE": "Associação Bíblica e Cultural Amantes da Liberdade",
+    "DOCUMENTO DA PARTE": "35679125000114",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-3"
+   },
+   {
+    "MATRICULA": "6214",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CERTIDÃO NEGATIVA DE DÉBITO",
+    "TIPO DA PARTE": "REQUERENTE",
+    "NOME DA PARTE": "Associação Bíblica e Cultural Amantes da Liberdade",
+    "DOCUMENTO DA PARTE": "372800049173",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-4"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "6214",
+    "NOME": "Almir Ferreira Pita",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "00876872400",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, comerciante, residente na cidade de Recife-PE",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Recife"
+   },
+   {
+    "MATRICULA": "6214",
+    "NOME": "Luciano Simplício de Jesus",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "cabeleireiro",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "38636409420",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "2865661",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado, cabeleireiro, residente na cidade de Caruaru-PE",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Caruaru"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "6214",
+    "NOME DA EMPRESA": "Imobiliária Tapera Ltda",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "11301454000119",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Almir Ferreira Pita",
+    "CPF REPRESENTANTE 1": "00876872400",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Recife"
+   },
+   {
+    "MATRICULA": "6214",
+    "NOME DA EMPRESA": "Associação Bíblica e Cultural Amantes da Liberdade",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "35679125000114",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Luciano Simplício de Jesus",
+    "CPF REPRESENTANTE 1": "38636409420",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "Rua Araújo Lima",
+    "NUMERO": "85",
+    "BAIRRO": "São Francisco",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Caruaru"
+   }
+  ]
+ }
+}

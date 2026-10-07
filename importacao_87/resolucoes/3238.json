@@ -1,0 +1,257 @@
+{
+ "matricula": "3238",
+ "status": "resolvido",
+ "confianca": "alta",
+ "fonte_base": "Matrículas faltantes.xlsx",
+ "explicacao": "A 3238 tinha dois atos R-2 (regra R1): o R-2 de 02/06/1993 (venda a Francisco Raimundo) e o R-2 de 18/01/2000 (venda a José Ademilson da Silva). O de 1993 foi cancelado no próprio livro (\"NOTA: Em virtude de lapso, fica cancelado o registro nº R.2. MAT. 3.238 acima citado\", mesmo dia) e o número R-2 foi usado de novo em 2000. O R-2 que vale é o de 2000: a matrícula 8950, aberta para o lote 14-A, cita \"R-2 - Mat. 3.238 ... em 18 de janeiro de 2000\", e a sequência continua AV-3, AV-4, AV-5. Foi retirado o lançamento cancelado de 1993, com suas 3 partes e o cadastro de Francisco Raimundo, que só aparecia nele. Ficou R-1, R-2, AV-3, AV-4, AV-5, sem renumerar nenhum ato. O texto do lançamento cancelado não vai para o sistema.",
+ "alteracoes": [],
+ "linhas_removidas": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 4053,
+   "motivo": "Ato \"R-2-3238 CANCELADO\" (COMPRA E VENDA (CANCELADO), 02/06/1993), REGISTRADO=\"N\". O R-2 de 02/06/1993 (Paulo Ferreira da Silva e Elivoneide para Francisco Raimundo) foi cancelado no próprio livro: o texto termina com \"NOTA: Em virtude de lapso, fica cancelado o registro nº R.2. MAT. 3.238 acima citado. Santa Cruz do Capibaribe, 02 de junho de 1993\". O número R-2 foi usado de novo em 18/01/2000 para a venda a José Ademilson da Silva, e é esse o R-2 que vale: a matrícula 8950 (Cópia 2-CA a 2-CZ, linha 354) cita \"R-2 - Mat. 3.238, às fls. 17, do livro nº 2-AL, em 18 de janeiro de 2000\", e a numeração segue com AV.3, AV.4 e AV.5."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 8303,
+   "motivo": "Parte (transmitente Paulo Ferreira da Silva) do R-2 cancelado de 1993; ele continua como transmitente no R-2 de 18/01/2000 (linha 8306)."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 8304,
+   "motivo": "Parte (transmitente Elivoneide Lima de Souza Ferreira) do R-2 cancelado de 1993; ela continua como transmitente no R-2 de 18/01/2000 (linha 8307)."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 8305,
+   "motivo": "Parte (adquirente Francisco Raimundo) do R-2 cancelado de 1993; a venda a ele não teve efeito."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "linha_origem": 4309,
+   "motivo": "Cadastro de Francisco Raimundo, que só aparecia no R-2 cancelado de 1993 e não é parte de nenhum outro ato."
+  }
+ ],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "3238",
+    "ATIVA": "ENCERRADA",
+    "DATA ABERTURA": "18/12/1985",
+    "PROPRIETARIOS": "A [Imobiliária Santa Cecília Ltda], representada pelo sócio-Presidente [Inácio Abílio Graças] brasileiro, desquitado, farmacêutico prático, residente na Av Pe Zuzinha, nº 443, nesta cidade, portador do CPF nº 053.101.055-49",
+    "MATRICULA ANTERIOR": "Em virtude de compra feita a [Candido Abílio Graças] e sua esposa [Terezinha Costa Graças], [Inácio Abílio Graças], [Margarida Maria Graças], [Neuza Aragão] e [Neuza Graças] por escritura pública datada de 13/12/1984, lavrada pelo Tabelião Público [Renato Cordeiro de Arruda] e registrada sob o nº R.6-Mat. 2.735 no livro nº 2 AE, às fls 12 em 18.12.1984 no Cartório do Registro Geral de Imóveis desta Comarca.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "3238",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "250,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "NÃO CONSTA",
+    "QUADRA": "E",
+    "LOTE": "14",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Loteamento",
+    "BAIRRO": "Loteamento Beira Rio",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "Um lote de terra situado na quadra “E” lote nº 14 no loteamento Beira Rio da [Imobiliária Santa Cecília Ltda], nesta cidade medindo 10,00 metros na parte da frente, 10,00 metros na parte dos fundos, 25,00 metros do lado direito, 25,00 metros do lado esquerdo limitando-se ao norte com a Rua Projetada “8”, ao sul com o lote nº 03, ao Leste com o lote nº 13 e ao Oeste com o lote nº 15 da mesma quadra"
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "3238",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "18/12/1985",
+    "TEXTO": "R.1 TRANSMITENTE: A [Imobiliária Santa Cecília Ltda], representada pelo sócio Presidente [Inácio Aurélio Graças], brasileiro, desquitado, farmacêutico prático, residente na Av Pe Zuzinha nº 443, nesta cidade, portador do CPF nº 053.101.055-49. ADQUIRENTE: [Paulo Ferreira da Silva], brasileiro, solteiro, maior, comerciante, residente na Rua Siqueira Campos, nº 194, nesta cidade, portador do CPF nº 381.650.904-53. TÍTULO DE TRANSMISSÃO: Escritura Pública de compra e venda lavrada pelo tabelião Público Distrital José Quintino de Lima da Vila do Pará, deste município, conforme livro de escritura nº 17, às fls. 25 a 26 v., datado de 25 de novembro de 1985. Valor: Cz$ 900.000. Santa Cruz do Capibaribe, 18 de dezembro de 1985. [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "3238",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "2",
+    "DATA": "18/01/2000",
+    "TEXTO": "R-2-3238 / TRANSMITENTES: [Paulo Ferreira da Silva] e sua esposa [Elivoneide Lima de Souza Ferreira], brasileiros, casados, comerciantes, do lar, residentes à Rua Siqueira Campos, nº 194 nesta cidade, portadores do CIC nº 381.650.904-53. ADQUIRENTE: [José Ademilson da Silva], brasileiro, solteiro, maior, comerciante, residente à Rua Santa Cecília, nº 15, Beira Rio, nesta cidade, portador do CIC nº 799.286.094-20. TÍTULO DE TRANSMISSÃO: Escritura Pública de compra e venda, datada de 25 de dezembro de 1.999, no livro nº 109, fls. nº 34136, lavrada pelo Tabelião Renato Cordeiro de Arruda do Cartório do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE, 18 de janeiro de 2.000. Eu, [Rúbrica] O Oficial do Registro. em tempo valor R$ 3.000,00. [Rúbrica]",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "3238",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "DESMEMBRAMENTO",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "04/09/2003",
+    "TEXTO": "AV.3- CERTIFICO, e dou fé, que o lote de terras da presente matrícula foi desmembrado, tornando-se 02 (dois) lotes de terras de nºs 14 e 14-A (quatorze e quatorze-a), situados na \"E\"º “E” (e), no Loteamento Beira Rio, nesta cidade, com as seguintes características: LOTE Nº 14: medindo 03,70 metros na parte da frente, 04,40 metros na parte de trás, 22,20 metros do lado direito e 20,90 metros do lado esquerdo, perfazendo um total de 87,27 m2, limitando-se na parte da frente com a Rua Projetada nº 08, na parte de trás com parte do lote nº 03; do lado direito com o lote nº 13, e do lado esquerdo com o lote nº 14-A; e LOTE Nº 14-A: medindo 06,35 metros na parte da frente, 05,95 metros na parte de trás, 20,90 metros do lado direito e 18,90 metros do lado esquerdo, perfazendo um total de 122,38 m2, limitando-se na parte da frente com a Rua Projetada nº 08, na parte de trás com parte do lote nº 03, do lado direito com o lote nº 14 e do lado esquerdo com o lote nº 15, conforme planta de desmembramento, assinada pelo Engenheiro Civil Jarbas Morais Gati Mangueira - CREA/3649-D/PB e aprovada pela Prefeitura Municipal Local em 27 de agosto de 2003, arquivada neste Cartório. Santa Cruz do Capibaribe-PE, 09 de setembro de 2003. [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "3238",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ABERTURA DE MATRÍCULA (LOTE 14)",
+    "TIPO ATO": "AV",
+    "ORDEM": "4",
+    "DATA": "05/09/2003",
+    "TEXTO": "AV.4- CERTIFICO, e dou fé, que foi vendido o lote nº 14, da presente matrícula, digo, que foi aberto matrícula do lote nº 14, da presente matrícula, a qual recebeu a seguinte matrícula: nº 7.598, às fls. 255, do livro nº 2-BX, em 05 de setembro de 2003. Santa Cruz do Capibaribe-PE, 05 de setembro de 2003. [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "3238",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ABERTURA DE MATRÍCULA (LOTE 14-A)",
+    "TIPO ATO": "AV",
+    "ORDEM": "5",
+    "DATA": "20/02/2006",
+    "TEXTO": "AV.5- CERTIFICO, e dou fé, que foi aberta matrícula do lote nº 14-A, no livro nº 2-LI, às fls. 162, sob o nº 8.950, em 20/02/2006. Santa Cruz do Capibaribe-PE, 20 de fevereiro de 2006. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "3238",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "IMOBILIARIA SANTA CECILIA LTDA",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "3238",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "PAULO FERREIRA DA SILVA",
+    "DOCUMENTO DA PARTE": "38165090453",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "3238",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "PAULO FERREIRA DA SILVA",
+    "DOCUMENTO DA PARTE": "38165090453",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "3238",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "ELIVONEIDE LIMA DE SOUZA FERREIRA",
+    "DOCUMENTO DA PARTE": "38165090453",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   },
+   {
+    "MATRICULA": "3238",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "JOSE ADEMILSON DA SILVA",
+    "DOCUMENTO DA PARTE": "79928609420",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-2"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "3238",
+    "NOME": "INACIO ABILIO GRACAS",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "farmacêutico prático",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "desquitado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "05310105549",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, desquitado, farmacêutico prático",
+    "LOGRADOURO": "Avenida Pe Zuzinha",
+    "NUMERO": "443",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "3238",
+    "NOME": "Paulo Ferreira da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "solteiro",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "38165090453",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, solteiro, maior, comerciante",
+    "LOGRADOURO": "Rua Siqueira Campos",
+    "NUMERO": "194",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "3238",
+    "NOME": "JOSE ADEMILSON DA SILVA",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "solteiro",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "79928609420",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, solteiro, maior, comerciante",
+    "LOGRADOURO": "Rua Santa Cecília",
+    "NUMERO": "15",
+    "BAIRRO": "Beira Rio",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "3238",
+    "NOME DA EMPRESA": "IMOBILIARIA SANTA CECILIA LTDA",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "INACIO ABILIO GRACAS",
+    "CPF REPRESENTANTE 1": "05310105549",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ]
+ }
+}

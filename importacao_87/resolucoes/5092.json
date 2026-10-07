@@ -1,0 +1,239 @@
+{
+ "matricula": "5092",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "Planilha Única - 32 Faltantes Santa Cruz.xlsx",
+ "explicacao": "Na versão verificada (\"Planilha Única - 32 Faltantes Santa Cruz.xlsx\") há dois R-1 (linhas 75 e 76) com o mesmo TEXTO: a NOTA de abertura (terreno da Rua Francisco Antonio Aragão, 130,36 m²) seguida do \"R.1. MAT. Nº 5.092\", aforamento a Maria Jozé da Silva em 08/06/1992. A linha 75 (TRANSMISSÃO a \"José Ramos de Moura\", 04/06/1992) não tem texto próprio e esse nome não aparece em nenhum texto da 5092; foi retirada com suas 2 partes. A sequência fica R-1, AV-2, R-3, igual aos cabeçalhos \"R.1/AV.2/R.3. MAT. 5.092\". O verificador também trocou o T. URBANO (Rua Pedro Teodoro Aragão, 360 m², que vinha junto com a linha 75 e não aparece em nenhum texto da 5092) pelo terreno descrito na NOTA da própria matrícula, confirmado pela AV-2 e pela Cópia 2-BA a 2-BZ, e corrigiu a DATA ABERTURA de 04/06/1992 para 08/06/1992, a data da abertura e do R-1. A venda de 14/02/2005 (Josibete Costa Pereira a Nelson Nicolau do Nascimento), que as versões antigas põem como \"R-3-5.092\", é do R-3 da matrícula 5.042 e não entrou. Confiança média: os dados de Pedro Teodoro Aragão e José Ramos de Moura parecem ser de outra matrícula aberta em 04/06/1992, que não está em nenhuma planilha; vale conferir no livro.",
+ "alteracoes": [
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 17,
+   "coluna": "AREA TOTAL",
+   "antes": "360,00",
+   "depois": "130,36",
+   "motivo": "VERIFICADOR: o T. URBANO da base (Rua Pedro Teodoro Aragão, 12 x 30 m, 360 m², vizinhos José Goza de Souza, Marciano Pereira de Ramos e Edmilson Glicério da Silva) não é o imóvel da 5092 e não aparece em nenhum texto desta matrícula. A abertura da própria matrícula, na NOTA que precede o \"R.1. MAT. Nº 5.092\" (de onde a base já tirou PROPRIETARIOS e MATRICULA ANTERIOR), descreve o terreno da Rua Francisco Antonio Aragão, s/nº, 06,00 x 04,20 x 25,80 x 21,40 m, 130,36 m²; a AV-2 (\"terreno objeto da matrícula nº 5.092 ... Francisco Antonio Aragão, nº 375\") e o T. URBANO da \"Cópia de PLANILHA SANTA 2-BA a 2-BZ\" (linha 549) confirmam. O T. URBANO de Pedro Teodoro Aragão vinha junto com o R-1 copiado (linha 75: TRANSMISSÃO a José Ramos de Moura, 04/06/1992) que o resolvedor já retirou por não ter texto na 5092."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 17,
+   "coluna": "LOGRADOURO",
+   "antes": "Rua Pedro Teodoro Aragão",
+   "depois": "Rua Francisco Antonio Aragão",
+   "motivo": "VERIFICADOR: o T. URBANO da base (Rua Pedro Teodoro Aragão, 12 x 30 m, 360 m², vizinhos José Goza de Souza, Marciano Pereira de Ramos e Edmilson Glicério da Silva) não é o imóvel da 5092 e não aparece em nenhum texto desta matrícula. A abertura da própria matrícula, na NOTA que precede o \"R.1. MAT. Nº 5.092\" (de onde a base já tirou PROPRIETARIOS e MATRICULA ANTERIOR), descreve o terreno da Rua Francisco Antonio Aragão, s/nº, 06,00 x 04,20 x 25,80 x 21,40 m, 130,36 m²; a AV-2 (\"terreno objeto da matrícula nº 5.092 ... Francisco Antonio Aragão, nº 375\") e o T. URBANO da \"Cópia de PLANILHA SANTA 2-BA a 2-BZ\" (linha 549) confirmam. O T. URBANO de Pedro Teodoro Aragão vinha junto com o R-1 copiado (linha 75: TRANSMISSÃO a José Ramos de Moura, 04/06/1992) que o resolvedor já retirou por não ter texto na 5092."
+  },
+  {
+   "aba": "T. URBANO",
+   "linha_origem": 17,
+   "coluna": "DESCRICAO",
+   "antes": "Um terreno do patrimônio do município, localizado na Rua Pedro Teodoro Aragão, s/nº, nesta cidade, medindo 12,00 metros de frente, 12,00 metros de fundos, 30,00 metros na lateral direita e 30,00 metros na lateral esquerda, com área total de: 360,00 m2, para fins residencial, limitando-se na parte da frente com o leito da Rua Pedro Teodoro Aragão, na parte de trás com [José Goza de Souza] (imóvel nº 152 da Rua Pe. Claudio Abílio Aragão), do lado direito com [Marciano Pereira de Ramos] (imóvel nº 163) e do lado esquerdo com [Edmilson Glicério da Silva] (imóvel nº 188)",
+   "depois": "Um terreno do patrimônio do município, localizado à Rua Francisco Antonio Aragão, s/nº, nesta cidade, medindo 06,00 metros de frente, 04,20 metros de fundos, 25,80 metros na lateral direita e 21,40 metros na lateral esquerda com área total de 130,36 m2, para fins residenciais, limitando-se na parte da frente com o leito da Rua Francisco Antonio Aragão, na parte de trás com o leito da Rua Padre José Anchieta, do lado direito com [Ana Maria Alves de Araújo] (imóvel 371) e do lado esquerdo com [Inacio Graca da Silva] (imóvel nº 379).",
+   "motivo": "VERIFICADOR: o T. URBANO da base (Rua Pedro Teodoro Aragão, 12 x 30 m, 360 m², vizinhos José Goza de Souza, Marciano Pereira de Ramos e Edmilson Glicério da Silva) não é o imóvel da 5092 e não aparece em nenhum texto desta matrícula. A abertura da própria matrícula, na NOTA que precede o \"R.1. MAT. Nº 5.092\" (de onde a base já tirou PROPRIETARIOS e MATRICULA ANTERIOR), descreve o terreno da Rua Francisco Antonio Aragão, s/nº, 06,00 x 04,20 x 25,80 x 21,40 m, 130,36 m²; a AV-2 (\"terreno objeto da matrícula nº 5.092 ... Francisco Antonio Aragão, nº 375\") e o T. URBANO da \"Cópia de PLANILHA SANTA 2-BA a 2-BZ\" (linha 549) confirmam. O T. URBANO de Pedro Teodoro Aragão vinha junto com o R-1 copiado (linha 75: TRANSMISSÃO a José Ramos de Moura, 04/06/1992) que o resolvedor já retirou por não ter texto na 5092."
+  },
+  {
+   "aba": "MATRÍCULA",
+   "linha_origem": 17,
+   "coluna": "DATA ABERTURA",
+   "antes": "04/06/1992",
+   "depois": "08/06/1992",
+   "motivo": "VERIFICADOR: a abertura (NOTA) e o R-1 formam um só lançamento, que termina em \"Santa Cruz do Capibaribe, 08 de junho de 1992\"; a AV-2 também é de 08/06/1992 e a \"Cópia de PLANILHA SANTA 2-BA a 2-BZ\" (linha 559) traz DATA ABERTURA 33763 = 08/06/1992. A data 04/06/1992 é a do R-1 copiado (linha 75, José Ramos de Moura) que foi retirado."
+  }
+ ],
+ "linhas_removidas": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 75,
+   "motivo": "Cópia do R-1: o TEXTO é igual ao da linha 76 (só muda \"residencial\"/\"residenciais\"). Os dois trazem a NOTA com a descrição do terreno da Rua Francisco Antonio Aragão e o \"R.1. MAT. Nº 5.092\", aforamento da Prefeitura a Maria Jozé da Silva, datado de 08/06/1992. Fica a linha 76 (ATO AFORAMENTO, DATA 08/06/1992, igual à data do texto). Esta linha (ATO TRANSMISSÃO, DATA 04/06/1992) não tem texto próprio."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 152,
+   "motivo": "Transmitente Prefeitura Municipal da cópia do R-1 removida; a mesma parte continua na linha 154, ligada ao R-1 que fica."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 153,
+   "motivo": "Adquirente \"José Ramos de Moura\" ligado só à cópia do R-1 removida. Nenhum texto desta matrícula, em nenhuma versão, cita esse nome, e o R-1 cujo texto existe (\"R.1. MAT. Nº 5.092\") tem como adquirente Maria Jozé da Silva."
+  }
+ ],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "5092",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "08/06/1992",
+    "PROPRIETARIOS": "[Prefeitura Municipal de Santa Cruz do Capibaribe] - PE, cadastrada no CGC sob o nº 10.091.569/0001-63",
+    "MATRICULA ANTERIOR": "Escritura pública registrada no Livro nº 03, a, fls. 50, sob o nº 245, datado de 30 de novembro de 1956, do Registro Geral de Imóveis desta Comarca.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "5092",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "130,36",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua Francisco Antonio Aragão",
+    "QUADRA": "NÃO CONSTA",
+    "LOTE": "NÃO CONSTA",
+    "N": "s/nº",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "Um terreno do patrimônio do município, localizado à Rua Francisco Antonio Aragão, s/nº, nesta cidade, medindo 06,00 metros de frente, 04,20 metros de fundos, 25,80 metros na lateral direita e 21,40 metros na lateral esquerda com área total de 130,36 m2, para fins residenciais, limitando-se na parte da frente com o leito da Rua Francisco Antonio Aragão, na parte de trás com o leito da Rua Padre José Anchieta, do lado direito com [Ana Maria Alves de Araújo] (imóvel 371) e do lado esquerdo com [Inacio Graca da Silva] (imóvel nº 379)."
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "5092",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AFORAMENTO",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "08/06/1992",
+    "TEXTO": "R-1-5092 NOTA: Um terreno do patrimônio do município, localizado à Rua Francisco Antonio Aragão, s/nº, nesta cidade, medindo 06,00 metros de frente, 04,20 metros de fundos, 25,80 metros na lateral direita e 21,40 metros na lateral esquerda com área total de 130,36 m2, para fins residenciais, limitando-se na parte da frente com o leito da Rua Francisco Antonio Aragão, na parte de trás com o leito da Rua Padre José Anchieta, do lado direito com [Ana Maria Alves de Araújo] (imóvel 371) e do lado esquerdo com [Inacio Graca da Silva] (imóvel nº 379). PROPRIETÁRIO: [Prefeitura Municipal de Santa Cruz do Capibaribe] - PE, cadastrada no CGC sob o nº 10.091.569/0001-63. TÍTULO ANTERIOR: Escritura pública registrada no Livro nº 03, a, fls. 50, sob o nº 245, datado de 30 de novembro de 1956, do Registro Geral de Imóveis desta Comarca. R.1. MAT. Nº 5.092. TRANSMITENTE: [Prefeitura Municipal de Santa Cruz do Capibaribe] - PE, cadastrada no CGC sob o nº 10.091.569/0001-63. ADQUIRENTE: [Maria Jozé da Silva], brasileira, viúva, doméstica, portadora do CIC nº 327.097.144-34. TÍTULO DE TRANSMISSÃO: Carta de aforamento nº 1.544, registro nº 7.125, Livro 05, fls. 17, de 03 de agosto de 1989. Valor: Cr$ 5.600,00 (cinco mil e seiscentos cruzeiros). Santa Cruz do Capibaribe, 08 de junho de 1992. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "5092",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONSTRUÇÃO",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "08/06/1992",
+    "TEXTO": "AV-2-5092 AV.2. MAT. 5.092. Certifico e dou fé que conforme requerimento datado de 21 de maio de 1992 assinado por [Maria Jozé da Silva], acompanhado da certidão municipal local, arquivada em Cartório, consta que no terreno objeto da matrícula nº 5.092, acima, foi construído o prédio sito à Francisco Antonio Aragão, nº 375, nesta cidade, conforme certidão fornecida pela Prefeitura Municipal local, que é do teor seguinte: Prefeitura Municipal de Santa Cruz do Capibaribe. Certidão. Certifico, a pedido da Sra. [Maria Jozé da Silva], brasileira, viúva, doméstica, portadora do CIC nº 327.097.144-34, residente nesta cidade, para fins de averbação junto ao Cartório Geral de Imóveis desta cidade, que o imóvel localizado na Rua Francisco Antonio Aragão, 375, edificado em terreno próprio do Patrimônio Municipal, acha-se registrado o pedido de licença para construir uma casa residencial, de acordo com a petição protocolada sob o nº 7.125, Livro 05, fls. 17, lavrada e deferida no dia 03.08.89 em nome da mesma. Certifico, ainda, que o citado imóvel possui atualmente as seguintes características: 04,40 metros na parte da frente, 04,40 metros na parte de trás, 19,70 metros do lado direito e 15,30 metros do lado esquerdo, com 02 portas e 01 janela na parte da frente, 01 sala, 03 quartos, 01 corredor, 01 cozinha, 01 sanitário, 02 portas e 01 terraço na parte da frente digo, na parte de trás, terreno para recuo medindo 04,20 metros de frente, por 02,90 metros de ambos os lados, 01 salão nos fundos do terreno medindo 04,20 metros de frente, por 03,20 metros de ambos os lados. Limitando-se na parte da frente com o leito da Rua Francisco Antonio Aragão, na parte de trás com o leito da Rua Padre José Anchieta, do lado direito com [Ana Maria Alves de Araújo] (imóvel nº 371) e do lado esquerdo com [Inacio Graca da Silva] (imóvel nº 379). Certifico, finalmente, que o referido imóvel está inscrito no cadastro imobiliário desta Prefeitura sob o nº 15.000, no valor venal (Alvará) de Cr$ 721.605,00 (setecentos e vinte e um mil e seiscentos e cinco cruzeiros). Do que, para constar, forneço a presente certidão. Santa Cruz do Capibaribe, 21 de maio de 1992. [Deocleciano Carlos da Rocha], Chefe Seção de Obras. Santa Cruz do Capibaribe, 08 de junho de 1992. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "5092",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "3",
+    "DATA": "22/07/1992",
+    "TEXTO": "R-3-5092 R.3. MAT. 5.092. TRANSMITENTE: [Maria Jozé da Silva], brasileira, viúva, do lar, residente à Rua Francisco Antonio Aragão, s/nº, nesta cidade, portadora do CIC nº 327.097.144-34 e cédula de identidade nº 2.065.836 SSP/PE. ADQUIRENTE: [Idalécio José Galdino], brasileiro, casado sob o regime da comunhão universal de bens, aposentado, residente à Av. Padre Zuzinha, nº 508, nesta cidade, portador do CIC nº 459.969.898-91 e cédula de identidade nº 3.971.121-SSP/SP. TÍTULO DE TRANSMISSÃO: Escritura pública de compra e venda datada de 09 de julho de 1992, lavrada pelo Tabelião Público Renato Cordeiro de Arruda, do Cartório Único desta Comarca. Valor: CR$ 1.500.000,00 (um milhão e quinhentos mil cruzeiros). Santa Cruz do Capibaribe, 22 de julho de 1992. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "5092",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AFORAMENTO",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Prefeitura Municipal de Santa Cruz do Capibaribe",
+    "DOCUMENTO DA PARTE": "10091569000163",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "5092",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AFORAMENTO",
+    "TIPO DA PARTE": "Adquirente",
+    "NOME DA PARTE": "Maria Jozé da Silva",
+    "DOCUMENTO DA PARTE": "32709714434",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "5092",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONSTRUÇÃO",
+    "TIPO DA PARTE": "Requerente",
+    "NOME DA PARTE": "Maria Jozé da Silva",
+    "DOCUMENTO DA PARTE": "32709714434",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-2"
+   },
+   {
+    "MATRICULA": "5092",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Maria Jozé da Silva",
+    "DOCUMENTO DA PARTE": "32709714434",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "2065836",
+    "ID": "R-3"
+   },
+   {
+    "MATRICULA": "5092",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Adquirente",
+    "NOME DA PARTE": "Idalécio José Galdino",
+    "DOCUMENTO DA PARTE": "45996989891",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "3971121",
+    "ID": "R-3"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "5092",
+    "NOME": "Maria Jozé da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "do lar",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "viúva",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "32709714434",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "2065836",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, viúva, do lar",
+    "LOGRADOURO": "Rua Francisco Antonio Aragão",
+    "NUMERO": "s/nº",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "5092",
+    "NOME": "Idalécio José Galdino",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "aposentado",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "45996989891",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "3971121",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "SP",
+    "QUALIFICACAO": "brasileiro, casado sob o regime da comunhão universal de bens, aposentado",
+    "LOGRADOURO": "Avenida Padre Zuzinha",
+    "NUMERO": "508",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "5092",
+    "NOME DA EMPRESA": "Prefeitura Municipal de Santa Cruz do Capibaribe",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "10091569000163",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "NÃO CONSTA",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ]
+ }
+}

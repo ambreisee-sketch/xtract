@@ -1,0 +1,517 @@
+{
+ "matricula": "3711",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "Matrículas faltantes.xlsx",
+ "explicacao": "Na \"Matrículas faltantes.xlsx\" a 3711 tinha só R-1, AV-2 e AV-3, mas sobrou uma parte, \"Maria Francisca das Graças\" (transmitente, ID R-4), ligada a um ato que não existia (regra R2). A \"Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx\" tem a página de continuação da mesma matrícula (linhas 2048-2051) com R-4-3.711 (05/03/1992, Maria Francisca das Graças para Pedro Ricardo da Silva, residente na Rua Josefa Maria de Jesus, nº 253, a casa da AV-3), R-5-3.711 (26/03/1999, para Josefa Jaksilene Menezes de Barros), R-6-3.711 (23/04/2001, para Benigno Sebastião da Silva) e R-7-3.711 \"CANCELADO\". Os 4 atos foram acrescentados com as 7 partes e os 6 cadastros de pessoas que estão na Cópia. A adquirente do R-1 deixou de ser proprietária atual. A numeração ficou R-1, AV-2, AV-3, R-4, R-5, R-6, R-7, sem repetição. Na Cópia, o cabeçalho dessa página (MATRÍCULA linha 605, \"CANCELADA\", e T. URBANO linha 578) não é outro imóvel: é o fim da certidão da AV-3. Por isso não foi usado, e a matrícula continua ATIVA como na base. VERIFICADOR: os atos R-4 a R-6 e as partes estão bem apoiados (o R-4 vende a casa nº 253 da AV-3, e as partes e os textos conferem com a Cópia). A confiança baixou para média por causa da situação da matrícula: na Cópia, a página de continuação está marcada \"CANCELADA\" (MATRÍCULA linha 605) e o R-7 traz só a palavra \"CANCELADO\", sem data nem texto. O mais provável é que o R-7 tenha sido um registro inutilizado, e a matrícula foi mantida ATIVA como na base, mas o livro deve ser conferido para saber se o R-7 cancelou a matrícula.",
+ "alteracoes": [
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 8171,
+   "coluna": "PROPRIETARIO ATUAL",
+   "antes": "S",
+   "depois": "N",
+   "motivo": "Com o R-4 (venda a Pedro Ricardo da Silva, 1992), o R-5 e o R-6 acrescentados, a adquirente do R-1 deixou de ser proprietária. Os proprietários atuais passam a ser os do R-6 (Benigno Sebastião da Silva e Iracema Lopes da Silva), que já vêm marcados com \"S\" na Cópia."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [
+  {
+   "aba": "MATRICULA_ATO",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 2048",
+   "motivo": "Ato R-4 (\"R-4-3.711...\", 05/03/1992) da página de continuação da 3711 na Cópia, que faltava na base. A quebra de linha depois do cabeçalho virou espaço, como na base."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 2049",
+   "motivo": "Ato R-5 (\"R-5-3.711...\", 26/03/1999) da página de continuação da 3711 na Cópia, que faltava na base. A quebra de linha depois do cabeçalho virou espaço, como na base."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 2050",
+   "motivo": "Ato R-6 (\"R-6-3.711...\", 23/04/2001) da página de continuação da 3711 na Cópia, que faltava na base. A quebra de linha depois do cabeçalho virou espaço, como na base."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 2051",
+   "motivo": "Ato R-7 (\"R-7-3.711...\", NÃO CONSTA) da página de continuação da 3711 na Cópia, que faltava na base. A quebra de linha depois do cabeçalho virou espaço, como na base."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 4248",
+   "motivo": "Parte Adquirente \"Pedro Ricardo da Silva\" do R-4-3.711, ato acrescentado da mesma página da Cópia."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 4249",
+   "motivo": "Parte Transmitente \"Pedro Ricardo da Silva\" do R-5-3.711, ato acrescentado da mesma página da Cópia."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 4250",
+   "motivo": "Parte Transmitente \"Lucilita de Oliveira Silva\" do R-5-3.711, ato acrescentado da mesma página da Cópia."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 4251",
+   "motivo": "Parte Adquirente \"Josefa Jaksilene Menezes de Barros\" do R-5-3.711, ato acrescentado da mesma página da Cópia."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 4252",
+   "motivo": "Parte Transmitente \"Josya Jaksiline Menezes de Barros\" do R-6-3.711, ato acrescentado da mesma página da Cópia."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 4253",
+   "motivo": "Parte Adquirente \"Benigno Sebastião da Silva\" do R-6-3.711, ato acrescentado da mesma página da Cópia."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 4254",
+   "motivo": "Parte Adquirente \"Iracema Lopes da Silva\" do R-6-3.711, ato acrescentado da mesma página da Cópia."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 2083",
+   "motivo": "Cadastro de \"Maria Francisca das Graças\", parte dos atos R-4 a R-6 acrescentados."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 2084",
+   "motivo": "Cadastro de \"Pedro Ricardo da Silva\", parte dos atos R-4 a R-6 acrescentados."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 2085",
+   "motivo": "Cadastro de \"Lucilita de Oliveira Silva\", parte dos atos R-4 a R-6 acrescentados."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 2086",
+   "motivo": "Cadastro de \"Josefa Jaksilene Menezes de Barros\", parte dos atos R-4 a R-6 acrescentados."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 2087",
+   "motivo": "Cadastro de \"Josya Jaksiline Menezes de Barros\", parte dos atos R-4 a R-6 acrescentados."
+  },
+  {
+   "aba": "P. FÍSICA",
+   "fonte": "Cópia de PLANILHA SANTA 2-AE a 2-AZ.xlsx linha 2088",
+   "motivo": "Cadastro de \"Benigno Sebastião da Silva\", parte dos atos R-4 a R-6 acrescentados."
+  }
+ ],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "3711",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "24/11/1986",
+    "PROPRIETARIOS": "[Imobiliária G.C.L. Incorporações Ltda], cadastrada no CGC sob o nº 11.499.431/0001-60, representada pela sua sócia Gerente [Enilda Olimpia da Silva Tavares], brasileira, casada, empresária, residente na cidade do Recife - PE, portadora do CIC nº 00107700468.",
+    "MATRICULA ANTERIOR": "Em virtude de carta de Adjudicação extraída dos autos de inventário dos bens deixados por [José Francisco Catolé], expedida pelo Juiz Dr. [Cloris Guimarães Ribeiro], em 17 de fevereiro de 1983 e registrada sob o nº R-1-Mat. 2.176, no Livro nº 2-Z, às fls. 06, em 22 de março de 1983, do Registro Geral de Imóveis desta Comarca.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "3711",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "84,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua 05",
+    "QUADRA": "P",
+    "LOTE": "32",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Loteamento Santa Tereza",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "Um lote de terra situado no Loteamento Santa Tereza, na quadra \"P\", lote nº 32, nesta cidade, medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 21,00 metros de ambos os lados, limitando-se na parte da frente com a Rua 05, na parte de trás com partes dos lotes nºs 17 e 18, do lado direito com o lote nº 32 A e do lado esquerdo com o lote nº 31. Cujo lote foi desmembrado conforme planta aprovada pela Prefeitura Municipal local em 29 de agosto de 1986, assinada pela engenheira Civil [Maria Luiza Lima Chagas], a qual fica arquivada neste Cartório"
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "24/11/1986",
+    "TEXTO": "R-1-3.711 TRANSMITENTE: [Imobiliária G.C.L. Incorporações Ltda], cadastrada no CGC sob o nº 11.499.431/0001-60, representada pela sua sócia Gerente [Enilda Olimpia da Silva Tavares], brasileira, casada, empresária, residente na cidade do Recife-PE, portadora do CIC nº 00107700468. ADQUIRENTE: [Maria Francisca dos Prazeres], brasileira, solteira, maior, funcionária, portadora do CIC nº 359.098.114-87, residente no lugar denominado Campo Velho, do Distrito de Coxixola, município de Serra Branca - Paraíba, portadora da Cédula de Identidade nº 542.399/SSP-PB. TÍTULO DE TRANSMISSÃO: Escritura Pública de compra e venda, datada de 28 de outubro de 1986, lavrada pelo Tabelião Público [Renato Cordeiro de Lima] do Cartório Único desta Comarca. Valor: Cz$ 5.000,00. Santa Cruz do Capibaribe, 24 de novembro de 1986. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ALTERAÇÃO DE MEDIDAS",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "06/11/1991",
+    "TEXTO": "AV-2-3.711 Certifico, e dou fé, que conforme planta de desmembramento, o lote nº 32 da quadra 9, desta matrícula, passou a ter novas medições, conforme também, certidão fornecida pela Prefeitura Municipal local, que é do teor seguinte: Prefeitura Municipal de Santa Cruz do Capibaribe. Certidão: Certifico para fins de comprovação junto ao Cartório Geral de Imóveis desta cidade, que de acordo com as plantas aprovadas no dia 10/12/90, o lote de terra situado no Loteamento Santa Tereza, na 9, lote nº 32, possui atualmente as seguintes dimensões e limites: Dimensões: frente - 04,50 metros, fundos - 04,50 metros, lado direito 21,00 metros e lado esquerdo 21,00 metros. Limites: limitando-se na parte da frente com o leito da Rua Josefa Maria de Jesus, na parte de trás com os lotes nºs 17 e 18 da quadra 9, do lado direito com o lote 32-A, da quadra P e do lado esquerdo com o lote nº 31, da 9. Do que, para constar forneço a presente certidão. Santa Cruz do Capibaribe, 08 de maio de 1991. Frederico, digo, Frederico Carlos da Rocha, Secretário de Obras. Santa Cruz do Capibaribe, 06 de novembro de 1991. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONSTRUÇÃO",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "NÃO CONSTA",
+    "TEXTO": "AV-3-3.711 Certifico, e dou fé, que pela certidão datada de 19 de abril de 1991, a proprietária [Maria Francisca dos Prazeres], requereu a presente averbação, no sentido de ficar constando que no terreno objeto desta matrícula 3.711, foi edificado um prédio de nº 253, dando frente para a Rua Josefa Maria de Jesus, conforme certidão fornecida pela Prefeitura Municipal local, que é do teor seguinte: Prefeitura Municipal de Santa Cruz do Capibaribe. Certidão: Certifico a pedido da Sra. [Maria Francisca dos Prazeres], brasileira, solteira, doméstica, portadora do CPF nº 359.098.114-87, residente nesta cidade, para fins de averbação junto ao Cartório Geral de Imóveis desta cidade que o imóvel localizado na Rua Josefa Maria de Jesus, 253, lote 32, quadra P, Loteamento Santa Tereza, edificado em terreno próprio, acha-se registrado o pedido de licença para legalizar uma casa residencial, de acordo com a petição protocolada sob o nº 19/04/91, livro 05, fls. 66, datada e deferida no dia 19/04/91 em nome da mesma. Certifico, ainda que o imóvel citado, possui atualmente as seguintes características: 04,50 metros na parte da frente, 04,50 metros na parte de trás, 14,00 metros de ambos os lados, dispensada... [Rúbrica]",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "4",
+    "DATA": "05/03/1992",
+    "TEXTO": "R-4-3.711 TRANSMITENTE: [Maria Francisca das Graças], brasileira, solteira, maior, funcionária, residente no Sítio Campo Velho, distrito da Vila de Coxixola do município de Serra Branca, Estado da Paraíba, portadora do CIC n.º 358.283.114-87. ADQUIRENTE: [Pedro Ricardo da Silva], brasileiro, solteiro, maior, pedreiro, residente à Rua Josefa Maria de Jesus, nº 253, Loteamento Santa Tereza, nessa cidade, portador do CIC n.º 305.088.432-00. TÍTULO DE TRANSMISSÃO: Escritura Pública de Compra e Venda datada de 28 de janeiro de 1992, lavrada pelo Tabelião Público Renato Cordeiro de Arruda, do Cartório Único desta Comarca. Valor: Cr$ 300.000,00 (trezentos mil cruzeiros). Santa Cruz do Capibaribe, 05 de março de 1992. [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "5",
+    "DATA": "26/03/1999",
+    "TEXTO": "R-5-3.711 TRANSMITENTES: [Pedro Ricardo da Silva] e sua esposa [Lucilita de Oliveira Silva], brasileiros, casados, ele eletricista, residentes nesta cidade, portadores do CIC n.º 305.088.432-00. ADQUIRENTE: [Josefa Jaksilene Menezes de Barros], brasileira, maior, costureira, residente na cidade de João Pessoa - PB, portadora do CIC n.º 708.529.014-13 e do RG n.º 1.385.304 - SSP - PE. TÍTULO DE TRANSMISSÃO: Escritura Pública de Compra e Venda, datada em 23/03/99, lavrada pelo Tabelião Público Renato Cordeiro de Arruda, no Livro nº 105, fls 97/99v/99v deste Cartório Geral do Registro de Imóveis. Valor R$ 10.000,00 (dez mil reais). Santa Cruz do Capibaribe - PE, 26 de março de 1999. Eu, [Rúbrica] O Oficial.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "6",
+    "DATA": "23/04/2001",
+    "TEXTO": "R-6-3.711 TRANSMITENTE: [Josya Jaksiline Menezes de Barros], brasileira, solteira, maior, costureira, residente nesta cidade, portadora do CIC n.º 708.529.014-13. ADQUIRENTE: [Benigno Sebastião da Silva], brasileiro, casado com dona [Iracema Lopes da Silva], aposentado, residente à Rua Belo Horizonte, 353, Cruz Alta, nesta cidade, portador do CIC n.º 807.072.628-87 e da Cédula de Identidade n.º 6.710.152 SSP/PE. TÍTULO DE TRANSMISSÃO: Escritura Pública de Compra e Venda datada em 05 de Abril de 2001, lavrada pelo Tabelião Público Renato Cordeiro de Arruda, no Livro nº 115, às fls. 115v à 117v deste Cartório Geral do Registro de Imóveis. Valor R$ 6.000,00 (seis mil reais). Santa Cruz do Capibaribe-PE, 23 de Abril de 2001. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CANCELAMENTO",
+    "TIPO ATO": "R",
+    "ORDEM": "7",
+    "DATA": "NÃO CONSTA",
+    "TEXTO": "R-7-3.711 CANCELADO",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Imobiliária G.C.L. Incorporações Ltda",
+    "DOCUMENTO DA PARTE": "11499431000160",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Adquirente",
+    "NOME DA PARTE": "Maria Francisca dos Prazeres",
+    "DOCUMENTO DA PARTE": "35909811487",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "542399",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "CONSTRUÇÃO",
+    "TIPO DA PARTE": "Proprietária",
+    "NOME DA PARTE": "Maria Francisca dos Prazeres",
+    "DOCUMENTO DA PARTE": "35909811487",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-3"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Maria Francisca das Graças",
+    "DOCUMENTO DA PARTE": "35828311487",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Adquirente",
+    "NOME DA PARTE": "Pedro Ricardo da Silva",
+    "DOCUMENTO DA PARTE": "30508843200",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Pedro Ricardo da Silva",
+    "DOCUMENTO DA PARTE": "30508843200",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-5"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Lucilita de Oliveira Silva",
+    "DOCUMENTO DA PARTE": "30508843200",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-5"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Adquirente",
+    "NOME DA PARTE": "Josefa Jaksilene Menezes de Barros",
+    "DOCUMENTO DA PARTE": "70852901413",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "1385304",
+    "ID": "R-5"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Transmitente",
+    "NOME DA PARTE": "Josya Jaksiline Menezes de Barros",
+    "DOCUMENTO DA PARTE": "70852901413",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-6"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Adquirente",
+    "NOME DA PARTE": "Benigno Sebastião da Silva",
+    "DOCUMENTO DA PARTE": "80707262887",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "6710152",
+    "ID": "R-6"
+   },
+   {
+    "MATRICULA": "3711",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "Adquirente",
+    "NOME DA PARTE": "Iracema Lopes da Silva",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-6"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "3711",
+    "NOME": "Enilda Olimpia da Silva Tavares",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "Empresária",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "Casada",
+    "NACIONALIDADE": "Brasileira",
+    "CPF": "00107700468",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileira, casada, empresária, residente na cidade do Recife - PE",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Recife"
+   },
+   {
+    "MATRICULA": "3711",
+    "NOME": "Maria Francisca dos Prazeres",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "Funcionária",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "Solteira",
+    "NACIONALIDADE": "Brasileira",
+    "CPF": "35909811487",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "542399",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PB",
+    "QUALIFICACAO": "brasileira, solteira, maior, funcionária",
+    "LOGRADOURO": "lugar denominado Campo Velho",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "Campo Velho",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "Paraíba",
+    "CIDADE": "Serra Branca"
+   },
+   {
+    "MATRICULA": "3711",
+    "NOME": "Maria Francisca das Graças",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "funcionária",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "solteira",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "35828311487",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileira, solteira, maior, funcionária",
+    "LOGRADOURO": "Sítio Campo Velho",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "Vila de Coxixola",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PB",
+    "CIDADE": "Serra Branca"
+   },
+   {
+    "MATRICULA": "3711",
+    "NOME": "Pedro Ricardo da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "eletricista",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "30508843200",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileiro, casado, eletricista",
+    "LOGRADOURO": "Rua Josefa Maria de Jesus",
+    "NUMERO": "253",
+    "BAIRRO": "Loteamento Santa Tereza",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "3711",
+    "NOME": "Lucilita de Oliveira Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "NÃO CONSTA",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "30508843200",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileira, casada",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "3711",
+    "NOME": "Josefa Jaksilene Menezes de Barros",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "costureira",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "NÃO CONSTA",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "70852901413",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "1385304",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, maior, costureira",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PB",
+    "CIDADE": "João Pessoa"
+   },
+   {
+    "MATRICULA": "3711",
+    "NOME": "Josya Jaksiline Menezes de Barros",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "costureira",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "solteira",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "70852901413",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileira, solteira, maior, costureira",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "3711",
+    "NOME": "Benigno Sebastião da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "aposentado",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileiro",
+    "CPF": "80707262887",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "6710152",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado com dona Iracema Lopes da Silva, aposentado",
+    "LOGRADOURO": "Rua Belo Horizonte",
+    "NUMERO": "353",
+    "BAIRRO": "Cruz Alta",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "3711",
+    "NOME DA EMPRESA": "Imobiliária G.C.L. Incorporações Ltda",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "11499431000160",
+    "ESTADO": "NÃO CONSTA",
+    "REPRESENTANTES NOME": "Enilda Olimpia da Silva Tavares",
+    "CPF REPRESENTANTE 1": "00104700468",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   }
+  ]
+ }
+}

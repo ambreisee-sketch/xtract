@@ -1,0 +1,357 @@
+{
+ "matricula": "15882",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "Havia dois R-4 em 15/09/2011: a compra e venda (Lucivânia Maria de Lima Pereira e José Agostinho Alves Pereira vendem a Jaqueline Barbosa da Silva) e a hipoteca dada por Jaqueline à Caixa Econômica Federal. São dois registros diferentes, cada um com o seu texto e assinatura, e a hipoteca depende da compra: Jaqueline aparece nela como \"Proprietária\". Por isso a compra ficou como R-4 e a hipoteca passou a R-5, com as 2 partes da hipoteca (devedora e credora) apontando para R-5. Os dois textos dizem \"R.4 Mat 15.882\" e a outra versão (consolidada sem \"(1)\") é igual, então a numeração segue a ordem lógica e cronológica (confiança média). No mesmo cartório, o mesmo tipo de contrato da Caixa aparece como dois registros seguidos (matrícula 15937: R-3 compra e R-4 alienação fiduciária). O TEXTO foi mantido como está na base.",
+ "alteracoes": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 1481,
+   "coluna": "ORDEM",
+   "antes": "4",
+   "depois": "5",
+   "motivo": "Hipoteca de 15/09/2011 à Caixa Econômica Federal (R$ 57.000,00, 300 meses). Ela é dada por Jaqueline Barbosa da Silva como \"Proprietária\", o que ela só passa a ser pela compra registrada no R-4 (venda de Lucivânia Maria de Lima Pereira e José Agostinho Alves Pereira a Jaqueline, mesma data). São dois registros, cada um com o seu fecho e assinatura; a hipoteca vem logo depois da compra, então é o R-5. O cabeçalho transcrito \"R.4 Mat 15.882\" repete o número da compra. No mesmo cartório, o mesmo tipo de contrato com a Caixa aparece como dois registros seguidos (matrícula 15937: R-3 compra e venda e R-4 alienação fiduciária, ambos de 27/08/2014)."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 2838,
+   "coluna": "ID",
+   "antes": "R-4",
+   "depois": "R-5",
+   "motivo": "Parte (DEVEDORA HIPOTECANTE JAQUELINE BARBOSA DA SILVA) da hipoteca, renumerada de R-4 para R-5. As partes da compra e venda (linhas 2835-2837) continuam no R-4."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 2839,
+   "coluna": "ID",
+   "antes": "R-4",
+   "depois": "R-5",
+   "motivo": "Parte (CREDORA CAIXA ECONÔMICA FEDERAL) da hipoteca, renumerada de R-4 para R-5. As partes da compra e venda (linhas 2835-2837) continuam no R-4."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "15882",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "24/05/2011",
+    "PROPRIETARIOS": "[Loteamento Novo Horizonte Ltda], inscrito no CNPJ/MF. sob o nº 10.339.272/0001-74, com sede na Rua Manoel Bernardino, nº 44, Centro, nesta cidade, representado por seus sócios-administradores [Ivanildo Santana da Silva], brasileiro, divorciado, comerciante, inscrito no CPF/MF sob o nº 126.680.283-53, portador da cédula de Identidade Rg nº 15.141.528-SSP/SP, residente na Rua Francisco de Paula Farias, nº 53, Santo Antônio, nesta cidade; [Ailson Santana da Silva], brasileiro, casado, empresário, inscrito no CPF/MF sob o nº 403.634.224-04, portador da cédula de Identidade Rg nº 2.676.276-SSP/PE; residente na Rua Maria Martins de Souza, nº 47, Santo Antônio, nesta cidade",
+    "MATRICULA ANTERIOR": "Em virtude de Incorporação feita por [Ivanildo Santana da Silva] e [Ailson Santana da Silva] e sua esposa [Luciana Gomes Santana], por escrituras públicas de Incorporação e retificação, lavrada nestas notas, às fls 141/15 e 30/30v, nos livros nºs 159 e 162, em 26 de Setembro de 2008 e de Fevereiro, digo, 09 de Fevereiro de 2009, pelo Tabelião Público Renato Cordeiro de Arruda, respectivamente e registradas sob o nºs R.2-Mat. 12.230, às fls. 01 a 101, no livro nº 2-DD, em 26, 27, 28 e 29 de maio de 2009, 04, 08, 09, 10, 15, 18, 25, 29 e 30 de Junho de 2009, 01 e 02 de Julho de 2009, respectivamente, encontrando-se atualmente averbado sob o nº Av. 1-Mat. 15.702, às fls. 246, no livro nº 2-DA, em 17 de Março de 2011 e Memorial Descritivo registrado sob o nº R.2-Mat. 15.702, às fls. 246, no Livro nº 2-DA, em 17 de Março de 2011, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE. 24 de Maio de 2011.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "15882",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "129,50",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Rua Projetada 22",
+    "QUADRA": "X",
+    "LOTE": "06",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Novo Horizonte",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL: 01(um) lote de terra de n 06(seis) situado na quadra X(xís), no Loteamento Mab, digo, Novo Horizonte, nesta cidade, medindo 07,00 metros na parte da frente, 07,00 metros na parte de trás e 18,50 metros de ambos os lados, perfazendo um total de 129,50 m², limitando-se na parte da frente com o leito da Rua Projetada 22, na parte de trás com o lote nº 14, ao lado direito com o lote nº 05 e do lado esquerdo com o lote nº 07."
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "24/05/2011",
+    "TEXTO": "R-1-15882 R.1 Mat. 15.882 TRANSMITENTE: [Loteamento Novo Horizonte Ltda], acima já Identificado. ADQUIRENTE: [Lucivânia Maria de Lima Pereira], brasileira, casada, costureira, inscrita no CPF/MF sob o nº 050.452.734-77, portadora da cedula de Identidade Rg nº 7.200.246-SDS/PE, residente e domiciliada na Rua Severino Ferreira de Abreu, nº 149, nesta cidade. TÍTULO DE TRANSMISSÃO: Escritura Pública de Compra e Venda, datada de 12 de Maio de 2011, lavrada nestas notas, às fls. 50 a 50v, do livro nº 132, pelo Tabelião Público Renato Cordeiro de Arruda. Valor R$ 7.000,00 (sete mil reais). Santa Cruz do Capibaribe-PE. 24 de maio de 2011. Eu, [Rúbrica] A Oficiala do Registro",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AVERBAÇÃO DE HABITE-SE",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "24/05/2011",
+    "TEXTO": "AV-2-15882 Av.2 Mat. 15.882 CERTIFICO, e dou fé, a requerimento verbal do proprietária [Lucivânia Maria de Lima Pereira], portadora do CPF/MF sob o nº 050.452.734-77, conforme requerimento arquivado neste Cartório, que averbo o HABITE-SE emitido pela Prefeitura Municipal local em 19 de maio de 2011, que é do teor seguinte: Prefeitura Municipal de Santa Cruz do Capibaribe-PE. HABITE-SE Nº***. Processo 27.512 Data 19/05/2011. A Secretaria de Infraestrutura, após a vistoria regulamentar, expede o presente TERMO DE HABITE-SE para a obra abaixo caracterizada: Proprietário [Lucivânia Maria de Lima Pereira] Natureza da Obra: Residencial Alvará 21.172/2011. Observações: Área total construída: Área do terreno: 129,50 m² Local da Obra: Rua Projetada 22, nº 121, Lote 06, quadra X, Lot. Novo Horizonte. Responsável pelo Projeto: Endereço: Responsável pela Construção: Endereço: Santa Cruz do Capibaribe-PE. 24 de maio de 2011. Eu, [Rúbrica] A Oficiala do Registro",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AVERBAÇÃO DE CONSTRUÇÃO",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "24/05/2011",
+    "TEXTO": "AV-3-15882 AV-3 Mat. 15.882 CERTIFICO, e dou fé, a requerimento verbal da proprietária [Lucivânia Maria de Lima Pereira], portadora do CPF/MF sob o nº 050.452.734-77, conforme requerimento arquivado neste Cartório, que averbo a CERTIDÃO DE AVERBAÇÃO, emitida pela Prefeitura Municipal local, para fazer constar, que no terreno objeto da presente matrícula, foi construído hum Imóvel (casa) sita a Rua Projetada 22, nº 121, Lote 06, quadra X, Lot Novo Horizonte, nesta cidade, o qual estimo o referido imóvel, no valor de R$ 30.000,00 (trinta mil reais). Cujas características e confrontações descritos na certidão de averbação, que é do teor seguinte: Secretaria de Infraestrutura - CERTIDÃO. CERTIFICO, a pedido da Sra [Lucivânia Maria de Lima Pereira], brasileira, casada, costureira, portadora do CPF/MF sob o nº 050.452.734-77, para fins de averbação junto ao Cartório Geral de Imóveis desta cidade, que o imóvel localizado na Rua Projetada 22, no 121, Lote 06, quadra X, Lot. Novo Horizonte, nesta cidade, edificado em terreno próprio, acha-se registrado hum imóvel residencial de acordo com a Petição registrada sob o nº 27.472, Livro 08, fls. 133, de 09/05/2011(licença de legalização), em nome do mesmo. CERTIDÃO ainda, digo, CERTIFICO ainda que o citado imóvel possui atualmente as seguintes características: 07,00 m na p/ de frente, 07,00 m na p/ de trás, (02,50+13,00+03,00) m do lado direito, 18,50 m do lado esquerdo, 01 terraço e 02 portas na frente, 01 garagem, 01 sala, 03 quartos, 01 corredor, 01 cozinha, 01 banheiro, 05 janelas e 01 porta do lado direito, em um terreno medindo 07,00 m de frente por 18,50 m de ambos os lados. Área construída: 110,50 ms. Limitando-se na parte da frente com o leito da Rua Projetada 22, na parte de trás com um terreno desocupado, do lado direito com um terreno desocupado e do lado esquerdo com um terreno desocupado. CERTIFICO finalmente que o citado imóvel está cadastrado no Prefeitura sob o nº 53.617, no Valor Venal de R$ 22.072,78 (vinte e dois mil, setenta e nove reais e setenta e oito centavos). Data da expedição: 19/05/2011. Santa Cruz do Capibaribe, 19 de maio de 2011. Fabiano Glicério Ramos Secretário de Infraestrutura Santa Cruz do Capibaribe-PE. Foi apresentado neste ato a guia de pagamento do Imp, digo, Pagamento da guia da Previdência Social-GPS, código de pagamento 2208, no valor de R$ 1.360,35 (mil trezentos e sessenta reais e oitenta e cinco centavos), arquivada neste Cartório. Santa Cruz do Capibaribe-PE 24 de Maio de 2011. Eu, [Rúbrica] A Oficiala do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "4",
+    "DATA": "15/09/2011",
+    "TEXTO": "R-4-15882 R.4 Mat 15.882 Por instrumento particular, com caráter de escritura pública na forma do artigo 61 e seus Parágrafos da Lei nº 4.380, de 21 de agosto de 1964, alterada pela Lei nº 5.049, de 29 de junho de 1966, datado de 13 de setembro de 2011, as proprietárias, [LUCIVANIA MARIA DE LIMA PEREIRA], nacionalidade brasileira, casada no regime de comunhão parcial de bens, nascida em 07/07/1982, autônoma, portadora da carteira de identidade CNH 03840678008, expedida por DET/PE em 09/07/2007 e do CPF 050.452.734-77, seu esposo [JOSÉ AGOSTINHO ALVES PEREIRA], nacionalidade brasileira, nascido em 15/08/1974, outros portador da carteira de identidade RG 331212377, expedida por SSP/SP em 11/01/1995 e do CPF 920.457.824-68, residentes e domiciliados em Rua Severino Ferreira Abreu, 489, JORDÃO FELIX em SANTA CRUZ DO CAPIBARIBE/PE, Vendeu o imóvel da presente matricula a [JAQUELINE BARBOSA DA SILVA], nacionalidade brasileira, solteira, nascida em 10/01/1981, Vend Pracista rep comercial, portadora da carteira de identidade RG 6545399 expedida por SDS/PE, em 14/12/1999 e do CPF 041.825.524-58, residente e domiciliada em Rua 22 de Abril, 385, NOVA STA CRUZ, em SANTA CRUZ DO CAPIBARIBE/PE. Pelo valor de R$ 73.000,00 (Setenta e três mil reais), Foi apresentado neste ato, o pagamento do imposto sobre transmissão de bens imóveis (ITBI), através da guia autenticada pela Caixa Econômica Federal, agência desta cidade, no valor de R$ 874.11 (oitocentos e setenta e quatro reais e onze centavos)-arquivados neste Cartório. Santa Cruz do Capibaribe-PE, 15 de setembro de 2011. Eu, [Rúbrica] Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HIPOTECA",
+    "TIPO ATO": "R",
+    "ORDEM": "5",
+    "DATA": "15/09/2011",
+    "TEXTO": "R-4-15882 R.4 Mat 15.882 Por instrumento particular, com caráter de escritura pública, na forma do artigo 61 e seus Paragrafos da Lei nº 4.380, de 21 de agosto de 1964, alterada pela Lei nº 5.049, de 29 de junho de 1966, datado de 13 de setembro de 2011 a Proprietária [JAQUELINE BARBOSA DA SILVA], nacionalidade, brasileira, solteira, nascida em 10/01/1981, Vend Pracista rep comercial, portadora da carteira de identidade RG 6545399, expedida por SDS/PE em 14/12/1999 e do CPF 041.825.524-58, residente e domiciliada em Rua 22 de Abril, 385 NOVA STA CRUZ, em SANTA CRUZ DO CAPIBARIBE/PE. tendo se confessado devedores da [CAIXA ECONÔMICA FEDERAL], agência desta cidade da importância de R$ 57.000,00. (Cinquenta e sete mil reais), a ser-lhe pago no prazo de 300, (trezentos meses), Vencendo-se a 1ª Parcela em 13/10/2011 e as demais nos meses subsequentes, no mesmo dia, deram-lhe em hipoteca, o imóvel objeto da presente matrícula. Santa Cruz do Capibaribe-PE, 15 de setembro de 2011. Eu, [Rúbrica] Oficial do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Loteamento Novo Horizonte Ltda",
+    "DOCUMENTO DA PARTE": "10339272000174",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Lucivânia Maria de Lima Pereira",
+    "DOCUMENTO DA PARTE": "05045273477",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "7200246",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AVERBAÇÃO DE HABITE-SE",
+    "TIPO DA PARTE": "PROPRIETÁRIA REQUERENTE",
+    "NOME DA PARTE": "Lucivânia Maria de Lima Pereira",
+    "DOCUMENTO DA PARTE": "05045273477",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-2"
+   },
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "AVERBAÇÃO DE CONSTRUÇÃO",
+    "TIPO DA PARTE": "PROPRIETÁRIA REQUERENTE",
+    "NOME DA PARTE": "Lucivânia Maria de Lima Pereira",
+    "DOCUMENTO DA PARTE": "05045273477",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-3"
+   },
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "VENDEDORA",
+    "NOME DA PARTE": "LUCIVANIA MARIA DE LIMA PEREIRA",
+    "DOCUMENTO DA PARTE": "05045273477",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "03840678008",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "VENDEDOR",
+    "NOME DA PARTE": "JOSÉ AGOSTINHO ALVES PEREIRA",
+    "DOCUMENTO DA PARTE": "92045782468",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "331212377",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "COMPRADORA",
+    "NOME DA PARTE": "JAQUELINE BARBOSA DA SILVA",
+    "DOCUMENTO DA PARTE": "04182552458",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "6545399",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HIPOTECA",
+    "TIPO DA PARTE": "DEVEDORA HIPOTECANTE",
+    "NOME DA PARTE": "JAQUELINE BARBOSA DA SILVA",
+    "DOCUMENTO DA PARTE": "04182552458",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "6545399",
+    "ID": "R-5"
+   },
+   {
+    "MATRICULA": "15882",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HIPOTECA",
+    "TIPO DA PARTE": "CREDORA",
+    "NOME DA PARTE": "CAIXA ECONÔMICA FEDERAL",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-5"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "15882",
+    "NOME": "Ivanildo Santana da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "divorciado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "12668028353",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "15141528",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "SP",
+    "QUALIFICACAO": "brasileiro, divorciado, comerciante",
+    "LOGRADOURO": "Rua Francisco de Paula Farias",
+    "NUMERO": "53",
+    "BAIRRO": "Santo Antônio",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "SANTA CRUZ DO CAPIBARIBE"
+   },
+   {
+    "MATRICULA": "15882",
+    "NOME": "Ailson Santana da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "empresário",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "40363422404",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "2676276",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado, empresário",
+    "LOGRADOURO": "Rua Maria Martins de Souza",
+    "NUMERO": "47",
+    "BAIRRO": "Santo Antônio",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "SANTA CRUZ DO CAPIBARIBE"
+   },
+   {
+    "MATRICULA": "15882",
+    "NOME": "Lucivânia Maria de Lima Pereira",
+    "DATA DE NASCIMENTO": "07/07/1982",
+    "PROFISSAO": "autônoma",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "05045273477",
+    "CPF DO CONJUGE": "92045782468",
+    "DOC DE IDENTIFICACAO": "03840678008",
+    "ORGAO EMISSOR": "DET",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, casada no regime de comunhão parcial de bens, autônoma",
+    "LOGRADOURO": "Rua Severino Ferreira Abreu",
+    "NUMERO": "489",
+    "BAIRRO": "JORDÃO FELIX",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "SANTA CRUZ DO CAPIBARIBE"
+   },
+   {
+    "MATRICULA": "15882",
+    "NOME": "JOSÉ AGOSTINHO ALVES PEREIRA",
+    "DATA DE NASCIMENTO": "15/08/1974",
+    "PROFISSAO": "NÃO CONSTA",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "92045782468",
+    "CPF DO CONJUGE": "05045273477",
+    "DOC DE IDENTIFICACAO": "331212377",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "SP",
+    "QUALIFICACAO": "nacionalidade brasileira, outros",
+    "LOGRADOURO": "Rua Severino Ferreira Abreu",
+    "NUMERO": "489",
+    "BAIRRO": "JORDÃO FELIX",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "SANTA CRUZ DO CAPIBARIBE"
+   },
+   {
+    "MATRICULA": "15882",
+    "NOME": "JAQUELINE BARBOSA DA SILVA",
+    "DATA DE NASCIMENTO": "10/01/1981",
+    "PROFISSAO": "Vend Pracista rep comercial",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "solteira",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "04182552458",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "6545399",
+    "ORGAO EMISSOR": "SDS",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "nacionalidade brasileira, solteira, Vend Pracista rep comercial",
+    "LOGRADOURO": "Rua 22 de Abril",
+    "NUMERO": "385",
+    "BAIRRO": "NOVA STA CRUZ",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "SANTA CRUZ DO CAPIBARIBE"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "15882",
+    "NOME DA EMPRESA": "Loteamento Novo Horizonte Ltda",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "10339272000174",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Ivanildo Santana da Silva; Ailson Santana da Silva",
+    "CPF REPRESENTANTE 1": "12668028353",
+    "CPF REPRESENTANTE 2": "40363422404",
+    "LOGRADOURO": "Rua Manoel Bernardino",
+    "NUMERO": "44",
+    "BAIRRO": "Centro",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "SANTA CRUZ DO CAPIBARIBE"
+   },
+   {
+    "MATRICULA": "15882",
+    "NOME DA EMPRESA": "CAIXA ECONÔMICA FEDERAL",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "NÃO CONSTA",
+    "ESTADO": "NÃO CONSTA",
+    "REPRESENTANTES NOME": "NÃO CONSTA",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   }
+  ]
+ }
+}

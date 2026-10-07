@@ -1,0 +1,357 @@
+{
+ "matricula": "14801",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "A matrícula tinha dois atos com o número 3: a AV-3 (certidão de averbação da construção, 13/10/2010) e o R-3 (locação comercial de Sebastião Zacarias Neto e Cosma Eunice Florêncio à Paquetá Calçados Ltda, 02/06/2011). Os dois textos trazem o número 3 no cabeçalho (\"AV.3 MAT. 14.801\" e \"R.3- MAT. 14.801\"), e a única outra versão (a consolidada sem \"(1)\") é igual; nenhuma outra matrícula cita a 14801. Como R e AV dividem uma numeração única, os três atos de 13/10/2010 ocupam 1, 2 e 3, e a locação, de 02/06/2011, passa a ser o R-4. As 4 partes da locação passaram de R-3 para R-4. A renumeração segue só a ordem cronológica (por isso confiança média); o TEXTO foi mantido como está na base.",
+ "alteracoes": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 574,
+   "coluna": "ORDEM",
+   "antes": "3",
+   "depois": "4",
+   "motivo": "Locação comercial de 02/06/2011 (Sebastião Zacarias Neto e Cosma Eunice Florêncio a Paquetá Calçados Ltda). O número 3 já é da AV-3 (certidão de averbação da construção, 13/10/2010), cujo texto começa com \"AV.3 MAT. 14.801\". Como R e AV dividem uma numeração única e esta locação é o primeiro ato depois dos três lançados em 13/10/2010 (R-1, AV-2, AV-3), ela é o 4º ato. O cabeçalho transcrito \"R.3- MAT. 14.801\" repete o número da AV-3; nenhuma outra fonte traz outra numeração, por isso a correção segue a ordem cronológica."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 1172,
+   "coluna": "ID",
+   "antes": "R-3",
+   "depois": "R-4",
+   "motivo": "Parte (Locador Sebastião Zacarias Neto) da locação comercial de 02/06/2011, renumerada de R-3 para R-4."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 1173,
+   "coluna": "ID",
+   "antes": "R-3",
+   "depois": "R-4",
+   "motivo": "Parte (Locadora Cosma Eunice Florêncio) da locação comercial de 02/06/2011, renumerada de R-3 para R-4."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 1174,
+   "coluna": "ID",
+   "antes": "R-3",
+   "depois": "R-4",
+   "motivo": "Parte (Locatária Paquetá Calçados Ltda) da locação comercial de 02/06/2011, renumerada de R-3 para R-4."
+  },
+  {
+   "aba": "ATO_PARTES",
+   "linha_origem": 1175,
+   "coluna": "ID",
+   "antes": "R-3",
+   "depois": "R-4",
+   "motivo": "Parte (Representante da Locatária Licoveral Bacher) da locação comercial de 02/06/2011, renumerada de R-3 para R-4."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "14801",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "13/10/2010",
+    "PROPRIETARIOS": "[Prefeitura Municipal de Santa Cruz do Capibaribe - PE], inscrita no CNPJ/MF sob o nº 10.091.569/0001-63",
+    "MATRICULA ANTERIOR": "Em virtude de compra feita a [Maria Nazira Limeira Alves], [Dulcina Maria Limeira Alves], [Antônio Américo de Arruda] e sua esposa [Onélia Alves de Arruda] e [José Balbino Neto] e sua esposa [Maria Félix dos Santos], por Escritura Pública datada de 09 de Novembro de 1956, lavrada nestas notas pelo Tabelião Público Renato Cordeiro de Arruda e registrada sob o nº 245, livro nº 03, fls. 50 a 51 em 30 de novembro de 1956, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE. 13 de Outubro de 2010.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "14801",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "360,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "29 de Dezembro",
+    "QUADRA": "NÃO CONSTA",
+    "LOTE": "NÃO CONSTA",
+    "N": "s/n",
+    "TIPO LOGRADOURO ONR": "Avenida",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL: Um terreno do Patrimônio, situado na Rua, digo, Av. 29 de Dezembro, s/nº, nesta cidade, medindo 12,00 metros na parte da frente, 12,00 metros na parte de trás e 30,00 metros de ambos os lados, perfazendo um total de 360,00 m²; limitando-se na parte da frente com o leito da Av. 29 de Dezembro, na parte de trás com o imóvel s/n da Rua Rita Nunes de Araújo, do lado direito com o imóvel nº 603 e do lado esquerdo com o imóvel nº 623."
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Carta de Aforamento",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "13/10/2010",
+    "TEXTO": "R-1-14801 R.1- MAT. 14.801 Em 13 de outubro de 2010. Carta de Aforamento. Nos termos da Carta de Aforamento sob o nº 2.421, datada de 08 de outubro de 2010, O [Município de Santa Cruz do Capibaribe - PE], representado por seu prefeito Sr. [Antônio Figueirôa de Siqueira], brasileiro, casado, comerciante, residente a nesta cidade, portador do CPF/MF sob o nº 363.437.224-91, da cédula de Identidade nº 2.662.495-SSP/PE, concedeu ao Sr. [Sebastião Zacarias Neto], brasileiro, casado, comerciante, portador do CPF/MF sob o 010.727.144-34 (e da cédula de Identidade nº 2.662.495-SSP/PE) digo, o direito real de uso do terreno descrito na presente matrícula, conforme requerimento datado de 24/09/2010, e registrado na Prefeitura Municipal sob o nº 26.646, livro 08, fls. 105, de 24/09/2010, portanto antes da proibição prevista no art. 2.038, do novo Código Civil Brasileiro. O referido é verdade e dou fé. Santa Cruz do Capibaribe-PE. 13 de Outubro de 2010. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HABITE-SE",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "13/10/2010",
+    "TEXTO": "AV-2-14801 AV.2 MAT. 14.801 CERTIFICO, e dou fé, a requerimento verbal do proprietário [Sebastião Zacarias Neto], portador do CPF/MF sob o nº 010.727.144-34, conforme requerimento arquivado neste Cartório, que averbo o HABITE-SE emitido pela Prefeitura Municipal local, em 01 de outubro de 2010, que é do teor seguinte: Santa Cruz do Capibaribe-PE. HABITE-SE. N.º ***. Processo 26.670. Data 01/10/2010. A Secretaria de Infraestrutura, após a vistoria regulamentar, expede o presente TERMO DE HABITE-SE para a obra abaixo caracterizada. Proprietário: [Sebastião Zacarias Neto]. Natureza da obra: Galpão. Alvará: 26.646/2010. Observações: Área total construída 21,00 m². Área total do terreno 360,00 m². Local da obra: Av. 29 de Dezembro, 619, São Cristóvão; Responsável pelo Projeto: * Endereço: * Responsável pela Construção: *. Endereço: *. Santa Cruz do Capibaribe-PE. 01 de Outubro de 2010. Fabiano Glicério Ramos. Secretaria Municipal de Infraestrutura. Santa Cruz do Capibaribe-PE. 13 de Outubro de 2010. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "N"
+   },
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Certidão de Averbação",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "13/10/2010",
+    "TEXTO": "AV-3-14801 AV.3 MAT. 14.801 CERTIFICO, e dou fé, a requerimento verbal do proprietário [Sebastião Zacarias Neto], portador do CPF/MF sob o nº 010.727.144-34, conforme requerimento arquivado neste Cartório, que averbo a Certidão de Averbação emitida pela Prefeitura Municipal local, para fazer constar, que no terreno objeto da presente matrícula, foi construído um imóvel sito a Av. 29 de Dezembro, 619, São Cristóvão, nesta cidade, o qual estima o referido imóvel estima o referido valor de R$ 100.000,00 (cem mil reais); cujas características e confrontações descritas na certidão de averbação que é do teor seguinte: Secretaria de Infraestrutura. CERTIDÃO. Certifico, a pedido do Sr. [Sebastião Zacarias Neto], brasileiro, casado, comerciante, portador do CPF/MF sob o nº 010.727.144-34, para fins de averbação junto ao Cartório Geral de Imóveis desta cidade, que o imóvel localizado na Av. 29 de Dezembro, 619, São Cristóvão nesta cidade, edificado em terreno municipal, acha-se registrado um salão comercial de acordo com a Petição registrada sob o nº 26.646, livro 08, fls. 105, de 24/09/2010, em nome do mesmo. CERTIFICO ainda que o citado imóvel possui atualmente as seguintes características: 03,50 m na parte da frente e de trás. 06,00 metros com ambos os lados, 1 porta na frente, 1 salão; em um terreno medindo 12,00 m de frente por, 30,00 metros de ambos os lados. Área construída 21,00 m², limitando-se: na parte da frente com o leito da Av. 29 de Dezembro, na parte de trás com o imóvel s/n da Rua Rita Nunes de Araújo, do lado direito com o imóvel nº 603, do lado esquerdo com o imóvel nº 623. CERTIFICO finalmente que o citado imóvel está cadastrado na Prefeitura sob o nº 53151, no valor venal de R$ 86.971,28 (oitenta seis mil, novecentos setenta e um reais e vinte oito centavos). Data de expedição 06/10/2010. Fabiano Glicério Ramos. Secretário de Infraestrutura. Santa Cruz do Capibaribe-PE. 13 de Outubro de 2010. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "N"
+   },
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Locação Comercial",
+    "TIPO ATO": "R",
+    "ORDEM": "4",
+    "DATA": "02/06/2011",
+    "TEXTO": "R-3-14801 R.3- MAT. 14.801 Por instrumento particular de locação comercial datado de 07 de janeiro 2011, na forma da lei, os proprietários [Sebastião Zacarias Neto] e sua esposa [Cosma Eunice Florêncio], brasileiros, casados pelo regime da comunhão universal de bens, residentes e domiciliados na Rua Cabo Otávio Aragão, 71, Centro, Santa Cruz do Capibaribe-PE, inscritos no CPF/MF sob os nº 010.727.144-34 e 901.431.164-87, respectivamente, portadores das carteiras de identidade nºs 503.070 e 942.600, expedidas pela SSP/PE, na qualidade de locadores, alugam o imóvel objeto da presente matrícula, à empresa [Paquetá Calçados Ltda], com sede na Av. Cruz Cabugá, 304, no Bairro Santo Amaro, Recife-PE, inscrita no CNPJ/MF sob o nº 01.098.983/0001-03, neste ato representada pelo seu diretor Sr. [Licoveral Bacher], brasileiro, casado, empresário, portador da carteira de identidade nº 8003678904-SJS/RS, inscrito no CPF/MF sob o nº 076.807.400-20, residente e domiciliado na Rua Padre Réus, nº 1132, Bairro Centro, município de Sapiranga-RS, na qualidade de locatária, pelo valor mensal de R$ 4000,00 (quatro mil reais), com prazo de locação de 10 (dez) anos, com início em 1º de janeiro de 2011 e término em 31 de dezembro de 2020, tendo as cláusulas e condições estipuladas no referido contrato de locação, arquivado neste Cartório. Santa Cruz do Capibaribe-PE, 02 de Junho de 2011. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Carta de Aforamento",
+    "TIPO DA PARTE": "Concedente",
+    "NOME DA PARTE": "Município de Santa Cruz do Capibaribe - PE",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Carta de Aforamento",
+    "TIPO DA PARTE": "Representante do Concedente",
+    "NOME DA PARTE": "Antônio Figueirôa de Siqueira",
+    "DOCUMENTO DA PARTE": "36343722491",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "2662495",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Carta de Aforamento",
+    "TIPO DA PARTE": "Beneficiário",
+    "NOME DA PARTE": "Sebastião Zacarias Neto",
+    "DOCUMENTO DA PARTE": "01072714434",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "HABITE-SE",
+    "TIPO DA PARTE": "Proprietário Requerente",
+    "NOME DA PARTE": "Sebastião Zacarias Neto",
+    "DOCUMENTO DA PARTE": "01072714434",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-2"
+   },
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Certidão de Averbação",
+    "TIPO DA PARTE": "Proprietário Requerente",
+    "NOME DA PARTE": "Sebastião Zacarias Neto",
+    "DOCUMENTO DA PARTE": "01072714434",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "AV-3"
+   },
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Locação Comercial",
+    "TIPO DA PARTE": "Locador",
+    "NOME DA PARTE": "Sebastião Zacarias Neto",
+    "DOCUMENTO DA PARTE": "01072714434",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "503070",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Locação Comercial",
+    "TIPO DA PARTE": "Locadora",
+    "NOME DA PARTE": "Cosma Eunice Florêncio",
+    "DOCUMENTO DA PARTE": "90143116487",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "942600",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Locação Comercial",
+    "TIPO DA PARTE": "Locatária",
+    "NOME DA PARTE": "Paquetá Calçados Ltda",
+    "DOCUMENTO DA PARTE": "01098983000103",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-4"
+   },
+   {
+    "MATRICULA": "14801",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "Locação Comercial",
+    "TIPO DA PARTE": "Representante da Locatária",
+    "NOME DA PARTE": "Licoveral Bacher",
+    "DOCUMENTO DA PARTE": "07680740020",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "8003678904",
+    "ID": "R-4"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "14801",
+    "NOME": "Antônio Figueirôa de Siqueira",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "36343722491",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "2662495",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado, comerciante",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "14801",
+    "NOME": "Sebastião Zacarias Neto",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "01072714434",
+    "CPF DO CONJUGE": "90143116487",
+    "DOC DE IDENTIFICACAO": "503070",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado, comerciante",
+    "LOGRADOURO": "Rua Cabo Otávio Aragão",
+    "NUMERO": "71",
+    "BAIRRO": "Centro",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "14801",
+    "NOME": "Cosma Eunice Florêncio",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "NÃO CONSTA",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "90143116487",
+    "CPF DO CONJUGE": "01072714434",
+    "DOC DE IDENTIFICACAO": "942600",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, casada pelo regime da comunhão universal de bens",
+    "LOGRADOURO": "Rua Cabo Otávio Aragão",
+    "NUMERO": "71",
+    "BAIRRO": "Centro",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "14801",
+    "NOME": "Licoveral Bacher",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "empresário",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "07680740020",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "8003678904",
+    "ORGAO EMISSOR": "SJS",
+    "UF ORGAO EMISSOR": "RS",
+    "QUALIFICACAO": "brasileiro, casado, empresário",
+    "LOGRADOURO": "Rua Padre Réus",
+    "NUMERO": "1132",
+    "BAIRRO": "Centro",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "RS",
+    "CIDADE": "Sapiranga"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "14801",
+    "NOME DA EMPRESA": "Prefeitura Municipal de Santa Cruz do Capibaribe - PE",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "10091569000163",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "NÃO CONSTA",
+    "CPF REPRESENTANTE 1": "NÃO CONSTA",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "14801",
+    "NOME DA EMPRESA": "Município de Santa Cruz do Capibaribe - PE",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Antônio Figueirôa de Siqueira",
+    "CPF REPRESENTANTE 1": "36343722491",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   },
+   {
+    "MATRICULA": "14801",
+    "NOME DA EMPRESA": "Paquetá Calçados Ltda",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "01098983000103",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Licoveral Bacher",
+    "CPF REPRESENTANTE 1": "07680740020",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "Av. Cruz Cabugá",
+    "NUMERO": "304",
+    "BAIRRO": "Santo Amaro",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Recife"
+   }
+  ]
+ }
+}

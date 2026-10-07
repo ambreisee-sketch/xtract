@@ -1,0 +1,182 @@
+{
+ "matricula": "14903",
+ "status": "resolvido",
+ "confianca": "media",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "Havia duas AV-2, com o mesmo TEXTO, e esse texto juntava dois atos diferentes: o desmembramento do lote 51 em lotes 51 e 51-A (22/06/2015) e a certidão de que os dois lotes ganharam as matrículas 24.189 e 24.190 (20/05/2016). As DATAs e os nomes dos atos das duas linhas batem com esses dois atos, então não é cópia: são dois atos. Cada linha ficou com o seu trecho do texto, sem mudar nenhuma palavra. A averbação de 2016 passou a ser AV-3, porque vem depois do desmembramento na numeração única R/AV (R-1, AV-2, AV-3). Os dois trechos trazem \"AV.2-14.903\" no cabeçalho, e a outra versão (consolidada sem \"(1)\") é igual, por isso a correção segue a ordem cronológica (confiança média). Nenhuma das duas averbações tem partes. Observação: com os dois lotes já em matrículas próprias, a 14903 pode estar encerrada no livro; ATIVA foi mantido como na base.",
+ "alteracoes": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 696,
+   "coluna": "TEXTO",
+   "antes": "AV-2-14903 AV.2-14.903. Por digo, Procede-se a esta averbação para ficar constando que o lote de terras da presente ma trícula foi desmembrado, tornando-se 02 (dois) lotes de terras de nºs 51 e 51-A, situados na quadra \"F\", no Loteamento Neco Aragão, nesta cidade, com as seguintes características: LOTE Nº 51: medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 20,00 metros de ambos os lados, perfazendo um total de 80,00 m²; limitando-se na parte da frente com o leito da Rua Pedro Procópio Ferreira (antiga Rua digo, antiga via Local 05), na parte de trás com o lote nº 10, do lado direito com o lote nº 50 e do lado esquerdo com o lote nº 51-A. LOTE Nº 51-A: medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 20,00 metros de ambos os lados, perfazendo um total de, 80,00 metros digo 80,00 m²; limitando-se na parte da frente com o leito da Rua Pedro Procópio Ferreira (antiga via Local 05), na parte de trás com o lote nº 10, do lado direito com o lote nº 51. e do lado esquerdo com o lote nº 52; Conforme planta de des membramento, assinada pelo Engenheiro Civil Jarbas Morais Jataí Marquinho - CREA: 3649- D/PB e aprovada pela Prefeitura Municipal local, em 27/04/2015, arquivada neste Cartório. San ta Cruz do Capibaribe-PE, 22 de Junho de 2015. Eu, [Rúbrica] A Oficiala do Registro. AV-2-14903 AV.2-14.903. CERTIFICO, e dou fé, que o Lote digo, foi aberto Matrícula dos Lotes nºs 51 e 51-A, qual coube a matrículas nºs 24.189 e 24.190; às fls. 256, do Livro nº 2-EX, em 20 de Abril de 2016. Santa Cruz do Capibaribe-PE. 20 de A digo, 20 de Maio de 2016; Santa Cruz do Capibaribe-PE. 20 de Maio de 2016. Eu, [Rúbrica] A Oficiala do Registro.",
+   "depois": "AV-2-14903 AV.2-14.903. Por digo, Procede-se a esta averbação para ficar constando que o lote de terras da presente ma trícula foi desmembrado, tornando-se 02 (dois) lotes de terras de nºs 51 e 51-A, situados na quadra \"F\", no Loteamento Neco Aragão, nesta cidade, com as seguintes características: LOTE Nº 51: medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 20,00 metros de ambos os lados, perfazendo um total de 80,00 m²; limitando-se na parte da frente com o leito da Rua Pedro Procópio Ferreira (antiga Rua digo, antiga via Local 05), na parte de trás com o lote nº 10, do lado direito com o lote nº 50 e do lado esquerdo com o lote nº 51-A. LOTE Nº 51-A: medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 20,00 metros de ambos os lados, perfazendo um total de, 80,00 metros digo 80,00 m²; limitando-se na parte da frente com o leito da Rua Pedro Procópio Ferreira (antiga via Local 05), na parte de trás com o lote nº 10, do lado direito com o lote nº 51. e do lado esquerdo com o lote nº 52; Conforme planta de des membramento, assinada pelo Engenheiro Civil Jarbas Morais Jataí Marquinho - CREA: 3649- D/PB e aprovada pela Prefeitura Municipal local, em 27/04/2015, arquivada neste Cartório. San ta Cruz do Capibaribe-PE, 22 de Junho de 2015. Eu, [Rúbrica] A Oficiala do Registro.",
+   "motivo": "O TEXTO desta linha e o da linha 697 eram iguais e juntavam dois atos: o desmembramento do lote 51 em 51 e 51-A (assinado em 22 de junho de 2015) e a certidão de abertura das matrículas 24.189 e 24.190 (20 de maio de 2016). Esta linha (DESMEMBRAMENTO, DATA 22/06/2015) ficou só com o trecho do desmembramento, sem alterar nenhuma palavra."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 697,
+   "coluna": "TEXTO",
+   "antes": "AV-2-14903 AV.2-14.903. Por digo, Procede-se a esta averbação para ficar constando que o lote de terras da presente ma trícula foi desmembrado, tornando-se 02 (dois) lotes de terras de nºs 51 e 51-A, situados na quadra \"F\", no Loteamento Neco Aragão, nesta cidade, com as seguintes características: LOTE Nº 51: medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 20,00 metros de ambos os lados, perfazendo um total de 80,00 m²; limitando-se na parte da frente com o leito da Rua Pedro Procópio Ferreira (antiga Rua digo, antiga via Local 05), na parte de trás com o lote nº 10, do lado direito com o lote nº 50 e do lado esquerdo com o lote nº 51-A. LOTE Nº 51-A: medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 20,00 metros de ambos os lados, perfazendo um total de, 80,00 metros digo 80,00 m²; limitando-se na parte da frente com o leito da Rua Pedro Procópio Ferreira (antiga via Local 05), na parte de trás com o lote nº 10, do lado direito com o lote nº 51. e do lado esquerdo com o lote nº 52; Conforme planta de des membramento, assinada pelo Engenheiro Civil Jarbas Morais Jataí Marquinho - CREA: 3649- D/PB e aprovada pela Prefeitura Municipal local, em 27/04/2015, arquivada neste Cartório. San ta Cruz do Capibaribe-PE, 22 de Junho de 2015. Eu, [Rúbrica] A Oficiala do Registro. AV-2-14903 AV.2-14.903. CERTIFICO, e dou fé, que o Lote digo, foi aberto Matrícula dos Lotes nºs 51 e 51-A, qual coube a matrículas nºs 24.189 e 24.190; às fls. 256, do Livro nº 2-EX, em 20 de Abril de 2016. Santa Cruz do Capibaribe-PE. 20 de A digo, 20 de Maio de 2016; Santa Cruz do Capibaribe-PE. 20 de Maio de 2016. Eu, [Rúbrica] A Oficiala do Registro.",
+   "depois": "AV-2-14903 AV.2-14.903. CERTIFICO, e dou fé, que o Lote digo, foi aberto Matrícula dos Lotes nºs 51 e 51-A, qual coube a matrículas nºs 24.189 e 24.190; às fls. 256, do Livro nº 2-EX, em 20 de Abril de 2016. Santa Cruz do Capibaribe-PE. 20 de A digo, 20 de Maio de 2016; Santa Cruz do Capibaribe-PE. 20 de Maio de 2016. Eu, [Rúbrica] A Oficiala do Registro.",
+   "motivo": "Mesma junção de dois atos da linha 696. Esta linha (ABERTURA DE MATRÍCULA, DATA 20/05/2016) ficou só com o trecho da certidão de abertura das matrículas 24.189 e 24.190, sem alterar nenhuma palavra."
+  },
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 697,
+   "coluna": "ORDEM",
+   "antes": "2",
+   "depois": "3",
+   "motivo": "Averbação de 20/05/2016 (abertura das matrículas 24.189 e 24.190 para os lotes 51 e 51-A). O número 2 é do desmembramento de 22/06/2015, que ela pressupõe e que veio antes. Na numeração única R/AV, depois de R-1 (03/11/2010) e AV-2 (22/06/2015), ela é o 3º ato. O cabeçalho transcrito \"AV.2-14.903\" repete o número anterior; nenhuma fonte traz outra numeração, por isso a correção segue a ordem cronológica."
+  }
+ ],
+ "linhas_removidas": [],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "14903",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "03/11/2010",
+    "PROPRIETARIOS": "[Imobiliária Neco Aragão Ltda], com sede na Rua D. Pedro I, nº 08, Bairro Dona Dom, nesta cidade, inscrita no CNPJ/MF sob o nº 03.702.465/0001-82, neste ato, representada por seu sócio-administrador [José da Silva Neves Filho], brasileiro, casado, médico, residente nesta cidade, portador do CPF/MF sob o nº 128.895.804-82 e da cédula de Identidade nº 1.046.802-SSP/PE",
+    "MATRICULA ANTERIOR": "Em virtude de Escritura Pública de Incorporação, datada de 25 de Setembro de 2001, lavrada nestas notas, pelo Tabelião Público Renato Cordeiro de Arruda, e registrada sob o nº R.1-Mat.6.793, às fls 107, do Livro nº 2-BT, em 25 de Setembro de 2001, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE. 03 de Novembro de 2010.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "14903",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "160,00",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Local 05",
+    "QUADRA": "F",
+    "LOTE": "51",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Rua",
+    "BAIRRO": "Loteamento Neco Aragão",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL: 01 (um) lote de terras de nº 51 (cinquenta e um), situado na quadra nº F (\"e fe\"), no Loteamento Neco Aragão, nesta cidade medindo 08,00 metros na parte da frente, 08,00 metros na parte de trás e 20,00 metros de ambos os lados, perfazendo um total de 160,00 mts2, limitando-se na parte da frente com o leito da rua Local 05, na parte de trás com o lote nº 10, do lado direito com o lote nº 50 e do lado esquerdo com o lote nº 52"
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "14903",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "03/11/2010",
+    "TEXTO": "R-1-14903 R.1 Mat. 14903. TRANSMITENTE: A [Imobiliária Neco Aragão], acima já qualificada. ADQUIRENTE: [Patrícia Aparecida Monteiro de Arruda Souza], brasileira, casada, comerciante, inscrita no CPF/MF sob o nº 027.040.684-02, portadora da cédula de Identidade nº 5.281.543-SSP/PE, residente na Rua Graciliano Ramos da, nº 144, Centro, nesta cidade. TÍTULO DE TRANSMISSÃO: Escritura Pública de Compra e Venda, datada de 07 de Junho de 2010, lavrada, nestas notas, às fls. nº 67 a 68, do Livro nº 173, pelo Tabelião Público Renato Cordeiro de Arruda. Valor R$ 3.000,00 (três mil reais). Foi apresentado neste ato a Certidão Negativa de Débitos Imobiliários sob o nº 2412/2010, emitida em 25/08/2010, arquivada neste Cartório. Santa Cruz do Capibaribe-PE. 03 de Novembro de 2010. Eu, [Rúbrica] O Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "14903",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "DESMEMBRAMENTO",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "22/06/2015",
+    "TEXTO": "AV-2-14903 AV.2-14.903. Por digo, Procede-se a esta averbação para ficar constando que o lote de terras da presente ma trícula foi desmembrado, tornando-se 02 (dois) lotes de terras de nºs 51 e 51-A, situados na quadra \"F\", no Loteamento Neco Aragão, nesta cidade, com as seguintes características: LOTE Nº 51: medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 20,00 metros de ambos os lados, perfazendo um total de 80,00 m²; limitando-se na parte da frente com o leito da Rua Pedro Procópio Ferreira (antiga Rua digo, antiga via Local 05), na parte de trás com o lote nº 10, do lado direito com o lote nº 50 e do lado esquerdo com o lote nº 51-A. LOTE Nº 51-A: medindo 04,00 metros na parte da frente, 04,00 metros na parte de trás e 20,00 metros de ambos os lados, perfazendo um total de, 80,00 metros digo 80,00 m²; limitando-se na parte da frente com o leito da Rua Pedro Procópio Ferreira (antiga via Local 05), na parte de trás com o lote nº 10, do lado direito com o lote nº 51. e do lado esquerdo com o lote nº 52; Conforme planta de des membramento, assinada pelo Engenheiro Civil Jarbas Morais Jataí Marquinho - CREA: 3649- D/PB e aprovada pela Prefeitura Municipal local, em 27/04/2015, arquivada neste Cartório. San ta Cruz do Capibaribe-PE, 22 de Junho de 2015. Eu, [Rúbrica] A Oficiala do Registro.",
+    "REGISTRADO": "N"
+   },
+   {
+    "MATRICULA": "14903",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "ABERTURA DE MATRÍCULA",
+    "TIPO ATO": "AV",
+    "ORDEM": "3",
+    "DATA": "20/05/2016",
+    "TEXTO": "AV-2-14903 AV.2-14.903. CERTIFICO, e dou fé, que o Lote digo, foi aberto Matrícula dos Lotes nºs 51 e 51-A, qual coube a matrículas nºs 24.189 e 24.190; às fls. 256, do Livro nº 2-EX, em 20 de Abril de 2016. Santa Cruz do Capibaribe-PE. 20 de A digo, 20 de Maio de 2016; Santa Cruz do Capibaribe-PE. 20 de Maio de 2016. Eu, [Rúbrica] A Oficiala do Registro.",
+    "REGISTRADO": "N"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "14903",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Imobiliária Neco Aragão",
+    "DOCUMENTO DA PARTE": "03702465000182",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "14903",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Patrícia Aparecida Monteiro de Arruda Souza",
+    "DOCUMENTO DA PARTE": "02704068402",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "5281543",
+    "ID": "R-1"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "14903",
+    "NOME": "José da Silva Neves Filho",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "NÃO CONSTA",
+    "SEXO": "Masculino",
+    "ESTADO CIVIL": "casado",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "12889580482",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "1046802",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileiro, casado, médico, residente nesta cidade",
+    "LOGRADOURO": "NÃO CONSTA",
+    "NUMERO": "NÃO CONSTA",
+    "BAIRRO": "NÃO CONSTA",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "NÃO CONSTA",
+    "CIDADE": "NÃO CONSTA"
+   },
+   {
+    "MATRICULA": "14903",
+    "NOME": "Patrícia Aparecida Monteiro de Arruda Souza",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "NÃO CONSTA",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "02704068402",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "5281543",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, casada, comerciante",
+    "LOGRADOURO": "Rua Graciliano Ramos da",
+    "NUMERO": "144",
+    "BAIRRO": "Centro",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "14903",
+    "NOME DA EMPRESA": "Imobiliária Neco Aragão Ltda",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "03702465000182",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "José da Silva Neves Filho",
+    "CPF REPRESENTANTE 1": "12889580482",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "Rua D. Pedro I",
+    "NUMERO": "08",
+    "BAIRRO": "Dona Dom",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ]
+ }
+}

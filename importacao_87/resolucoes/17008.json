@@ -1,0 +1,164 @@
+{
+ "matricula": "17008",
+ "status": "resolvido",
+ "confianca": "alta",
+ "fonte_base": "PLANILHA UNICA CONSOLIDADA - SCC 2209 MATRICULAS (1).xlsx",
+ "explicacao": "A matrícula tinha duas AV-2: o desmembramento do lote 20 em 20, 20-A e 20-B (23/08/2013) e o remembramento com o lote 22 (13/09/2013). O desmembramento foi anulado no próprio livro, no mesmo dia: o texto termina com \"NOTA: ... fica cancelado o AV 2 da presente matrícula, em virtude do desmembramento só poder ser feito após o remembramento dos lotes 20 e 22\", e o número AV-2 foi usado de novo para o remembramento, que deu origem à matrícula 19.322. A matrícula 17013 (lote 22) traz o mesmo remembramento como sua AV-2, de 13/09/2013, o que confirma o ato válido. Foi retirada só a AV-2 anulada, que não tinha partes; a sequência fica R-1, AV-2, sem renumerar nada, e a outra versão (consolidada sem \"(1)\") é igual. Observação: com o remembramento e a abertura da matrícula 19.322, a 17008 pode estar encerrada no livro; ATIVA foi mantido como na base.",
+ "alteracoes": [],
+ "linhas_removidas": [
+  {
+   "aba": "MATRICULA_ATO",
+   "linha_origem": 2635,
+   "motivo": "AV-2 de 23/08/2013 (desmembramento do lote 20 em 20, 20-A e 20-B) anulada no próprio livro: o texto termina com \"NOTA: Certifico e dou fé, que fica cancelado o AV 2 da presente matrícula, em virtude do desmembramento só poder ser feito após o remembramento dos lotes 20 e 22 da quadra A7, loteamento Santa Filomena\", no mesmo dia. O número AV-2 foi reaproveitado para o remembramento de 13/09/2013 (linha 2636). Não tinha partes ligadas."
+  }
+ ],
+ "linhas_adicionadas": [],
+ "abas": {
+  "MATRÍCULA": [
+   {
+    "MATRICULA": "17008",
+    "ATIVA": "ATIVA",
+    "DATA ABERTURA": "12/04/2012",
+    "PROPRIETARIOS": "[Imobiliária Santa Filomena Empreendimentos Imobiliários LTDA], com sede na Av. Rio Branco, nº 166, Centro, na cidade de Caruaru-PE, inscrita no CNPJ/MF sob o nº 04.790.582/0001-08, representada por sua sócia-administradora, [Mônica Maria Cavalcante Vieira], brasileira, solteira, maior, comerciante, inscrita no CPF/MF sob o nº 418.768.494-87, e portador da cédula de identidade RG nº 2.663.515-SSP/PE, residente na Av. Amazonas, nº 1.174, apto 104, Bairro Maurício de Nassau, na cidade de Caruaru-PE",
+    "MATRICULA ANTERIOR": "Em virtude de Escritura Pública de Incorporação, datada de 20 de Junho de 2002, lavrada nestas notas, às fls. 124/125, do Livro nº 120, pela Tabeliã Pública Maria Anália Carneiro de Arruda, e registrada sob o nº R.1-mat. 7.163, no Livro nº 2-BV, às fls. 89, datada de 09 de Agosto de 2002, do Registro Geral de Imóveis desta Comarca. Santa Cruz do Capibaribe-PE, 12 de Abril de 2012.",
+    "CNM": "NÃO CONSTA",
+    "NOTAS": "NÃO CONSTA"
+   }
+  ],
+  "T. URBANO": [
+   {
+    "MATRICULA": "17008",
+    "TIPO IMOVEL ONR": "Terreno/Lote",
+    "AREA TOTAL": "128,38",
+    "TIPO AREA": "m²",
+    "LOGRADOURO": "Via local 03",
+    "QUADRA": "A-7",
+    "LOTE": "20",
+    "N": "NÃO CONSTA",
+    "TIPO LOGRADOURO ONR": "Via",
+    "BAIRRO": "Santa Filomena",
+    "CEP": "NÃO CONSTA",
+    "DESCRICAO": "IMÓVEL: 01 (um) Lote de terra de nº 20 (vinte), situado na quadra nº A-7 (a sete), no Loteamento Santa Filomena, nesta Cidade medindo 06,50 metros na parte da frente, 06,50 metros na parte de trás, 19,75 metros de ambos os lados, perfazendo um total de 128,38 m²; limitando-se na parte da frente com o leito da Via local 03, na parte de trás com o lote nº 19, do lado direito com o lote nº 22 e do lado esquerdo com o lote nº 18."
+   }
+  ],
+  "T. RURAL": [],
+  "MATRICULA_ATO": [
+   {
+    "MATRICULA": "17008",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO ATO": "R",
+    "ORDEM": "1",
+    "DATA": "12/04/2012",
+    "TEXTO": "R-1-17008 R.1-mat. 17.008 TRANSMITENTE: [Imobiliária Santa Filomena Empreendimentos Imobiliários Ltda.], acima já identificada. ADQUIRENTE: A menor [Aline Cristina da Silva], brasileira, solteira, menor púbere, nascida na cidade de Campina Grande-PB aos 08 de maio de 1993, cujo assento de nascimento encontra-se sob o nº 19.247, lavrado às fls. 125v, do Livro nº A-17, registrada no dia 08 de Outubro de 1993, pela Oficiala Sueli Freire de Sousa, no Cartório do Registro Civil desta Comarca, ora me foi exibido por certidão, arquivada neste Cartório, neste ato representada por sua genitora [Josiene de Araújo Barros da Silva], brasileira, casada, comerciante, inscrita no CPF/MF sob o nº 032.996.874-25, residente e domiciliada na Rua Luiza Mendes, 159, Nova Santa Cruz, nesta cidade. TÍTULO DE TRANSMISSÃO: Escritura Pública de Compra e Venda, datada de 08 de Junho de 2011, lavrada nestas notas, às fls nº 96 à 97, do Livro nº 183, pelo Tabelião Público Renato Cordeiro de Arruda. (Valor R$ 28.000,00 (vinte e oito mil reais). Santa Cruz do Capibaribe-PE, 12 de Abril de 2012. Eu, [Rúbrica] Oficial do Registro.",
+    "REGISTRADO": "S"
+   },
+   {
+    "MATRICULA": "17008",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "REMEMBRAMENTO",
+    "TIPO ATO": "AV",
+    "ORDEM": "2",
+    "DATA": "13/09/2013",
+    "TEXTO": "AV-2-17008 AV.2-17.008. CERTIFICO, e dou fé, que o lote da presente matrícula foi remembrado com o lote nº 22, tornando-se um único lote de nº 20, o qual excedeu a matrícula nº 19.322, às fls. 32, no Livro nº 2-EF, em 13/09/2013. Santa Cruz do Capibaribe-PE, 13 de Setembro de 2013. Eu, [Rúbrica] A Oficiala de Registro Designada.",
+    "REGISTRADO": "S"
+   }
+  ],
+  "ATO_PARTES": [
+   {
+    "MATRICULA": "17008",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "TRANSMITENTE",
+    "NOME DA PARTE": "Imobiliária Santa Filomena Empreendimentos Imobiliários Ltda.",
+    "DOCUMENTO DA PARTE": "04790582000108",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "17008",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "ADQUIRENTE",
+    "NOME DA PARTE": "Aline Cristina da Silva",
+    "DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "PROPRIETARIO ATUAL": "S",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   },
+   {
+    "MATRICULA": "17008",
+    "PROTOCOLO": "NÃO CONSTA",
+    "ATO": "COMPRA E VENDA",
+    "TIPO DA PARTE": "REPRESENTANTE DA ADQUIRENTE",
+    "NOME DA PARTE": "Josiene de Araújo Barros da Silva",
+    "DOCUMENTO DA PARTE": "03299687425",
+    "PROPRIETARIO ATUAL": "N",
+    "OUTRO DOCUMENTO DA PARTE": "NÃO CONSTA",
+    "ID": "R-1"
+   }
+  ],
+  "P. FÍSICA": [
+   {
+    "MATRICULA": "17008",
+    "NOME": "Mônica Maria Cavalcante Vieira",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "solteira",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "41876849487",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "2663515",
+    "ORGAO EMISSOR": "SSP",
+    "UF ORGAO EMISSOR": "PE",
+    "QUALIFICACAO": "brasileira, solteira, maior, comerciante",
+    "LOGRADOURO": "Av. Amazonas",
+    "NUMERO": "1.174",
+    "BAIRRO": "Maurício de Nassau",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Caruaru"
+   },
+   {
+    "MATRICULA": "17008",
+    "NOME": "Josiene de Araújo Barros da Silva",
+    "DATA DE NASCIMENTO": "NÃO CONSTA",
+    "PROFISSAO": "comerciante",
+    "SEXO": "Feminino",
+    "ESTADO CIVIL": "casada",
+    "NACIONALIDADE": "brasileira",
+    "CPF": "03299687425",
+    "CPF DO CONJUGE": "NÃO CONSTA",
+    "DOC DE IDENTIFICACAO": "NÃO CONSTA",
+    "ORGAO EMISSOR": "NÃO CONSTA",
+    "UF ORGAO EMISSOR": "NÃO CONSTA",
+    "QUALIFICACAO": "brasileira, casada, comerciante",
+    "LOGRADOURO": "Rua Luiza Mendes",
+    "NUMERO": "159",
+    "BAIRRO": "Nova Santa Cruz",
+    "CEP": "NÃO CONSTA",
+    "ESTADO": "PE",
+    "CIDADE": "Santa Cruz do Capibaribe"
+   }
+  ],
+  "P. JURÍDICA": [
+   {
+    "MATRICULA": "17008",
+    "NOME DA EMPRESA": "Imobiliária Santa Filomena Empreendimentos Imobiliários LTDA",
+    "NOME FANTASIA": "NÃO CONSTA",
+    "CNPJ/CGC": "04790582000108",
+    "ESTADO": "PE",
+    "REPRESENTANTES NOME": "Mônica Maria Cavalcante Vieira",
+    "CPF REPRESENTANTE 1": "41876849487",
+    "CPF REPRESENTANTE 2": "NÃO CONSTA",
+    "LOGRADOURO": "Av. Rio Branco",
+    "NUMERO": "166",
+    "BAIRRO": "Centro",
+    "CEP": "NÃO CONSTA",
+    "CIDADE": "Caruaru"
+   }
+  ]
+ }
+}
