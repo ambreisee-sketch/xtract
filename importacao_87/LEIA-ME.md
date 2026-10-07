@@ -5,15 +5,16 @@ alguma planilha e não estão como digitadas.
 
 | Arquivo | Conteúdo |
 |---|---|
-| `Matriculas_85_PRONTAS_PADRAO_CONSOLIDADA.xlsx` | **Importar este.** 85 matrículas no padrão da consolidada. |
+| `Matriculas_86_PRONTAS_PADRAO_CONSOLIDADA.xlsx` | **Importar este.** 86 matrículas no padrão da consolidada. |
 | `Matriculas_87_relatorio.xlsx` | Uma linha por matrícula: versão usada, confiança e o que foi feito. A aba Alteracoes traz cada valor alterado. |
 | `resolucoes/` | A análise de cada uma das 29 matrículas resolvidas pelo conteúdo, com as provas. |
 | `etapas/` | Arquivos intermediários. Não importar. |
 
-Ficaram de fora duas matrículas:
+Ficou de fora só a **2745**, a pedido.
 
-- **2745:** a pedido.
-- **3326:** é uma cópia exata da 3324, e o conteúdo verdadeiro dela não está em nenhuma planilha.
+A **3326** foi conferida na imagem do livro. O "3324" nos textos era erro de OCR, e a sequência
+correta é R-1 (aforamento), AV-2 (construção) e R-3 (compra e venda). A data da AV-2 (06/02/1986)
+é erro da fonte e foi mantida.
 
 ## Por que o sistema recusou essas matrículas
 
@@ -30,4 +31,4 @@ O script `scripts/validar_regras_importador.py` confere essas regras em qualquer
 ## Como foi feito
 
 - **58 matrículas, correção automática.** Protocolo inválido virou "NÃO CONSTA". Partes sem ato foram ligadas ao único ato de mesmo nome. Datas por extenso foram convertidas. A 16864 ganhou a data da nota de retificação. A 3576 estava gravada como 3516.
-- **27 matrículas, resolvidas lendo o conteúdo.** Foram lidos o texto e o cabeçalho de cada ato, as datas, as notas de cancelamento e todas as versões da matrícula nas outras planilhas. Cada solução foi conferida por um verificador independente. São 14 com confiança média, listadas no relatório. Nelas a numeração saiu da ordem das datas, ou o cabeçalho da matrícula veio da nota de reabertura.
+- **28 matrículas, resolvidas lendo o conteúdo ou conferidas na imagem.** Foram lidos o texto e o cabeçalho de cada ato, as datas, as notas de cancelamento e todas as versões da matrícula nas outras planilhas. Cada solução foi conferida por um verificador independente. São 14 com confiança média, listadas no relatório. Nelas a numeração saiu da ordem das datas, ou o cabeçalho da matrícula veio da nota de reabertura.
